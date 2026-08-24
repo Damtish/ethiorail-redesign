@@ -9,7 +9,7 @@ export type ServiceDetailMessages = {
   overview: {eyebrow: string; title: string; paragraphs: string[]};
   journey: {eyebrow: string; title: string; steps: Array<{title: string; description: string}>};
   modes: {eyebrow: string; title: string; items: Array<{title: string; description: string}>};
-  corridor: {eyebrow: string; title: string; description: string; image: string; imageAlt: string};
+  corridor: {eyebrow: string; title: string; description: string; image: string; imageAlt: string; video?: string; videoPoster?: string};
   value: {eyebrow: string; title: string; items: Array<{title: string; description: string}>};
   related: {eyebrow: string; title: string; links: Array<{label: string; href: string}>};
   cta: {eyebrow: string; title: string; description: string; primary: string; secondary: string};
@@ -44,6 +44,8 @@ export function ServiceDetailPage({messages}: ServiceDetailPageProps) {
         description={messages.corridor.description}
         image={messages.corridor.image}
         imageAlt={messages.corridor.imageAlt}
+        video={messages.corridor.video}
+        videoPoster={messages.corridor.videoPoster}
         reversed
       />
       <FeatureList eyebrow={messages.value.eyebrow} title={messages.value.title} items={messages.value.items} />

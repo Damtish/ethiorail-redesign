@@ -495,7 +495,9 @@
       "title": "Connect inland movement with the regional gateway.",
       "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
       "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
-      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map",
+      "video": "/media/video/rail/freight-train-container-terminal-01.mp4",
+      "videoPoster": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg"
     },
     "value": {
       "eyebrow": "WHAT WE COORDINATE",
@@ -855,7 +857,9 @@
       "title": "Connect inland movement with the regional gateway.",
       "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
       "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
-      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map",
+      "video": "/media/video/warehouse/warehouse-operations-wide-01.mp4",
+      "videoPoster": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg"
     },
     "value": {
       "eyebrow": "WHAT WE COORDINATE",

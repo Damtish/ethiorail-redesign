@@ -46,16 +46,44 @@ type MediaSplitProps = {
   description: string;
   image: string;
   imageAlt: string;
+  video?: string;
+  videoPoster?: string;
   reversed?: boolean;
   contain?: boolean;
 };
-export function MediaSplit({eyebrow, title, description, image, imageAlt, reversed = false, contain = false}: MediaSplitProps) {
+export function MediaSplit({eyebrow, title, description, image, imageAlt, video, videoPoster, reversed = false, contain = false}: MediaSplitProps) {
+  const hasVideo = Boolean(video);
+
   return (
     <section data-header-theme="light" className="surface-rail-neutral py-[clamp(3.5rem,6vw,5.5rem)]">
       <Container>
         <div className={cn("grid items-center gap-10 lg:grid-cols-2 lg:gap-16", reversed && "lg:[&>div:first-child]:order-2")}>
           <div className={cn("relative min-h-[18rem] overflow-hidden rounded-[0.5rem] border border-steel-mist/80 sm:min-h-[24rem]", contain && "bg-deep-slate")}>
-            <Image src={image} alt={imageAlt} fill sizes="(min-width: 1024px) 50vw, 100vw" className={cn(contain ? "object-contain p-3 sm:p-5" : "object-cover")} />
+            {hasVideo ? (
+              <>
+                <video
+                  src={video}
+                  poster={videoPoster ?? image}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  aria-hidden="true"
+                  data-editorial-video
+                  className="absolute inset-0 h-full w-full object-cover motion-reduce:hidden"
+                />
+                <Image
+                  src={videoPoster ?? image}
+                  alt={imageAlt}
+                  fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  className="hidden object-cover motion-reduce:block"
+                />
+              </>
+            ) : (
+              <Image src={image} alt={imageAlt} fill sizes="(min-width: 1024px) 50vw, 100vw" className={cn(contain ? "object-contain p-3 sm:p-5" : "object-cover")} />
+            )}
           </div>
           <div className="max-w-[38rem]">
             <Eyebrow>{eyebrow}</Eyebrow>
