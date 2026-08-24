@@ -375,7 +375,9 @@
       "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
       "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
       "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
-      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ",
+      "video": "/media/video/port/ocean-port-operations-01.mp4",
+      "videoPoster": "/media/images/port/container-terminal-crane-01.jpg"
     },
     "value": {
       "eyebrow": "የምናስተባብረው",
@@ -617,7 +619,9 @@
       "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
       "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
       "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
-      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ",
+      "video": "/media/video/freight/freight-forwarding-operations-01.mp4",
+      "videoPoster": "/media/images/rail/stock/freight-container-train-01.jpg"
     },
     "value": {
       "eyebrow": "የምናስተባብረው",
@@ -979,7 +983,9 @@
       "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
       "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
       "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
-      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ",
+      "video": "/media/video/dry-port/dry-port-container-yard-01.mp4",
+      "videoPoster": "/media/images/rail/ethiopia/ethiopian-railway-locomotive-01.jpg"
     },
     "value": {
       "eyebrow": "የምናስተባብረው",

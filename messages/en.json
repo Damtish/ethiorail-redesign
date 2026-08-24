@@ -375,7 +375,9 @@
       "title": "Connect inland movement with the regional gateway.",
       "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
       "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
-      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map",
+      "video": "/media/video/port/ocean-port-operations-01.mp4",
+      "videoPoster": "/media/images/port/container-terminal-crane-01.jpg"
     },
     "value": {
       "eyebrow": "WHAT WE COORDINATE",
@@ -617,7 +619,9 @@
       "title": "Connect inland movement with the regional gateway.",
       "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
       "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
-      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map",
+      "video": "/media/video/freight/freight-forwarding-operations-01.mp4",
+      "videoPoster": "/media/images/rail/stock/freight-container-train-01.jpg"
     },
     "value": {
       "eyebrow": "WHAT WE COORDINATE",
@@ -979,7 +983,9 @@
       "title": "Connect inland movement with the regional gateway.",
       "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
       "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
-      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map",
+      "video": "/media/video/dry-port/dry-port-container-yard-01.mp4",
+      "videoPoster": "/media/images/rail/ethiopia/ethiopian-railway-locomotive-01.jpg"
     },
     "value": {
       "eyebrow": "WHAT WE COORDINATE",

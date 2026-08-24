@@ -186,6 +186,51 @@
       "license": null
     },
     {
+      "originalFilename": "ocean-port-operations-01.mp4",
+      "filename": "ocean-port-operations-01.mp4",
+      "path": "/media/video/port/ocean-port-operations-01.mp4",
+      "type": "video",
+      "category": "port",
+      "origin": "stock",
+      "priority": "medium",
+      "description": "Container port operations with cranes, terminal movement, and ocean freight activity.",
+      "intendedUse": [
+        "Ocean Freight / NVOCC service page"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "dry-port-container-yard-01.mp4",
+      "filename": "dry-port-container-yard-01.mp4",
+      "path": "/media/video/dry-port/dry-port-container-yard-01.mp4",
+      "type": "video",
+      "category": "dry-port",
+      "origin": "stock",
+      "priority": "medium",
+      "description": "Dry-port container-yard activity showing inland cargo handling and terminal movement.",
+      "intendedUse": [
+        "Inland Dry Port service page"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "freight-forwarding-operations-01.mp4",
+      "filename": "freight-forwarding-operations-01.mp4",
+      "path": "/media/video/freight/freight-forwarding-operations-01.mp4",
+      "type": "video",
+      "category": "freight-forwarding",
+      "origin": "stock",
+      "priority": "medium",
+      "description": "Freight-forwarding operations showing cargo coordination, loading, and handoffs.",
+      "intendedUse": [
+        "Freight Forwarding service page"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
       "originalFilename": "ChatGPT_Image_Aug_21__2026__09_12_31_AM-removebg-preview.png",
       "filename": "ethiorail-logo.png",
       "path": "/media/brand/ethiorail-logo.png",
