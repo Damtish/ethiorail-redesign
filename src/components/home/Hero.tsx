@@ -30,7 +30,7 @@ export function Hero({locale, content}: HeroProps) {
         className="pointer-events-none absolute inset-0"
       >
         <video
-          className="absolute inset-0 h-full w-full object-cover object-[62%_52%] sm:object-[60%_52%] lg:object-[58%_50%]"
+          className="absolute inset-0 !h-full !w-full object-cover object-[62%_52%] sm:object-[60%_52%] lg:object-[58%_50%]"
           autoPlay
           muted
           loop
