@@ -5,7 +5,7 @@ import {EditorialSplit, FeatureList, MediaSplit, ProcessSteps, RelatedLinks} fro
 export type ServiceDetailMessages = {
   metadata: {title: string; description: string};
   breadcrumbs: {home: string; services: string; current: string};
-  hero: {eyebrow: string; title: string; description: string; image: string; imageAlt: string};
+  hero: {eyebrow: string; title: string; description: string; image: string; imageAlt: string; video?: string; videoPoster?: string};
   overview: {eyebrow: string; title: string; paragraphs: string[]};
   journey: {eyebrow: string; title: string; steps: Array<{title: string; description: string}>};
   modes: {eyebrow: string; title: string; items: Array<{title: string; description: string}>};
@@ -26,6 +26,8 @@ export function ServiceDetailPage({messages}: ServiceDetailPageProps) {
         description={messages.hero.description}
         image={messages.hero.image}
         imageAlt={messages.hero.imageAlt}
+        video={messages.hero.video}
+        videoPoster={messages.hero.videoPoster}
         theme="dark"
         breadcrumbs={[
           {label: messages.breadcrumbs.home, href: "/"},

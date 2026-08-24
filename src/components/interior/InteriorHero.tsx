@@ -11,6 +11,8 @@ type InteriorHeroProps = {
   description: string;
   image: string;
   imageAlt: string;
+  video?: string;
+  videoPoster?: string;
   breadcrumbs: BreadcrumbItem[];
   theme?: "dark" | "light";
 };
@@ -21,10 +23,13 @@ export function InteriorHero({
   description,
   image,
   imageAlt,
+  video,
+  videoPoster,
   breadcrumbs,
   theme = "dark",
 }: InteriorHeroProps) {
   const dark = theme === "dark";
+  const poster = videoPoster ?? image;
 
   return (
     <section
@@ -58,14 +63,38 @@ export function InteriorHero({
             </p>
           </div>
           <div className="relative min-h-[16rem] overflow-hidden rounded-[0.5rem] border border-white/10 shadow-[0_24px_70px_rgba(10,25,35,0.2)] sm:min-h-[20rem] lg:mt-7 lg:min-h-[clamp(24.5rem,31vw,27rem)]">
-            <Image
-              src={image}
-              alt={imageAlt}
-              fill
-              priority
-              sizes="(min-width: 1024px) 52vw, 100vw"
-              className="object-cover object-[68%_50%]"
-            />
+            {video ? (
+              <>
+                <video
+                  src={video}
+                  poster={poster}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  aria-hidden="true"
+                  data-editorial-video
+                  className="absolute inset-0 !h-full !w-full object-cover object-[68%_50%] motion-reduce:hidden"
+                />
+                <Image
+                  src={poster}
+                  alt={imageAlt}
+                  fill
+                  sizes="(min-width: 1024px) 52vw, 100vw"
+                  className="hidden object-cover object-[68%_50%] motion-reduce:block"
+                />
+              </>
+            ) : (
+              <Image
+                src={image}
+                alt={imageAlt}
+                fill
+                priority
+                sizes="(min-width: 1024px) 52vw, 100vw"
+                className="object-cover object-[68%_50%]"
+              />
+            )}
             <div aria-hidden="true" className={cn("absolute inset-0", dark ? "bg-[linear-gradient(90deg,rgba(10,25,35,0.42),transparent_58%)]" : "bg-[linear-gradient(90deg,rgba(244,247,245,0.16),transparent_58%)]")} />
           </div>
         </div>
