@@ -1,0 +1,1206 @@
+{
+  "Foundation": {
+    "label": "የዲዛይን መሠረት",
+    "title": "የኢትዮራይል ድረ-ገጽ መሠረት",
+    "description": "የአማርኛ ትርጉም ነቅቷል።",
+    "language": "የአማርኛ ትርጉም ነቅቷል።"
+  },
+  "Brand": {
+    "name": "ኢትዮ ራይል ሎጂስቲክስ",
+    "tagline": "ይፋዊ ድረ-ገጽ",
+    "logoAlt": "የኢትዮ ራይል ሎጂስቲክስ ይፋዊ አርማ",
+    "homeLabel": "የኢትዮ ራይል ሎጂስቲክስ መነሻ"
+  },
+  "Shell": {
+    "headerLabel": "የድር ገጽ መዋቅር",
+    "mainNavigation": "ዋና መዳረሻዎች",
+    "mobileNavigation": "የሞባይል መዳረሻ",
+    "openMenu": "ሜኑ ክፈት",
+    "closeMenu": "ሜኑ ዝጋ",
+    "language": "ቋንቋ",
+    "footerLabel": "ግርጌ"
+  },
+  "Language": {
+    "english": "እንግሊዝኛ",
+    "amharic": "አማርኛ",
+    "englishShort": "EN",
+    "amharicShort": "አማ",
+    "selectorLabel": "የቋንቋ መራጭ"
+  },
+  "Actions": {
+    "contact": "ያግኙን",
+    "getQuote": "ዋጋ ይጠይቁ"
+  },
+  "Home": {
+    "metadata": {
+      "title": "ኢትዮራይል ሎጂስቲክስ | ኢትዮጵያን እናንቀሳቅሳለን። ከዓለም እናገናኛለን።",
+      "description": "በባቡር፣ በመሬት፣ በወደብ እና በተዋሃደ ሎጂስቲክስ መፍትሄዎች ኢትዮጵያን ከአካባቢያዊ እና ከዓለም ንግድ ጋር የሚያገናኝ አገልግሎት።"
+    },
+    "hero": {
+      "eyebrow": "የተዋሃደ ሎጂስቲክስ • ኢትዮጵያ",
+      "headlineLineOne": "ኢትዮጵያን እናንቀሳቅሳለን።",
+      "headlineLineTwo": "ከዓለም እናገናኛለን።",
+      "description": "በባቡር፣ በመሬት፣ በወደብ እና በተዋሃደ ሎጂስቲክስ መፍትሄዎች ኢትዮጵያን ከአካባቢያዊ እና ከዓለም ንግድ ጋር የሚያገናኝ አገልግሎት።",
+      "primaryCta": "ዋጋ ይጠይቁ",
+      "secondaryCta": "ኔትወርካችንን ይመልከቱ"
+    },
+    "quickActions": {
+      "eyebrow": "ፈጣን እርምጃዎች",
+      "getQuote": "ዋጋ ይጠይቁ",
+      "exploreServices": "አገልግሎቶችን ይመልከቱ",
+      "schedulesRoutes": "መርሃ ግብሮች እና መንገዶች",
+      "contactLogistics": "የሎጂስቲክስ ቡድንን ያግኙ"
+    },
+    "intro": {
+      "eyebrow": "ኢትዮ ራይል ሎጂስቲክስ",
+      "headlineLineOne": "አንድ ጉዞ.",
+      "headlineLineTwo": "እያንዳንዱ ግንኙነት አስፈላጊ ነው.",
+      "bodyOne": "ኢትዮ ራይል ሎጂስቲክስ የባቡር፣ የመሬት፣ የወደብ፣ የመጋዘን፣ የጉምሩክ እና የጭነት አገልግሎቶችን በአንድ የተገናኘ የሎጂስቲክስ ጉዞ ውስጥ ያደራጃል፤ ጭነት ከመነሻ እስከ መድረሻ በተሻለ ቅንጅት እንዲንቀሳቀስ ያግዛል.",
+      "bodyTwo": "ከውስጥ መንቀሳቀስ እስከ ዓለም አቀፍ መዳረሻዎች ድረስ፣ ንግድን የሚያንቀሳቅሱ ደረጃዎችን ማገናኘት የእኛ ሚና ነው.",
+      "contextLink": "አገልግሎቶቻችንን ይመልከቱ"
+    },
+    "journey": {
+      "eyebrow": "አንድ የተገናኘ ጉዞ",
+      "headline": "ከመነሻ እስከ ዓለም አቀፍ መዳረሻ.",
+      "description": "የተዋሃደ የሎጂስቲክስ ጉዞ እያንዳንዱ ማስተላለፊያ በተቀናጀ ሁኔታ ሲሰራ ነው። ኢትዮ ራይል ሎጂስቲክስ በመሬት፣ በባቡር፣ በወደብ እና በዓለም አቀፍ ጭነት መካከል ያሉ ደረጃዎችን ያገናኛል።",
+      "supportingMediaAlt": "የጭነት ሎኮሞቲቭ ኮንቴነር ተሸከርካሪዎችን በባቡር ላይ እየጎተተ ያለ ምስል።",
+      "stages": [
+        {"title": "መነሻ"},
+        {"title": "የመንገድ መጓጓዣ"},
+        {"title": "የውስጥ / ደረቅ ወደብ"},
+        {"title": "የባቡር ኮሪደር"},
+        {"title": "ጅቡቲ / ወደብ"},
+        {"title": "የባሕር ጭነት"},
+        {"title": "ዓለም አቀፍ መድረሻ"}
+      ]
+    },
+    "services": {
+      "eyebrow": "የእኛ አገልግሎቶች",
+      "headlineLineOne": "አንድ ኔትወርክ.",
+      "headlineLineTwo": "ለመንቀሳቀስ ብዙ መንገዶች.",
+      "description": "ከውስጥ መጓጓዣ እና ባቡር እስከ ወደብ፣ መጋዘን፣ ጉምሩክ እና ዓለም አቀፍ ጭነት ድረስ ያሉ አገልግሎቶቻችን የሎጂስቲክስ ጉዞውን ደረጃዎች ያገናኛሉ።",
+      "viewAll": "ሁሉንም አገልግሎቶች ይመልከቱ",
+      "items": [
+        {
+          "summary": "በመንገድ፣ በባቡር፣ በወደብ እና በውስጥ ማስተላለፊያዎች መካከል የተገናኘ እንቅስቃሴ።",
+          "label": "ባለ ብዙ ሞድ መጓጓዣ",
+          "href": "/services/multimodal-transportation",
+          "mediaSrc": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
+          "mediaAlt": "ኢትዮ-ጅቡቲ ባቡር የኮንቴነር ባቡር እየጎተተ ያለ ፈረት ሎኮሞቲቭ።",
+          "mediaPosition": "70% 50%"
+        },
+        {
+          "summary": "የውስጥ ጭነትን ከዓለም የባሕር መስመሮች ጋር የሚያገናኝ የባሕር ጭነት ማስተባበሪያ።",
+          "label": "የባሕር ጭነት / NVOCC",
+          "href": "/services/ocean-freight-nvocc",
+          "mediaSrc": "/media/images/rail/stock/freight-container-train-01.jpg",
+          "mediaAlt": "በኢትዮጵያ ውጭ ያለ አካባቢ የተያዘ አጠቃላይ የኮንቴነር ባቡር።",
+          "mediaPosition": "50% 54%"
+        },
+        {
+          "summary": "ጭነትን በኮሪደሩ ውስጥ ለማንቀሳቀስ ከባቡር ጋር የተገናኘ የውስጥ መጓጓዣ።",
+          "label": "የመሬት እና ባቡር መጓጓዣ",
+          "href": "/services/land-rail-transportation",
+          "mediaSrc": "/media/images/rail/ethiopia/ethiopian-railway-locomotive-01.jpg",
+          "mediaAlt": "ቢጫ የኢትዮጵያ ባቡር ሎኮሞቲቭ በጭነት መስመር ላይ።",
+          "mediaPosition": "58% 50%"
+        },
+        {
+          "summary": "በተላላፊዎች፣ በሰነዶች እና በማስተላለፊያዎች መካከል የጭነት ማስተባበሪያ።",
+          "label": "የጭነት ማስተላለፊያ",
+          "href": "/services/freight-forwarding",
+          "mediaSrc": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg",
+          "mediaAlt": "ኢትዮጵያዊ ባቡር በጋንትሪ ክሬን ስር ኮንቴነሮችን እየጫነ ያለ ሁኔታ።",
+          "mediaPosition": "55% 46%"
+        },
+        {
+          "summary": "ጭነት በድንበር ሂደቶች ሲያልፍ እንዲቀጥል የሚያግዝ የጉምሩክ ድጋፍ።",
+          "label": "የጉምሩክ ማጽዳት",
+          "href": "/services/customs-clearance",
+          "mediaSrc": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg",
+          "mediaAlt": "በኢንተርሞዳል ተርሚናል የኮንቴነር ጭነት ሁኔታ።",
+          "mediaPosition": "48% 46%"
+        },
+        {
+          "summary": "እቃዎችን በጉዞው ወቅት ለማስቀመጥ እና ለማዘጋጀት የሚረዳ የመጋዘን ድጋፍ።",
+          "label": "መጋዘን",
+          "href": "/services/warehousing",
+          "mediaSrc": "/media/images/rail/stock/freight-container-train-02.jpg",
+          "mediaAlt": "በገጠር የጭነት መስመር ላይ የተቆለለ አጠቃላይ የኮንቴነር ባቡር።",
+          "mediaPosition": "50% 52%"
+        },
+        {
+          "summary": "በሞዳዎች መካከል የሚንቀሳቀስ ጭነት ለመያዝ የውስጥ ማቆያ እና ማስተላለፊያ ድጋፍ።",
+          "label": "የውስጥ ደረቅ ወደብ",
+          "href": "/services/inland-dry-port",
+          "mediaSrc": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
+          "mediaAlt": "ኢትዮ-ጅቡቲ ባቡር የኮንቴነር ባቡር እየጎተተ ያለ ፈረት ሎኮሞቲቭ።",
+          "mediaPosition": "62% 50%"
+        },
+        {
+          "summary": "ለልዩ የባሕር ጭነት እንቅስቃሴዎች የሚያስፈልግ የቻርተር ማስተባበሪያ።",
+          "label": "የመርከብ ቻርተር",
+          "href": "/services/voyage-charter",
+          "mediaSrc": "/media/images/addis-ababa/addis-ababa-night-aerial-01.jpg",
+          "mediaAlt": "የአዲስ አበባ የሌሊት ከፍተኛ እይታ እና የመንገድ መዘዋወሪያ።",
+          "mediaPosition": "50% 44%"
+        }
+      ]
+    },
+    "network": {
+      "eyebrow": "ኢትዮጵያ–ጅቡቲ ኮሪደር",
+      "headline": "ለዓለም ንግድ የሚያገናኝ ወሳኝ ኮሪደር.",
+      "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከባቡር እና ከወደብ መዳረሻዎች ጋር ያገናኛል፣ ኢትዮጵያን ከዓለም ንግድ መስመሮች ጋር የሚያያይዝ ጠቃሚ ግንኙነት ይፈጥራል።",
+      "viewNetwork": "ኔትወርካችንን ይመልከቱ",
+      "schedulesRoutes": "መርሃ ግብሮች እና መንገዶች",
+      "labels": {
+        "ethiopia": "ኢትዮጵያ",
+        "railCorridor": "የባቡር ኮሪደር",
+        "djibouti": "ጅቡቲ",
+        "portGateway": "የወደብ መዳረሻ",
+        "globalConnections": "ዓለም አቀፍ ግንኙነቶች"
+      }
+    },
+    "why": {
+      "eyebrow": "ለምን ኢትዮ ራይል ሎጂስቲክስ",
+      "headline": "በተገናኘ እንቅስቃሴ የተመሰረተ.",
+      "description": "የእኛ ተአማኒነት የሚመጣው በተገናኙ ደረጃዎች የተገነባ የሎጂስቲክስ ሞዴል፣ ግልጽ የኮሪደር ትኩረት እና ጭነት ከውስጥ መነሻ እስከ ዓለም አቀፍ መዳረሻ እንዴት እንደሚንቀሳቀስ የሚገነዘብ ተግባራዊ አቀራረብ ነው።",
+      "pillars": [
+        {
+          "title": "ባለ ብዙ ሞድ ማስተባበሪያ",
+          "description": "ባቡር፣ መንገድ፣ ወደብ፣ መጋዘን፣ ጉምሩክ እና ጭነት አገልግሎቶች እንደ አንድ የሎጂስቲክስ ጉዞ የተገናኙ ደረጃዎች ይታያሉ።"
+        },
+        {
+          "title": "በኮሪደር ላይ ያተኮረ ሎጂስቲክስ",
+          "description": "ኢትዮጵያን ከአካባቢያዊ መዳረሻዎች እና ከዓለም ንግድ መስመሮች ጋር በሚያገናኝ መንገድ የተቀረፀ የሎጂስቲክስ ሞዴል።"
+        },
+        {
+          "title": "አንድ የተገናኘ ጉዞ",
+          "description": "ከውስጥ መንቀሳቀስ እስከ ዓለም አቀፍ መዳረሻዎች ድረስ እያንዳንዱ ደረጃ የአንድ የጭነት ጉዞ ክፍል እንደሆነ ይታያል።"
+        }
+      ]
+    },
+    "digital": {
+      "eyebrow": "ዲጂታል ሎጂስቲክስ",
+      "headline": "የእያንዳንዱ ጉዞ ግልጽ እይታ.",
+      "description": "የእኛ የዲጂታል አቅጣጫ ሎጂስቲክስን ለመረዳት፣ ለማስተባበር እና ለማስተዳደር ቀላል ለማድረግ ተቋቁሟል — የጭነት ታይነት፣ ሰነዶች፣ ጥያቄዎች እና የደንበኛ ግንኙነት በተገናኘ ተሞክሮ ውስጥ ለማቅረብ።",
+      "secondarySentence": "የወደፊቱ የኢትዮ ራይል የደንበኛ ተሞክሮ ጭነትን ለማንቀሳቀስ የሚረዱ መረጃዎችና አገልግሎቶች ቀላል እንዲደርሱ በመገንባት ላይ ነው።",
+      "capabilities": [
+        "የጭነት ታይነት",
+        "የዋጋ እና የቦታ ጥያቄዎች",
+        "የጭነት ሰነዶች",
+        "ማሳወቂያዎች እና ዝማኔዎች",
+        "የደንበኛ ድጋፍ",
+        "የመለያ አካውንት አስተዳደር"
+      ]
+    },
+    "insights": {
+      "eyebrow": "መረጃዎች",
+      "headline": "የቀጣዩ ጉዞ ዝማኔዎች.",
+      "description": "የኩባንያ ዝማኔዎች፣ የሎጂስቲክስ እይታዎች እና መርጃዎችን ከኢትዮ ራይል ሎጂስቲክስ ይመልከቱ።",
+      "links": [
+        {
+          "label": "ዜና እና ዝማኔዎች",
+          "href": "/insights/news"
+        },
+        {
+          "label": "መርጃዎች",
+          "href": "/insights/resources"
+        },
+        {
+          "label": "ሁሉንም መረጃዎች",
+          "href": "/insights"
+        }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "ለማንቀሳቀስ ዝግጁ ነዎት?",
+      "headline": "ጭነትዎን እናንቀሳቅስ።",
+      "description": "ምን ማንቀሳቀስ እንደሚፈልጉ እና ወዴት እንደሚሄድ ያሳውቁን። በዋጋ ጥያቄ ይጀምሩ ወይም ከሎጂስቲክስ ቡድናችን ጋር ይገናኙ።",
+      "primaryCta": "ዋጋ ይጠይቁ",
+      "secondaryCta": "የሎጂስቲክስ ቡድንን ያግኙ"
+    }
+  },
+  "ServicesPage": {
+    "metadata": {"title": "አገልግሎቶች | ኢትዮ ሬይል ሎጂስቲክስ", "description": "በኢትዮ–ጅቡቲ ኮሪደር የሚጓጓዙ ጭነቶችን የሚያገናኙ የባቡር፣ የመንገድ፣ የወደብ፣ የመጋዘን፣ የጉምሩክ እና የጭነት አገልግሎቶች።"},
+    "hero": {"eyebrow": "የእኛ አገልግሎቶች", "title": "ለመንቀሳቀስ አንድ የተገናኘ መንገድ።", "description": "የውስጥ መነሻዎችን፣ ኢትዮ–ጅቡቲ ኮሪደርን፣ የወደብ መግቢያዎችን እና ዓለም አቀፍ የንግድ መስመሮችን የሚያገናኙ አገልግሎቶችን ይመልከቱ።", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg", "imageAlt": "የኢትዮጵያ ባቡር በጋንትሪ ክሬን ስር ኮንቴነሮችን እየጫነ ያለ ሎኮሞቲቭ።"},
+    "intro": {"eyebrow": "የተገናኘ ሎጂስቲክስ", "title": "እያንዳንዱ ማስተላለፊያ የጉዞው አካል ነው።", "paragraphs": ["ኢትዮ ሬይል ሎጂስቲክስ ከውስጥ መጓጓዣ እና ባቡር እስከ ጉምሩክ፣ መጋዘን፣ ወደብ እና ዓለም አቀፍ ጭነት ድረስ ያሉትን የጭነት እንቅስቃሴ ደረጃዎች በአንድ የተገናኘ እይታ ያቀርባል።", "ትክክለኛው ጥምረት በጭነቱ፣ በመነሻው፣ በመድረሻው እና በመንገዱ ላይ ይመሰረታል። አገልግሎቶቻችን እነዚህን ግንኙነቶች ለመረዳት እና ለማስተባበር ቀላል እንዲሆኑ ተደራጅተዋል።"]},
+    "overview": {"eyebrow": "የአገልግሎት ዝርዝር", "title": "ጭነትን እንዲቀጥል የሚያደርጉ ስምንት መንገዶች።", "items": [
+      {"title": "ባለ ብዙ ሞድ መጓጓዣ", "description": "በመንገድ፣ በባቡር፣ በወደብ እና በውስጥ ማስተላለፊያዎች መካከል የተገናኘ እንቅስቃሴ።", "href": "/services/multimodal-transportation"},
+      {"title": "የባሕር ጭነት / NVOCC", "description": "የውስጥ ጭነትን ከዓለም የባሕር መስመሮች ጋር የሚያገናኝ ማስተባበሪያ።", "href": "/services/ocean-freight-nvocc"},
+      {"title": "የመሬት እና ባቡር መጓጓዣ", "description": "ጭነትን በኮሪደሩ ውስጥ ለማንቀሳቀስ ከባቡር ጋር የተገናኘ የውስጥ መጓጓዣ።", "href": "/services/land-rail-transportation"},
+      {"title": "የጭነት ማስተላለፊያ", "description": "በተላላፊዎች፣ በሰነዶች እና በማስተላለፊያዎች መካከል የጭነት ማስተባበሪያ።", "href": "/services/freight-forwarding"},
+      {"title": "የጉምሩክ ማጽዳት", "description": "ጭነት በድንበር ሂደቶች ሲያልፍ እንዲቀጥል የሚያግዝ ድጋፍ።", "href": "/services/customs-clearance"},
+      {"title": "መጋዘን", "description": "እቃዎችን በጉዞው ወቅት ለማስቀመጥ እና ለማዘጋጀት የሚረዳ ድጋፍ።", "href": "/services/warehousing"},
+      {"title": "የውስጥ ደረቅ ወደብ", "description": "በመጓጓዣ ሞዳዎች መካከል ለሚንቀሳቀስ ጭነት የማቆያ እና ማስተላለፊያ ድጋፍ።", "href": "/services/inland-dry-port"},
+      {"title": "የመርከብ ቻርተር", "description": "ለልዩ የባሕር ጭነት እንቅስቃሴዎች የቻርተር ማስተባበሪያ።", "href": "/services/voyage-charter"}
+    ]},
+    "corridor": {"eyebrow": "የኮሪደሩ እይታ", "title": "ጭነት በሚጓዝበት መንገድ ዙሪያ የተገነባ።", "description": "ኢትዮ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከባቡር እና ከወደብ መግቢያዎች ጋር ያገናኛል። የአገልግሎት አቀራረባችን ይህንን ቅደም ተከተል በእይታ ያቆያል።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "አዲስ አበባን፣ ድሬዳዋን፣ ጅቡቲን እና ዓለም አቀፍ ገበያዎችን የሚያሳይ የኢትዮ–ጅቡቲ ኮሪደር ካርታ።"},
+    "related": {"eyebrow": "ቀጥሎ ይመልከቱ", "title": "ከአገልግሎቶቹ በስተጀርባ ያለውን ኔትወርክ ይመልከቱ።", "links": [{"label": "ኢትዮ–ጅቡቲ ኮሪደር", "href": "/network"}, {"label": "የጊዜ ሰሌዳዎች እና መንገዶች", "href": "/network/schedules-routes"}]},
+    "cta": {"eyebrow": "ለመንቀሳቀስ ዝግጁ ነዎት?", "title": "ለጭነትዎ ትክክለኛውን መንገድ እንፈልግ።", "description": "ምን ማጓጓዝ እንደሚፈልጉ እና ወዴት መድረስ እንዳለበት ያካፍሉን። በጥቅስ ይጀምሩ ወይም ከሎጂስቲክስ ቡድናችን ጋር ይገናኙ።", "primary": "ጥቅስ ይጠይቁ", "secondary": "ከሎጂስቲክስ ቡድን ጋር ይገናኙ"}
+  },
+  "AboutPage": {
+    "overview": {
+      "metadata": {"title": "ስለ እኛ | ኢትዮ ሬይል ሎጂስቲክስ", "description": "ኢትዮ ሬይል የመጓጓዣ ሞዳዎችን፣ የውስጥ ሎጂስቲክስን እና የኮሪደር እንቅስቃሴን እንዴት እንደሚያገናኝ ይረዱ።"},
+      "hero": {"eyebrow": "ስለ ኢትዮ ሬይል", "title": "በተገናኘ እንቅስቃሴ ዙሪያ የተገነባ።", "description": "ኢትዮ ሬይል ሎጂስቲክስ የውስጥ መነሻዎችን፣ የመንገድ እና የባቡር ደረጃዎችን፣ የመግቢያ መዳረሻን እና ዓለም አቀፍ መንገዶችን ያገናኛል።", "image": "/media/images/rail/ethiopia/ethiopian-railway-locomotive-01.jpg", "imageAlt": "በባቡር ኮሪደር ላይ የሚገኝ የኢትዮጵያ ባቡር ሎኮሞቲቭ።"},
+      "intro": {"eyebrow": "ማን ነን", "title": "ከመንገዱ አውድ ጋር የሚሰራ ሎጂስቲክስ ማስተባበሪያ።", "paragraphs": ["ኢትዮ ሬይል በውስጥ ኢትዮጵያ፣ በኢትዮ–ጅቡቲ ኮሪደር እና በቀጣይ የንግድ መንገዶች ላይ የጭነት ደረጃዎችን ለማገናኘት የሚያተኩር የሎጂስቲክስ ድርጅት ነው።", "ይህም የመንገድ፣ የባቡር፣ የውስጥ፣ የወደብ፣ የባሕር እና የሰነድ ውይይቶችን ከጭነቱ ፍላጎት ጋር ማገናኘት ማለት ነው።"]},
+      "media": {"eyebrow": "የኮሪደር አውድ", "title": "ድርጅቱ በእንቅስቃሴ ጂኦግራፊ ይመራል።", "description": "ኢትዮ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከመግቢያ ያገናኛል። መንገዱን በኔትወርክ ገጽ ላይ ይመልከቱ።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "የኢትዮ–ጅቡቲ ኮሪደር ካርታ።", "contain": true},
+      "feature": {"eyebrow": "ስራውን እንዴት እንደምናገናኝ", "title": "በርክክቦች ዙሪያ የተገነባ የአገልግሎት እይታ።", "items": [{"title": "ባለ ብዙ ሞድ እንቅስቃሴ", "description": "የመንገድ፣ የባቡር፣ የውስጥ፣ የወደብ እና የባሕር ደረጃዎችን እንደ አንድ ጉዞ ይመለከታል።"}, {"title": "ተግባራዊ ማስተባበሪያ", "description": "መንገድ፣ ሰነድ፣ ጭነት እና ርክክብ መረጃዎችን በአንድ ውይይት ያቆያል።"}, {"title": "የኮሪደር ግንዛቤ", "description": "የውስጥ መነሻዎችን፣ ጅቡቲ መግቢያን እና ዓለም አቀፍ ንግድን ያገናኛል።"}]},
+      "related": {"eyebrow": "ኢትዮ ሬይልን ይመልከቱ", "title": "ድርጅቱን እና መንገዱን የሚያብራሩ ገጾችን ይመልከቱ።", "links": [{"label": "ራዕይ እና ተልዕኮ", "href": "/about/vision-mission"}, {"label": "አመራር", "href": "/about/leadership"}, {"label": "የኔትወርክ አጠቃላይ እይታ", "href": "/network"}, {"label": "አገልግሎቶች", "href": "/services"}]},
+      "cta": {"eyebrow": "ውይይት ይጀምሩ", "title": "ከኢትዮ ሬይል ጋር ጭነት ማንቀሳቀስ ይፈልጋሉ?", "description": "መነሻውን፣ መዳረሻውን እና የእንቅስቃሴ ፍላጎቱን ያካፍሉን።", "primary": "ጥቅስ ይጠይቁ", "secondary": "ከሎጂስቲክስ ቡድን ጋር ይገናኙ"}
+    },
+    "leadership": {
+      "metadata": {"title": "አመራር | ኢትዮ ሬይል ሎጂስቲክስ", "description": "የተረጋገጠ የድርጅታዊ መረጃ ሲኖር የኢትዮ ሬይል አመራር መረጃ ይታተማል።"},
+      "hero": {"eyebrow": "አመራር", "title": "ለተገናኘ ሎጂስቲክስ ተጠያቂነት።", "description": "የኢትዮ ሬይል የአመራር መረጃ የተረጋገጠ ድርጅታዊ መረጃ ሲኖር እዚህ ይቀርባል።", "image": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg", "imageAlt": "በኢትዮ–ጅቡቲ ባቡር ላይ ኮንቴነሮችን የያዘ የጭነት ባቡር።"},
+      "intro": {"eyebrow": "የአመራር መረጃ", "title": "ለተረጋገጠ ድርጅታዊ መረጃ ግልጽ ቦታ።", "paragraphs": ["የአመራር ዝርዝሮች ድርጅቱን ለመረዳት ጠቃሚ ናቸው እና በትክክል መታተም አለባቸው።", "ይህ ገጽ የተፈጠሩ ሰዎችን ወይም የማይታወቁ መገለጫዎችን ሳያቀርብ ለተረጋገጡ ስሞች፣ ሚናዎች እና የሕይወት ታሪኮች ተዘጋጅቷል።"]},
+      "feature": {"eyebrow": "የአሁኑ የይዘት ሁኔታ", "title": "የተረጋገጠ መረጃ እዚህ ይታተማል።", "items": [{"title": "የአመራር መረጃ ማረጋገጫ በመጠባበቅ ላይ", "description": "የአመራር ስሞች፣ ሚናዎች እና የሕይወት ታሪኮች የተፈቀደ ድርጅታዊ መረጃ ሲኖር ይጨመራሉ።"}]},
+      "related": {"eyebrow": "ቀጥሎ ይመልከቱ", "title": "ሰፊውን የኢትዮ ሬይል አውድ ይረዱ።", "links": [{"label": "ስለ እኛ አጠቃላይ እይታ", "href": "/about"}, {"label": "ራዕይ እና ተልዕኮ", "href": "/about/vision-mission"}, {"label": "የኔትወርክ አጠቃላይ እይታ", "href": "/network"}, {"label": "አገልግሎቶች", "href": "/services"}]},
+      "cta": {"eyebrow": "ውይይቱን ያገናኙ", "title": "ከኢትዮ ሬይል ቡድን ጋር ይነጋገሩ።", "description": "ለአሁኑ የሎጂስቲክስ ጥያቄዎች የእውቂያ ወይም የጥቅስ መንገድን ይጠቀሙ።", "primary": "ጥቅስ ይጠይቁ", "secondary": "ከሎጂስቲክስ ቡድን ጋር ይገናኙ"}
+    },
+    "visionMission": {
+      "metadata": {"title": "ራዕይ እና ተልዕኮ | ኢትዮ ሬይል ሎጂስቲክስ", "description": "የኢትዮ ሬይል የተገናኘ ሎጂስቲክስ እና ኮሪደር አቀራረብን የሚመራውን የሥራ አቅጣጫ ይመልከቱ።"},
+      "hero": {"eyebrow": "ራዕይ እና ተልዕኮ", "title": "ለተገናኘ ሎጂስቲክስ አቅጣጫ።", "description": "ይህ ገጽ የኢትዮ ሬይልን የሎጂስቲክስ አቀራረብ የሥራ አቅጣጫ ያብራራል፤ ያልተረጋገጠ ጽሑፍን እንደ ይፋዊ የድርጅት መግለጫ አያቀርብም።", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg", "imageAlt": "በኢትዮጵያ ባቡር ላይ የሚያዙ የጭነት ኮንቴነሮች።"},
+      "intro": {"eyebrow": "አስፈላጊ አውድ", "title": "ለተረጋገጠ የድርጅት ቃል የተዘጋጀ መዋቅር።", "paragraphs": ["በዚህ ደረጃ ይፋዊ የራዕይ እና የተልዕኮ መግለጫዎች በተፈቀደው የፕሮጀክት ይዘት ውስጥ አልተገኙም።", "ከታች ያሉት ክፍሎች ግልጽ የሥራ መዋቅር ይሰጣሉ፤ የተረጋገጠ የድርጅት ቃል በኋላ ሳይቀየር ሊገባ ይችላል።"]},
+      "feature": {"eyebrow": "የሥራ አቅጣጫ", "title": "ዛሬ ሥራውን የሚመሩ ነገሮች።", "items": [{"title": "ራዕይ", "description": "የውስጥ የኢትዮጵያ ሎጂስቲክስን ከክልላዊ መግቢያዎች እና ከዓለም ንግድ መንገዶች ጋር በግልጽ የእንቅስቃሴ እይታ ማገናኘት።"}, {"title": "ተልዕኮ", "description": "የመንገድ፣ የባቡር፣ የውስጥ፣ የወደብ፣ የባሕር እና የሰነድ ደረጃዎችን በጭነት ጉዞ ዙሪያ ማስተባበር።"}, {"title": "የስትራቴጂ አቅጣጫ", "description": "ኮሪደሩን፣ ርክክቦቹን እና የእያንዳንዱን ጭነት ፍላጎት በሎጂስቲክስ ውይይት ውስጥ ግልጽ ማድረግ።"}]},
+      "related": {"eyebrow": "ስርዓቱን ይመልከቱ", "title": "አቅጣጫውን ከመንገዱ እና ከአገልግሎቶቹ ጋር ያገናኙ።", "links": [{"label": "ስለ እኛ አጠቃላይ እይታ", "href": "/about"}, {"label": "አመራር", "href": "/about/leadership"}, {"label": "ኢትዮ–ጅቡቲ ኮሪደር", "href": "/network/ethiopia-djibouti-corridor"}, {"label": "አገልግሎቶች", "href": "/services"}]},
+      "cta": {"eyebrow": "በግልጽነት ይንቀሳቀሱ", "title": "ስለሚያስተባብሩት ጉዞ ይጀምሩ።", "description": "የእንቅስቃሴውን አውድ ያካፍሉን እና ቀጣዩ የሎጂስቲክስ ውይይት በመንገዱ ዙሪያ ይጀምር።", "primary": "ጥቅስ ይጠይቁ", "secondary": "ከሎጂስቲክስ ቡድን ጋር ይገናኙ"}
+    }
+  },
+  "NetworkPage": {
+    "overview": {
+      "metadata": {"title": "ኔትወርክ | ኢትዮ ሬይል ሎጂስቲክስ", "description": "የኢትዮ–ጅቡቲ ኮሪደርን፣ ዋና ቦታዎችን እና የተገናኙ የሎጂስቲክስ መንገዶችን ይመልከቱ።"},
+      "hero": {"eyebrow": "ኔትወርኩ", "title": "ለተገናኘ ንግድ የተገነባ ኮሪደር።", "description": "የውስጥ መነሻዎች፣ ባቡር፣ መግቢያዎች እና ዓለም አቀፍ መንገዶች በኢትዮ–ጅቡቲ ኮሪደር እንዴት እንደሚገናኙ ይመልከቱ።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "አዲስ አበባን፣ ድሬዳዋን፣ ጅቡቲን እና ዓለም አቀፍ ገበያዎችን የሚያገናኝ ካርታ።"},
+      "intro": {"eyebrow": "የኔትወርክ አጠቃላይ እይታ", "title": "ከውስጥ ኢትዮጵያ እስከ ዓለም አቀፍ መግቢያዎች።", "paragraphs": ["ኔትወርኩ በውስጥ መነሻዎች፣ በኮሪደር ግንኙነቶች እና በወደብ መግቢያዎች መካከል በሚካሄድ ተግባራዊ የጭነት እንቅስቃሴ ይገለጻል።", "እነዚህን ቦታዎች እና የመንገድ ደረጃዎች በመመልከት የዚህን ጂኦግራፊ የሎጂስቲክስ ጠቀሜታ ይረዱ።"]},
+      "media": {"eyebrow": "የኮሪደር ባህሪ", "title": "ኢትዮ–ጅቡቲ ዋናው ግንኙነት ነው።", "description": "ኮሪደሩ የውስጥ የኢትዮጵያ እንቅስቃሴን ከጅቡቲ መግቢያ እና ከዓለም የባሕር መንገዶች ጋር ያገናኛል።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "የኢትዮ–ጅቡቲ ኮሪደር ካርታ።", "contain": true},
+      "feature": {"eyebrow": "የኔትወርኩ አካላት", "title": "በመንገዱ ዙሪያ ያሉ ቦታዎች እና ደረጃዎች።", "items": [{"title": "አዲስ አበባ", "description": "ጭነት ወደ ኮሪደሩ የሚገባበት የውስጥ መነሻ።"}, {"title": "ድሬዳዋ", "description": "በኢትዮ–ጅቡቲ የባቡር ኮሪደር ላይ ያለ ጂኦግራፊ ግንኙነት።"}, {"title": "ጅቡቲ", "description": "የውስጥ እንቅስቃሴን ከባሕር መንገዶች ጋር የሚያገናኝ መግቢያ።"}]},
+      "related": {"eyebrow": "ኔትወርኩን ይመልከቱ", "title": "ወደ ኮሪደሩ ጥልቀት ይግቡ።", "links": [{"label": "ኢትዮ–ጅቡቲ ኮሪደር", "href": "/network/ethiopia-djibouti-corridor"}, {"label": "ቦታዎች", "href": "/network/locations"}, {"label": "መርሃ ግብሮች እና መንገዶች", "href": "/network/schedules-routes"}, {"label": "ባለ ብዙ ሞድ መጓጓዣ", "href": "/services/multimodal-transportation"}]},
+      "cta": {"eyebrow": "መንገዱን ያቅዱ", "title": "በጭነትዎ ጂኦግራፊ ይጀምሩ።", "description": "መነሻውን፣ መዳረሻውን እና የእንቅስቃሴ ፍላጎቶችን ያካፍሉን።", "primary": "ጥቅስ ይጠይቁ", "secondary": "አገልግሎቶችን ይመልከቱ"}
+    },
+    "corridor": {
+      "metadata": {"title": "ኢትዮ–ጅቡቲ ኮሪደር | ኢትዮ ሬይል ሎጂስቲክስ", "description": "የኢትዮ–ጅቡቲ ኮሪደርን የሚያቀናጁ የውስጥ፣ የባቡር፣ የመንገድ እና የመግቢያ ግንኙነቶችን ይረዱ።"},
+      "hero": {"eyebrow": "ኢትዮ–ጅቡቲ ኮሪደር", "title": "ወደ ዓለም አቀፍ ንግድ የሚወስድ ዋና ኮሪደር።", "description": "ኮሪደሩ የውስጥ የኢትዮጵያ ሎጂስቲክስን ከባቡር፣ መንገድ፣ ወደብ እና ከዓለም አቀፍ የንግድ መንገዶች ጋር ያገናኛል።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "የኢትዮ–ጅቡቲ ኮሪደር ካርታ።"},
+      "intro": {"eyebrow": "ኮሪደሩ ለምን አስፈላጊ ነው", "title": "የውስጥ እና የባሕር ጂኦግራፊን የሚያገናኝ መንገድ።", "paragraphs": ["በዚህ ጂኦግራፊ የሚጓዝ ጭነት የተቀናጁ ደረጃዎችን ይፈልጋል።", "ኮሪደሩ የውስጥ መነሻዎችን ከክልላዊ መግቢያ እና ከዓለም የንግድ መንገዶች ጋር የሚያገናኝ አውድ ይሰጣል።"]},
+      "media": {"eyebrow": "መንገዱ በአውድ", "title": "የውስጥ መነሻ፣ የኮሪደር ግንኙነት፣ የመግቢያ መዳረሻ።", "description": "አዲስ አበባ እና ሌሎች መነሻዎች በኮሪደሩ በኩል ወደ ድሬዳዋ እና ጅቡቲ ይገናኛሉ።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "ከአዲስ አበባ በድሬዳዋ በኩል ወደ ጅቡቲ የሚሄደውን መንገድ የሚያሳይ ካርታ።", "contain": true},
+      "journey": {"eyebrow": "የእንቅስቃሴ ደረጃዎች", "title": "ከተገናኙ ርክክቦች የተሠራ መንገድ።", "steps": [{"title": "የውስጥ መነሻ", "description": "ጭነት በተገለጸ መነሻ እና የእንቅስቃሴ እቅድ ይጀምራል።"}, {"title": "የመንገድ እና ባቡር ግንኙነት", "description": "የውስጥ መጓጓዣ ደረጃዎች ጭነትን ወደ ኮሪደሩ ያገናኛሉ።"}, {"title": "የድሬዳዋ ግንኙነት", "description": "የመንገዱ ጂኦግራፊ ወደ ጅቡቲ መግቢያ ይቀጥላል።"}, {"title": "የጅቡቲ መግቢያ", "description": "መግቢያው የውስጥ እንቅስቃሴን ከባሕር መንገዶች ጋር ያገናኛል።"}]},
+      "feature": {"eyebrow": "የኮሪደር መሠረቶች", "title": "ከእንቅስቃሴው በስተጀርባ ያለው ጂኦግራፊ።", "items": [{"title": "አዲስ አበባ", "description": "ጭነት ወደ ኔትወርኩ የሚገባበት የውስጥ መነሻ አውድ።"}, {"title": "ድሬዳዋ", "description": "በኮሪደሩ ግንኙነት ላይ ያለ የጂኦግራፊ ነጥብ።"}, {"title": "ጅቡቲ", "description": "ለቀጣይ የባሕር እንቅስቃሴ የመግቢያ አውድ።"}]},
+      "related": {"eyebrow": "የተገናኙ አቅሞች", "title": "ኮሪደሩን የሚደግፉ አገልግሎቶች።", "links": [{"label": "ባለ ብዙ ሞድ መጓጓዣ", "href": "/services/multimodal-transportation"}, {"label": "የመሬት እና ባቡር መጓጓዣ", "href": "/services/land-rail-transportation"}, {"label": "የውስጥ ደረቅ ወደብ", "href": "/services/inland-dry-port"}, {"label": "የባሕር ጭነት / NVOCC", "href": "/services/ocean-freight-nvocc"}]},
+      "cta": {"eyebrow": "በኮሪደሩ ይንቀሳቀሱ", "title": "ቀጣዩን ደረጃ በመንገድዎ ዙሪያ ይገንቡ።", "description": "ጭነትዎ ከየት እንደሚነሳ፣ ወዴት እንደሚሄድ እና የትኞቹ ደረጃዎች ማስተባበር እንደሚፈልጉ ይንገሩን።", "primary": "ጥቅስ ይጠይቁ", "secondary": "ኔትወርኩን ይመልከቱ"}
+    },
+    "locations": {
+      "metadata": {"title": "ቦታዎች | ኢትዮ ሬይል ሎጂስቲክስ", "description": "የአዲስ አበባ፣ የድሬዳዋ እና የጅቡቲ የጂኦግራፊ መሠረቶችን ይመልከቱ።"},
+      "hero": {"eyebrow": "የኔትወርክ ቦታዎች", "title": "ኮሪደሩን እንዲቀጥል የሚያደርገው ጂኦግራፊ።", "description": "የውስጥ ጭነት ከኢትዮ–ጅቡቲ መግቢያ ጋር እንዴት እንደሚገናኝ ይመልከቱ።", "image": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg", "imageAlt": "በኢትዮ–ጅቡቲ ባቡር ላይ ኮንቴነሮችን የያዘ የጭነት ባቡር።"},
+      "intro": {"eyebrow": "የጂኦግራፊ አውድ", "title": "ሶስት መሠረቶች፣ አንድ የተገናኘ መንገድ።", "paragraphs": ["የኔትወርክ ጂኦግራፊ መነሻውን፣ ኮሪደሩን እና መግቢያውን ሲያገናኝ ጠቃሚ ይሆናል።", "እነዚህ ቦታዎች እንደ የመንገድ መሠረቶች ቀርበዋል።"]},
+      "media": {"eyebrow": "የካርታ አውድ", "title": "መሠረቶቹን ከመንገዱ ጋር ይመልከቱ።", "description": "የኮሪደሩ ካርታ አዲስ አበባን፣ ድሬዳዋን እና ጅቡቲን በክልላዊ ጂኦግራፊ ውስጥ ያሳያል።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "በኢትዮ–ጅቡቲ ኮሪደር ላይ አዲስ አበባን፣ ድሬዳዋን እና ጅቡቲን የሚያሳይ ካርታ።", "contain": true},
+      "feature": {"eyebrow": "የቦታ መሠረቶች", "title": "በኮሪደሩ ላይ የሚታወቁ ነጥቦች።", "items": [{"title": "አዲስ አበባ", "description": "ለኮሪደር እቅድ የውስጥ መነሻ አውድ።"}, {"title": "ድሬዳዋ", "description": "በባቡር ጂኦግራፊ ላይ ያለ የግንኙነት ነጥብ።"}, {"title": "ጅቡቲ", "description": "ለወደብ መዳረሻ መግቢያ አውድ።"}]},
+      "related": {"eyebrow": "ቀጥሎ ይመልከቱ", "title": "ቦታዎችን ከሰፊው ኔትወርክ ጋር ያገናኙ።", "links": [{"label": "የኔትወርክ አጠቃላይ እይታ", "href": "/network"}, {"label": "ኢትዮ–ጅቡቲ ኮሪደር", "href": "/network/ethiopia-djibouti-corridor"}, {"label": "መርሃ ግብሮች እና መንገዶች", "href": "/network/schedules-routes"}, {"label": "የጭነት ማስተላለፊያ", "href": "/services/freight-forwarding"}]},
+      "cta": {"eyebrow": "መንገዱን ይረዱ", "title": "ጂኦግራፊው ውይይቱን ይመራ።", "description": "መነሻዎን እና መዳረሻዎን ያካፍሉን።", "primary": "ጥቅስ ይጠይቁ", "secondary": "አገልግሎቶችን ይመልከቱ"}
+    },
+    "schedulesRoutes": {
+      "metadata": {"title": "መርሃ ግብሮች እና መንገዶች | ኢትዮ ሬይል ሎጂስቲክስ", "description": "በኢትዮ–ጅቡቲ ኮሪደር ለሚጓጓዝ ጭነት የመንገድ እና የእቅድ አውድን ይረዱ።"},
+      "hero": {"eyebrow": "መርሃ ግብሮች እና መንገዶች", "title": "በመንገዱ ዙሪያ ያቅዱ፣ በግምት አይደለም።", "description": "የተረጋገጠ የሥራ መርሃ ግብር መረጃ እስኪታተም ድረስ የኔትወርኩን ጂኦግራፊ ለመንገድ እቅድ ይጠቀሙ።", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg", "imageAlt": "ኮንቴነሮች እና የባቡር መሣሪያዎች ያሉበት የኢትዮጵያ የባቡር ጭነት።"},
+      "intro": {"eyebrow": "የመንገድ እቅድ", "title": "ግልጽ የመንገድ አውድ ከሰዓት ሰሌዳ በፊት ይመጣል።", "paragraphs": ["የመንገድ፣ የባቡር፣ የውስጥ፣ የመግቢያ እና የቀጣይ እንቅስቃሴ ደረጃዎች እንደ ጭነቱ እና መዳረሻው ሊገናኙ ይችላሉ።", "ዝርዝር የሥራ መርሃ ግብሮች የተረጋገጠ መረጃ ሲኖር ይታተማሉ። እስከዚያ ድረስ ይህ ገጽ የመንገዱን መዋቅር ያብራራል።"]},
+      "journey": {"eyebrow": "የመንገድ መዋቅር", "title": "ሲያቅዱ ሊገለጹ የሚገቡ ደረጃዎች።", "steps": [{"title": "መነሻ", "description": "ጭነት የሚጀምርበትን ቦታ ይግለጹ።"}, {"title": "የውስጥ ግንኙነት", "description": "የመንገድ፣ የባቡር ወይም የውስጥ ማቆያ ግንኙነትን ያስቡ።"}, {"title": "መግቢያ", "description": "ወደ ጅቡቲ እና ወደ ቀጣይ የንግድ መንገዶች ያለውን ግንኙነት ይግለጹ።"}, {"title": "መዳረሻ", "description": "የመንገዱን ውይይት ከመጨረሻው የጭነት ፍላጎት ጋር ያስማሙ።"}]},
+      "feature": {"eyebrow": "የመረጃ ሁኔታ", "title": "ይህ ገጽ የሚያቀርበው እና የማያቀርበው።", "items": [{"title": "የመንገድ አውድ", "description": "የኮሪደሩ ደረጃዎች እንዴት እንደሚዛመዱ አጠቃላይ እይታ።"}, {"title": "የተረጋገጠ መረጃ", "description": "የሥራ መርሃ ግብሮች ሲረጋገጡ ብቻ ይጨመራሉ።"}, {"title": "የእቅድ ውይይት", "description": "ስለ ጭነት፣ መነሻ፣ መዳረሻ እና ርክክቦች ለመወያየት መነሻ ነጥብ።"}]},
+      "related": {"eyebrow": "ቀጣዩን ይመልከቱ", "title": "ይህንን አውድ ከሚያሟሉ ገጾች ጋር ይጠቀሙ።", "links": [{"label": "የኔትወርክ አጠቃላይ እይታ", "href": "/network"}, {"label": "ኢትዮ–ጅቡቲ ኮሪደር", "href": "/network/ethiopia-djibouti-corridor"}, {"label": "ቦታዎች", "href": "/network/locations"}, {"label": "ባለ ብዙ ሞድ መጓጓዣ", "href": "/services/multimodal-transportation"}]},
+      "cta": {"eyebrow": "ስለ መንገድዎ ይወያዩ", "title": "ባሉዎት መረጃዎች ይጀምሩ።", "description": "ጭነቱን፣ መነሻውን፣ መዳረሻውን እና የጊዜ አውዱን ያካፍሉን።", "primary": "ጥቅስ ይጠይቁ", "secondary": "ከሎጂስቲክስ ቡድን ጋር ይገናኙ"}
+    }
+  },
+  "OceanFreightService": {
+    "metadata": {
+      "title": "የውቅያኖስ ጭነት / NVOCC | Ethio Rail Logistics",
+      "description": "የውቅያኖስ ጭነትን ከወደብ መግቢያ እና ከዓለም አቀፍ መንገዶች ጋር ያገናኙ።"
+    },
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "services": "አገልግሎቶች",
+      "current": "የውቅያኖስ ጭነት / NVOCC"
+    },
+    "hero": {
+      "eyebrow": "የውቅያኖስ ጭነት / NVOCC",
+      "title": "የውስጥ አገር ጭነትን ከዓለም የባህር መንገዶች ጋር ያገናኙ።",
+      "description": "የውቅያኖስ ጭነትን ከወደብ መግቢያ እና ከዓለም አቀፍ መንገዶች ጋር ያገናኙ።",
+      "image": "/media/images/port/container-terminal-crane-01.jpg",
+      "imageAlt": "የውቅያኖስ ጭነት / NVOCC የሎጂስቲክስ ምስል"
+    },
+    "overview": {
+      "eyebrow": "የአገልግሎት እይታ",
+      "title": "የውስጥ አገር ጭነትን ከዓለም የባህር መንገዶች ጋር ያገናኙ።",
+      "paragraphs": [
+        "የውቅያኖስ ጭነትን ከወደብ መግቢያ እና ከዓለም አቀፍ መንገዶች ጋር ያገናኙ።",
+        "የጭነት ጉዞውን በግልጽ ርክክብ እና ተግባራዊ እቅድ ያስተባብሩ።"
+      ]
+    },
+    "journey": {
+      "eyebrow": "የጉዞ ደረጃዎች",
+      "title": "እያንዳንዱን ደረጃ ያገናኙ።",
+      "steps": [
+        {
+          "title": "መነሻ",
+          "description": "የውቅያኖስ ጭነት / NVOCC ውስጥ ያለውን የ1ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመንገድ ማስተባበር",
+          "description": "የውቅያኖስ ጭነት / NVOCC ውስጥ ያለውን የ2ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመግቢያ ርክክብ",
+          "description": "የውቅያኖስ ጭነት / NVOCC ውስጥ ያለውን የ3ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "ቀጣይ እንቅስቃሴ",
+          "description": "የውቅያኖስ ጭነት / NVOCC ውስጥ ያለውን የ4ኛ ደረጃ ያደራጁ።"
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "የተገናኙ ዘዴዎች",
+      "title": "በመንገዱ ዙሪያ ያሉ ደረጃዎች።",
+      "items": [
+        {
+          "title": "የመንገድ እቅድ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የጭነት ማስቀመጫ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የመግቢያ ግንኙነት",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "የኢትዮጵያ–ጅቡቲ ኮሪደር",
+      "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
+      "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+    },
+    "value": {
+      "eyebrow": "የምናስተባብረው",
+      "title": "በእያንዳንዱ ርክክብ ግልጽነት።",
+      "items": [
+        {
+          "title": "የመንገድ ግልጽነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "የማስተባበር ድጋፍ",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "ቀጣይ ዝግጁነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "ተጨማሪ ይመልከቱ",
+      "title": "ተጨማሪ አገልግሎቶችን ይመልከቱ።",
+      "links": [
+        {
+          "label": "የLand & Rail Transportation አገልግሎት",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "የFreight Forwarding አገልግሎት",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "የCustoms Clearance አገልግሎት",
+          "href": "/services/customs-clearance"
+        },
+        {
+          "label": "የWarehousing አገልግሎት",
+          "href": "/services/warehousing"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "ቀጣዩን እርምጃ ያቅዱ",
+      "title": "ስለ መንገድዎ ይነጋገሩ።",
+      "description": "ስለ ጭነትዎ እና ስለሚቀጥለው እርምጃ ያካፍሉን።",
+      "primary": "ዋጋ ይጠይቁ",
+      "secondary": "አገልግሎቶችን ይመልከቱ"
+    }
+  },
+  "LandRailService": {
+    "metadata": {
+      "title": "የመሬት እና የባቡር መጓጓዣ | Ethio Rail Logistics",
+      "description": "የውስጥ መንገድን ከባቡር ግንኙነት ጋር ያስተባብሩ።"
+    },
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "services": "አገልግሎቶች",
+      "current": "የመሬት እና የባቡር መጓጓዣ"
+    },
+    "hero": {
+      "eyebrow": "የመሬት እና የባቡር መጓጓዣ",
+      "title": "መንገድን እና ባቡርን እንደ አንድ የውስጥ ግንኙነት ያቅዱ።",
+      "description": "የውስጥ መንገድን ከባቡር ግንኙነት ጋር ያስተባብሩ።",
+      "image": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
+      "imageAlt": "የመሬት እና የባቡር መጓጓዣ የሎጂስቲክስ ምስል"
+    },
+    "overview": {
+      "eyebrow": "የአገልግሎት እይታ",
+      "title": "መንገድን እና ባቡርን እንደ አንድ የውስጥ ግንኙነት ያቅዱ።",
+      "paragraphs": [
+        "የውስጥ መንገድን ከባቡር ግንኙነት ጋር ያስተባብሩ።",
+        "የጭነት ጉዞውን በግልጽ ርክክብ እና ተግባራዊ እቅድ ያስተባብሩ።"
+      ]
+    },
+    "journey": {
+      "eyebrow": "የጉዞ ደረጃዎች",
+      "title": "እያንዳንዱን ደረጃ ያገናኙ።",
+      "steps": [
+        {
+          "title": "መነሻ",
+          "description": "የመሬት እና የባቡር መጓጓዣ ውስጥ ያለውን የ1ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመንገድ ማስተባበር",
+          "description": "የመሬት እና የባቡር መጓጓዣ ውስጥ ያለውን የ2ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመግቢያ ርክክብ",
+          "description": "የመሬት እና የባቡር መጓጓዣ ውስጥ ያለውን የ3ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "ቀጣይ እንቅስቃሴ",
+          "description": "የመሬት እና የባቡር መጓጓዣ ውስጥ ያለውን የ4ኛ ደረጃ ያደራጁ።"
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "የተገናኙ ዘዴዎች",
+      "title": "በመንገዱ ዙሪያ ያሉ ደረጃዎች።",
+      "items": [
+        {
+          "title": "የመንገድ እቅድ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የጭነት ማስቀመጫ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የመግቢያ ግንኙነት",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "የኢትዮጵያ–ጅቡቲ ኮሪደር",
+      "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
+      "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+    },
+    "value": {
+      "eyebrow": "የምናስተባብረው",
+      "title": "በእያንዳንዱ ርክክብ ግልጽነት።",
+      "items": [
+        {
+          "title": "የመንገድ ግልጽነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "የማስተባበር ድጋፍ",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "ቀጣይ ዝግጁነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "ተጨማሪ ይመልከቱ",
+      "title": "ተጨማሪ አገልግሎቶችን ይመልከቱ።",
+      "links": [
+        {
+          "label": "የOcean Freight / NVOCC አገልግሎት",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "የFreight Forwarding አገልግሎት",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "የCustoms Clearance አገልግሎት",
+          "href": "/services/customs-clearance"
+        },
+        {
+          "label": "የWarehousing አገልግሎት",
+          "href": "/services/warehousing"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "ቀጣዩን እርምጃ ያቅዱ",
+      "title": "ስለ መንገድዎ ይነጋገሩ።",
+      "description": "ስለ ጭነትዎ እና ስለሚቀጥለው እርምጃ ያካፍሉን።",
+      "primary": "ዋጋ ይጠይቁ",
+      "secondary": "አገልግሎቶችን ይመልከቱ"
+    }
+  },
+  "FreightForwardingService": {
+    "metadata": {
+      "title": "የጭነት ፎርዋርዲንግ | Ethio Rail Logistics",
+      "description": "የመንገድ እቅድን፣ ሰነዶችን እና ርክክቦችን በአንድ ግልጽ እይታ ያገናኙ።"
+    },
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "services": "አገልግሎቶች",
+      "current": "የጭነት ፎርዋርዲንግ"
+    },
+    "hero": {
+      "eyebrow": "የጭነት ፎርዋርዲንግ",
+      "title": "ከጭነቱ ጀርባ ያለውን እንቅስቃሴ ያስተባብሩ።",
+      "description": "የመንገድ እቅድን፣ ሰነዶችን እና ርክክቦችን በአንድ ግልጽ እይታ ያገናኙ።",
+      "image": "/media/images/rail/stock/freight-container-train-01.jpg",
+      "imageAlt": "የጭነት ፎርዋርዲንግ የሎጂስቲክስ ምስል"
+    },
+    "overview": {
+      "eyebrow": "የአገልግሎት እይታ",
+      "title": "ከጭነቱ ጀርባ ያለውን እንቅስቃሴ ያስተባብሩ።",
+      "paragraphs": [
+        "የመንገድ እቅድን፣ ሰነዶችን እና ርክክቦችን በአንድ ግልጽ እይታ ያገናኙ።",
+        "የጭነት ጉዞውን በግልጽ ርክክብ እና ተግባራዊ እቅድ ያስተባብሩ።"
+      ]
+    },
+    "journey": {
+      "eyebrow": "የጉዞ ደረጃዎች",
+      "title": "እያንዳንዱን ደረጃ ያገናኙ።",
+      "steps": [
+        {
+          "title": "መነሻ",
+          "description": "የጭነት ፎርዋርዲንግ ውስጥ ያለውን የ1ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመንገድ ማስተባበር",
+          "description": "የጭነት ፎርዋርዲንግ ውስጥ ያለውን የ2ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመግቢያ ርክክብ",
+          "description": "የጭነት ፎርዋርዲንግ ውስጥ ያለውን የ3ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "ቀጣይ እንቅስቃሴ",
+          "description": "የጭነት ፎርዋርዲንግ ውስጥ ያለውን የ4ኛ ደረጃ ያደራጁ።"
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "የተገናኙ ዘዴዎች",
+      "title": "በመንገዱ ዙሪያ ያሉ ደረጃዎች።",
+      "items": [
+        {
+          "title": "የመንገድ እቅድ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የጭነት ማስቀመጫ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የመግቢያ ግንኙነት",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "የኢትዮጵያ–ጅቡቲ ኮሪደር",
+      "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
+      "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+    },
+    "value": {
+      "eyebrow": "የምናስተባብረው",
+      "title": "በእያንዳንዱ ርክክብ ግልጽነት።",
+      "items": [
+        {
+          "title": "የመንገድ ግልጽነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "የማስተባበር ድጋፍ",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "ቀጣይ ዝግጁነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "ተጨማሪ ይመልከቱ",
+      "title": "ተጨማሪ አገልግሎቶችን ይመልከቱ።",
+      "links": [
+        {
+          "label": "የOcean Freight / NVOCC አገልግሎት",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "የLand & Rail Transportation አገልግሎት",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "የCustoms Clearance አገልግሎት",
+          "href": "/services/customs-clearance"
+        },
+        {
+          "label": "የWarehousing አገልግሎት",
+          "href": "/services/warehousing"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "ቀጣዩን እርምጃ ያቅዱ",
+      "title": "ስለ መንገድዎ ይነጋገሩ።",
+      "description": "ስለ ጭነትዎ እና ስለሚቀጥለው እርምጃ ያካፍሉን።",
+      "primary": "ዋጋ ይጠይቁ",
+      "secondary": "አገልግሎቶችን ይመልከቱ"
+    }
+  },
+  "CustomsClearanceService": {
+    "metadata": {
+      "title": "የጉምሩክ ማጣሪያ | Ethio Rail Logistics",
+      "description": "የጭነት መረጃን እና የመግቢያ ርክክቦችን ለቀጣዩ መንገድ ያደራጁ።"
+    },
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "services": "አገልግሎቶች",
+      "current": "የጉምሩክ ማጣሪያ"
+    },
+    "hero": {
+      "eyebrow": "የጉምሩክ ማጣሪያ",
+      "title": "በጉምሩክ ደረጃ ግልጽነትን ያምጡ።",
+      "description": "የጭነት መረጃን እና የመግቢያ ርክክቦችን ለቀጣዩ መንገድ ያደራጁ።",
+      "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg",
+      "imageAlt": "የጉምሩክ ማጣሪያ የሎጂስቲክስ ምስል"
+    },
+    "overview": {
+      "eyebrow": "የአገልግሎት እይታ",
+      "title": "በጉምሩክ ደረጃ ግልጽነትን ያምጡ።",
+      "paragraphs": [
+        "የጭነት መረጃን እና የመግቢያ ርክክቦችን ለቀጣዩ መንገድ ያደራጁ።",
+        "የጭነት ጉዞውን በግልጽ ርክክብ እና ተግባራዊ እቅድ ያስተባብሩ።"
+      ]
+    },
+    "journey": {
+      "eyebrow": "የጉዞ ደረጃዎች",
+      "title": "እያንዳንዱን ደረጃ ያገናኙ።",
+      "steps": [
+        {
+          "title": "መነሻ",
+          "description": "የጉምሩክ ማጣሪያ ውስጥ ያለውን የ1ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመንገድ ማስተባበር",
+          "description": "የጉምሩክ ማጣሪያ ውስጥ ያለውን የ2ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመግቢያ ርክክብ",
+          "description": "የጉምሩክ ማጣሪያ ውስጥ ያለውን የ3ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "ቀጣይ እንቅስቃሴ",
+          "description": "የጉምሩክ ማጣሪያ ውስጥ ያለውን የ4ኛ ደረጃ ያደራጁ።"
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "የተገናኙ ዘዴዎች",
+      "title": "በመንገዱ ዙሪያ ያሉ ደረጃዎች።",
+      "items": [
+        {
+          "title": "የመንገድ እቅድ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የጭነት ማስቀመጫ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የመግቢያ ግንኙነት",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "የኢትዮጵያ–ጅቡቲ ኮሪደር",
+      "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
+      "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+    },
+    "value": {
+      "eyebrow": "የምናስተባብረው",
+      "title": "በእያንዳንዱ ርክክብ ግልጽነት።",
+      "items": [
+        {
+          "title": "የመንገድ ግልጽነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "የማስተባበር ድጋፍ",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "ቀጣይ ዝግጁነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "ተጨማሪ ይመልከቱ",
+      "title": "ተጨማሪ አገልግሎቶችን ይመልከቱ።",
+      "links": [
+        {
+          "label": "የOcean Freight / NVOCC አገልግሎት",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "የLand & Rail Transportation አገልግሎት",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "የFreight Forwarding አገልግሎት",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "የWarehousing አገልግሎት",
+          "href": "/services/warehousing"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "ቀጣዩን እርምጃ ያቅዱ",
+      "title": "ስለ መንገድዎ ይነጋገሩ።",
+      "description": "ስለ ጭነትዎ እና ስለሚቀጥለው እርምጃ ያካፍሉን።",
+      "primary": "ዋጋ ይጠይቁ",
+      "secondary": "አገልግሎቶችን ይመልከቱ"
+    }
+  },
+  "WarehousingService": {
+    "metadata": {
+      "title": "መጋዘን | Ethio Rail Logistics",
+      "description": "የጭነት ማስቀመጫን እና አያያዝን በቀጣዩ እንቅስቃሴ ዙሪያ ያስተባብሩ።"
+    },
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "services": "አገልግሎቶች",
+      "current": "መጋዘን"
+    },
+    "hero": {
+      "eyebrow": "መጋዘን",
+      "title": "በመጓጓዣ ደረጃዎች መካከል ተግባራዊ እረፍት ይፍጠሩ።",
+      "description": "የጭነት ማስቀመጫን እና አያያዝን በቀጣዩ እንቅስቃሴ ዙሪያ ያስተባብሩ።",
+      "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg",
+      "imageAlt": "መጋዘን የሎጂስቲክስ ምስል"
+    },
+    "overview": {
+      "eyebrow": "የአገልግሎት እይታ",
+      "title": "በመጓጓዣ ደረጃዎች መካከል ተግባራዊ እረፍት ይፍጠሩ።",
+      "paragraphs": [
+        "የጭነት ማስቀመጫን እና አያያዝን በቀጣዩ እንቅስቃሴ ዙሪያ ያስተባብሩ።",
+        "የጭነት ጉዞውን በግልጽ ርክክብ እና ተግባራዊ እቅድ ያስተባብሩ።"
+      ]
+    },
+    "journey": {
+      "eyebrow": "የጉዞ ደረጃዎች",
+      "title": "እያንዳንዱን ደረጃ ያገናኙ።",
+      "steps": [
+        {
+          "title": "መነሻ",
+          "description": "መጋዘን ውስጥ ያለውን የ1ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመንገድ ማስተባበር",
+          "description": "መጋዘን ውስጥ ያለውን የ2ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመግቢያ ርክክብ",
+          "description": "መጋዘን ውስጥ ያለውን የ3ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "ቀጣይ እንቅስቃሴ",
+          "description": "መጋዘን ውስጥ ያለውን የ4ኛ ደረጃ ያደራጁ።"
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "የተገናኙ ዘዴዎች",
+      "title": "በመንገዱ ዙሪያ ያሉ ደረጃዎች።",
+      "items": [
+        {
+          "title": "የመንገድ እቅድ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የጭነት ማስቀመጫ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የመግቢያ ግንኙነት",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "የኢትዮጵያ–ጅቡቲ ኮሪደር",
+      "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
+      "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+    },
+    "value": {
+      "eyebrow": "የምናስተባብረው",
+      "title": "በእያንዳንዱ ርክክብ ግልጽነት።",
+      "items": [
+        {
+          "title": "የመንገድ ግልጽነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "የማስተባበር ድጋፍ",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "ቀጣይ ዝግጁነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "ተጨማሪ ይመልከቱ",
+      "title": "ተጨማሪ አገልግሎቶችን ይመልከቱ።",
+      "links": [
+        {
+          "label": "የOcean Freight / NVOCC አገልግሎት",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "የLand & Rail Transportation አገልግሎት",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "የFreight Forwarding አገልግሎት",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "የCustoms Clearance አገልግሎት",
+          "href": "/services/customs-clearance"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "ቀጣዩን እርምጃ ያቅዱ",
+      "title": "ስለ መንገድዎ ይነጋገሩ።",
+      "description": "ስለ ጭነትዎ እና ስለሚቀጥለው እርምጃ ያካፍሉን።",
+      "primary": "ዋጋ ይጠይቁ",
+      "secondary": "አገልግሎቶችን ይመልከቱ"
+    }
+  },
+  "InlandDryPortService": {
+    "metadata": {
+      "title": "የውስጥ ደረቅ ወደብ | Ethio Rail Logistics",
+      "description": "የውስጥ ማስቀመጫን፣ የመንገድ እና የባቡር ርክክብን ከወደብ እንቅስቃሴ ጋር ያገናኙ።"
+    },
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "services": "አገልግሎቶች",
+      "current": "የውስጥ ደረቅ ወደብ"
+    },
+    "hero": {
+      "eyebrow": "የውስጥ ደረቅ ወደብ",
+      "title": "ለተገናኘ የጭነት እንቅስቃሴ የውስጥ መግቢያ።",
+      "description": "የውስጥ ማስቀመጫን፣ የመንገድ እና የባቡር ርክክብን ከወደብ እንቅስቃሴ ጋር ያገናኙ።",
+      "image": "/media/images/rail/ethiopia/ethiopian-railway-locomotive-01.jpg",
+      "imageAlt": "የውስጥ ደረቅ ወደብ የሎጂስቲክስ ምስል"
+    },
+    "overview": {
+      "eyebrow": "የአገልግሎት እይታ",
+      "title": "ለተገናኘ የጭነት እንቅስቃሴ የውስጥ መግቢያ።",
+      "paragraphs": [
+        "የውስጥ ማስቀመጫን፣ የመንገድ እና የባቡር ርክክብን ከወደብ እንቅስቃሴ ጋር ያገናኙ።",
+        "የጭነት ጉዞውን በግልጽ ርክክብ እና ተግባራዊ እቅድ ያስተባብሩ።"
+      ]
+    },
+    "journey": {
+      "eyebrow": "የጉዞ ደረጃዎች",
+      "title": "እያንዳንዱን ደረጃ ያገናኙ።",
+      "steps": [
+        {
+          "title": "መነሻ",
+          "description": "የውስጥ ደረቅ ወደብ ውስጥ ያለውን የ1ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመንገድ ማስተባበር",
+          "description": "የውስጥ ደረቅ ወደብ ውስጥ ያለውን የ2ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመግቢያ ርክክብ",
+          "description": "የውስጥ ደረቅ ወደብ ውስጥ ያለውን የ3ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "ቀጣይ እንቅስቃሴ",
+          "description": "የውስጥ ደረቅ ወደብ ውስጥ ያለውን የ4ኛ ደረጃ ያደራጁ።"
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "የተገናኙ ዘዴዎች",
+      "title": "በመንገዱ ዙሪያ ያሉ ደረጃዎች።",
+      "items": [
+        {
+          "title": "የመንገድ እቅድ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የጭነት ማስቀመጫ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የመግቢያ ግንኙነት",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "የኢትዮጵያ–ጅቡቲ ኮሪደር",
+      "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
+      "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+    },
+    "value": {
+      "eyebrow": "የምናስተባብረው",
+      "title": "በእያንዳንዱ ርክክብ ግልጽነት።",
+      "items": [
+        {
+          "title": "የመንገድ ግልጽነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "የማስተባበር ድጋፍ",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "ቀጣይ ዝግጁነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "ተጨማሪ ይመልከቱ",
+      "title": "ተጨማሪ አገልግሎቶችን ይመልከቱ።",
+      "links": [
+        {
+          "label": "የOcean Freight / NVOCC አገልግሎት",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "የLand & Rail Transportation አገልግሎት",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "የFreight Forwarding አገልግሎት",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "የCustoms Clearance አገልግሎት",
+          "href": "/services/customs-clearance"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "ቀጣዩን እርምጃ ያቅዱ",
+      "title": "ስለ መንገድዎ ይነጋገሩ።",
+      "description": "ስለ ጭነትዎ እና ስለሚቀጥለው እርምጃ ያካፍሉን።",
+      "primary": "ዋጋ ይጠይቁ",
+      "secondary": "አገልግሎቶችን ይመልከቱ"
+    }
+  },
+  "VoyageCharterService": {
+    "metadata": {
+      "title": "የመርከብ ቻርተር | Ethio Rail Logistics",
+      "description": "በመርከብ ፍላጎት ዙሪያ የወደብ፣ የጭነት እና የመንገድ አውድን ያስተባብሩ።"
+    },
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "services": "አገልግሎቶች",
+      "current": "የመርከብ ቻርተር"
+    },
+    "hero": {
+      "eyebrow": "የመርከብ ቻርተር",
+      "title": "የባህር እንቅስቃሴን በጭነቱ እና በመንገዱ ዙሪያ ያቅዱ።",
+      "description": "በመርከብ ፍላጎት ዙሪያ የወደብ፣ የጭነት እና የመንገድ አውድን ያስተባብሩ።",
+      "image": "/media/images/port/container-terminal-crane-01.jpg",
+      "imageAlt": "የመርከብ ቻርተር የሎጂስቲክስ ምስል"
+    },
+    "overview": {
+      "eyebrow": "የአገልግሎት እይታ",
+      "title": "የባህር እንቅስቃሴን በጭነቱ እና በመንገዱ ዙሪያ ያቅዱ።",
+      "paragraphs": [
+        "በመርከብ ፍላጎት ዙሪያ የወደብ፣ የጭነት እና የመንገድ አውድን ያስተባብሩ።",
+        "የጭነት ጉዞውን በግልጽ ርክክብ እና ተግባራዊ እቅድ ያስተባብሩ።"
+      ]
+    },
+    "journey": {
+      "eyebrow": "የጉዞ ደረጃዎች",
+      "title": "እያንዳንዱን ደረጃ ያገናኙ።",
+      "steps": [
+        {
+          "title": "መነሻ",
+          "description": "የመርከብ ቻርተር ውስጥ ያለውን የ1ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመንገድ ማስተባበር",
+          "description": "የመርከብ ቻርተር ውስጥ ያለውን የ2ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "የመግቢያ ርክክብ",
+          "description": "የመርከብ ቻርተር ውስጥ ያለውን የ3ኛ ደረጃ ያደራጁ።"
+        },
+        {
+          "title": "ቀጣይ እንቅስቃሴ",
+          "description": "የመርከብ ቻርተር ውስጥ ያለውን የ4ኛ ደረጃ ያደራጁ።"
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "የተገናኙ ዘዴዎች",
+      "title": "በመንገዱ ዙሪያ ያሉ ደረጃዎች።",
+      "items": [
+        {
+          "title": "የመንገድ እቅድ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የጭነት ማስቀመጫ",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        },
+        {
+          "title": "የመግቢያ ግንኙነት",
+          "description": "ቀጣዩን ርክክብ ግልጽ እና የተደራጀ ያድርጉ።"
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "የኢትዮጵያ–ጅቡቲ ኮሪደር",
+      "title": "የውስጥ መንገዱን ከመግቢያው ጋር ያገናኙ።",
+      "description": "የኢትዮጵያ–ጅቡቲ ኮሪደር የውስጥ ሎጂስቲክስን ከወደብ መዳረሻ ጋር ያገናኛል።",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "የኢትዮጵያ–ጅቡቲ ኮሪደር ካርታ"
+    },
+    "value": {
+      "eyebrow": "የምናስተባብረው",
+      "title": "በእያንዳንዱ ርክክብ ግልጽነት።",
+      "items": [
+        {
+          "title": "የመንገድ ግልጽነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "የማስተባበር ድጋፍ",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        },
+        {
+          "title": "ቀጣይ ዝግጁነት",
+          "description": "ቀጣዩን የጭነት ደረጃ ለመረዳት ቀላል ያድርጉ።"
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "ተጨማሪ ይመልከቱ",
+      "title": "ተጨማሪ አገልግሎቶችን ይመልከቱ።",
+      "links": [
+        {
+          "label": "የOcean Freight / NVOCC አገልግሎት",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "የLand & Rail Transportation አገልግሎት",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "የFreight Forwarding አገልግሎት",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "የCustoms Clearance አገልግሎት",
+          "href": "/services/customs-clearance"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "ቀጣዩን እርምጃ ያቅዱ",
+      "title": "ስለ መንገድዎ ይነጋገሩ።",
+      "description": "ስለ ጭነትዎ እና ስለሚቀጥለው እርምጃ ያካፍሉን።",
+      "primary": "ዋጋ ይጠይቁ",
+      "secondary": "አገልግሎቶችን ይመልከቱ"
+    }
+  },
+  "MultimodalService": {
+    "metadata": {"title": "ባለ ብዙ ሞድ መጓጓዣ | ኢትዮ ሬይል ሎጂስቲክስ", "description": "ለተቀናጀ የጭነት እንቅስቃሴ የመንገድ፣ የባቡር፣ የውስጥ፣ የወደብ እና የባሕር ሎጂስቲክስ ደረጃዎች።"},
+    "breadcrumbs": {"home": "መነሻ", "services": "አገልግሎቶች", "current": "ባለ ብዙ ሞድ መጓጓዣ"},
+    "hero": {"eyebrow": "ባለ ብዙ ሞድ መጓጓዣ", "title": "አንድ ጉዞ። ብዙ ሞዶች። አንድ የተቀናጀ እንቅስቃሴ።", "description": "ኢትዮ ሬይል በመንገድ፣ በባቡር፣ በውስጥ የሎጂስቲክስ ነጥቦች፣ በወደቦች እና በባሕር ግንኙነቶች መካከል ያለውን እንቅስቃሴ እንደ አንድ የተገናኘ የጭነት ጉዞ ያስተባብራል።", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg", "imageAlt": "የኢትዮጵያ ባቡር የጭነት ባቡር እና የኮንቴነር መጫኛ መሳሪያዎች በኢንተርሞዳል ተርሚናል።"},
+    "overview": {"eyebrow": "አገልግሎቱ", "title": "የተለያዩ ሞዶችን እንደ አንድ ጉዞ መረዳት።", "paragraphs": ["ባለ ብዙ ሞድ መጓጓዣ ከአንድ በላይ የመጓጓዣ ሞድ በተቀናጀ የጭነት እንቅስቃሴ ውስጥ ያገናኛል። የመንገድ ግንኙነቶች፣ የባቡር ኮሪደሮች፣ የውስጥ ሎጂስቲክስ ነጥቦች፣ የወደብ መግቢያዎች እና የባሕር መስመሮች በአንድ ጉዞ ውስጥ የራሳቸው ቦታ ሊኖራቸው ይችላል።", "አገልግሎቱ እነዚህን ሽግግሮች ለመረዳት እና ለማስተባበር ቀላል ማድረግ ላይ ያተኩራል።"]},
+    "journey": {"eyebrow": "ጉዞው እንዴት ይሰራል", "title": "ከመነሻ እስከ መድረሻ የተገናኘ ቅደም ተከተል።", "steps": [
+      {"title": "መነሻ / የጭነት ስብስብ", "description": "ጭነት ከመነሻው ይጀምራል እና ለመጀመሪያ ግንኙነት ይዘጋጃል።"},
+      {"title": "የመንገድ ግንኙነት", "description": "የውስጥ የመንገድ እንቅስቃሴ መነሻውን ከሚቀጥለው የሎጂስቲክስ ነጥብ ጋር ያገናኛል።"},
+      {"title": "የውስጥ ሎጂስቲክስ / ደረቅ ወደብ", "description": "ጉዞው ሞድ ሲቀይር ጭነት ሊቆይ፣ ሊያዝ ወይም ሊተላለፍ ይችላል።"},
+      {"title": "የባቡር ኮሪደር", "description": "ባቡር የውስጥ ጭነት ፍሰቶችን ከሚቀጥለው የኮሪደር ግንኙነት ጋር ያገናኛል።"},
+      {"title": "የወደብ ግንኙነት", "description": "የውስጥ ጉዞው ከወደብ እና ከመግቢያ ስራዎቹ ጋር ይገናኛል።"},
+      {"title": "ባሕር / ዓለም አቀፍ ግንኙነት", "description": "ጭነት በባሕር እና በዓለም አቀፍ የንግድ ግንኙነቶች መቀጠል ይችላል።"},
+      {"title": "መድረሻ", "description": "ጉዞው ከመጨረሻው የመድረሻ ግንኙነት ጋር ይጠናቀቃል።"}
+    ]},
+    "modes": {"eyebrow": "የተገናኙ ሞዶች", "title": "እያንዳንዱ ሞድ በእንቅስቃሴው ውስጥ ሚና አለው።", "items": [{"title": "መንገድ", "description": "በመነሻዎች፣ በተቋማት እና በመጓጓዣ ግንኙነቶች መካከል የመጀመሪያ እና የውስጥ እንቅስቃሴ።"}, {"title": "ባቡር", "description": "የውስጥ ጭነት ፍሰቶችን ከክልላዊ መግቢያዎች ጋር የሚያገናኝ የኮሪደር እንቅስቃሴ።"}, {"title": "የውስጥ ሎጂስቲክስ", "description": "በሞዶች መካከል የጭነት አያያዝ፣ ማቆያ እና የደረቅ ወደብ ግንኙነት።"}, {"title": "ወደብ", "description": "የውስጥ እንቅስቃሴን ከየባሕር ሎጂስቲክስ መግቢያ ጋር የሚያገናኝ በር።"}, {"title": "ባሕር", "description": "ወደ ሰፊ የንግድ መስመሮች እና መዳረሻዎች የሚቀጥል ዓለም አቀፍ እንቅስቃሴ።"}]},
+    "corridor": {"eyebrow": "ኢትዮ–ጅቡቲ ኮሪደር", "title": "በኢትዮ–ጅቡቲ ኮሪደር ዙሪያ የተገነባ።", "description": "ኢትዮ–ጅቡቲ ኮሪደር የኢትዮጵያ የውስጥ ጭነት ፍሰቶችን ወደ ጅቡቲ እና ወደ ዓለም አቀፍ የባሕር መግቢያዎች ያገናኛል። ይህ መንገድ ለባለ ብዙ ሞድ እቅድ ግልጽ የጂኦግራፊያዊ አውድ ይሰጣል።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "አዲስ አበባን፣ ድሬዳዋን፣ ጅቡቲን እና ዓለም አቀፍ ገበያዎችን የሚያሳይ ካርታ።"},
+    "value": {"eyebrow": "ማስተባበር ለምን አስፈላጊ ነው", "title": "በማስተላለፊያዎች ላይ ግልጽነት።", "items": [{"title": "የተቀናጁ ማስተላለፊያዎች", "description": "የተለያዩ የመጓጓዣ ሞዶች እንደ አንድ የጭነት ጉዞ ደረጃዎች ሊታቀዱ ይችላሉ።"}, {"title": "የኮሪደር ግንኙነት", "description": "የመንገድ፣ የባቡር፣ የውስጥ እና የወደብ እንቅስቃሴዎች በሚያገለግሉት መንገድ ውስጥ ሊረዱ ይችላሉ።"}, {"title": "የእንቅስቃሴ ግልጽነት", "description": "ግልጽ ቅደም ተከተል እያንዳንዱ የመጓጓዣ ደረጃ በአጠቃላይ እንቅስቃሴ ውስጥ የት እንደሚገኝ ያሳያል።"}, {"title": "ተለዋዋጭ መንገድ", "description": "የተለያዩ ሞዶች ለተለያዩ የጭነት ፍላጎቶች እና የመንገድ ሁኔታዎች ሊረዱ ይችላሉ።"}]},
+    "related": {"eyebrow": "ተዛማጅ አገልግሎቶች", "title": "ጉዞውን በተገናኙ አገልግሎቶች ያስፋፉ።", "links": [{"label": "የመሬት እና ባቡር መጓጓዣ", "href": "/services/land-rail-transportation"}, {"label": "የጭነት ማስተላለፊያ", "href": "/services/freight-forwarding"}, {"label": "የጉምሩክ ማጽዳት", "href": "/services/customs-clearance"}, {"label": "የውስጥ ደረቅ ወደብ", "href": "/services/inland-dry-port"}]},
+    "cta": {"eyebrow": "ጉዞውን ለማቀድ ዝግጁ ነዎት?", "title": "ባለ ብዙ ሞድ የጭነት ጉዞ ለማቀድ እገዛ ይፈልጋሉ?", "description": "ምን ማጓጓዝ እንደሚፈልጉ እና ወዴት መድረስ እንዳለበት ያካፍሉን። በጥቅስ ይጀምሩ ወይም ከሎጂስቲክስ ቡድናችን ጋር ይገናኙ።", "primary": "ጥቅስ ይጠይቁ", "secondary": "ከሎጂስቲክስ ቡድን ጋር ይገናኙ"}
+  },  "Navigation": {
+    "mainNavigation": "ዋና መዳረሻዎች",
+    "services": "አገልግሎቶች",
+    "network": "ኔትወርክ",
+    "about": "ስለ እኛ",
+    "aboutOverview": "የስለ እኛ አጠቃላይ እይታ",
+    "insights": "ዜና እና መረጃ",
+    "careers": "ስራዎች",
+    "contact": "ያግኙን",
+    "getQuote": "ዋጋ ይጠይቁ",
+    "viewAllServices": "ሁሉንም አገልግሎቶች ይመልከቱ",
+    "viewAllInsights": "ሁሉንም ዜና ይመልከቱ",
+    "multimodalTransportation": "ባለ ብዙ ሞድ መጓጓዣ",
+    "oceanFreightNvocc": "የባሕር ጭነት / NVOCC",
+    "landRailTransportation": "የመሬት እና ባቡር መጓጓዣ",
+    "freightForwarding": "የጭነት ማስተላለፊያ",
+    "customsClearance": "የጉምሩክ ማጽዳት",
+    "warehousing": "መጋዘን",
+    "inlandDryPort": "የውስጥ ደረቅ ወደብ",
+    "voyageCharter": "የጉዞ ቻርተር",
+    "company": "ድርጅቱ",
+    "leadership": "አመራር",
+    "visionMission": "ራዕይ እና ተልዕኮ",
+    "news": "ዜና እና ዝማኔዎች",
+    "resources": "መርጃዎች",
+    "networkOverview": "የኔትወርክ አጠቃላይ እይታ",
+    "corridor": "ኢትዮጵያ-ጅቡቲ ኮሪደር",
+    "locations": "ቦታዎች",
+    "schedulesRoutes": "መርሃ ግብሮች እና መንገዶች",
+    "support": "ድጋፍ",
+    "legal": "ሕጋዊ",
+    "privacy": "የግላዊነት ፖሊሲ",
+    "terms": "የአጠቃቀም ውሎች"
+  },
+  "Footer": {
+    "copyright": "© 2026 ኢትዮራይል ሎጂስቲክስ",
+    "support": "ድጋፍ",
+    "legal": "ሕጋዊ"
+  }
+}

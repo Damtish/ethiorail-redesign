@@ -1,0 +1,4 @@
+import type {MetadataRoute} from "next";
+const locales = ["en", "am"];
+const paths = ["", "/services", "/services/multimodal-transportation", "/services/ocean-freight-nvocc", "/services/land-rail-transportation", "/services/freight-forwarding", "/services/customs-clearance", "/services/warehousing", "/services/inland-dry-port", "/services/voyage-charter", "/network", "/network/ethiopia-djibouti-corridor", "/network/locations", "/network/schedules-routes", "/about", "/about/leadership", "/about/vision-mission", "/contact", "/quote", "/careers", "/insights", "/insights/news", "/insights/resources", "/privacy", "/terms"];
+export default function sitemap(): MetadataRoute.Sitemap { const base = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"; return locales.flatMap((locale) => paths.map((path) => ({url: `${base}/${locale}${path}`, changeFrequency: "monthly" as const}))); }

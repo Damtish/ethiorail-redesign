@@ -1,0 +1,5 @@
+import Link from "next/link";
+import {Container} from "@/components/ui/Container";
+
+const linkClass = "inline-flex min-h-12 items-center justify-center rounded-sm border px-5 py-3 font-semibold transition focus:outline-none focus:ring-2 focus:ring-ethiorail-green/30";
+export default function NotFound() { return <main className="surface-mint-canvas"><section data-header-theme="light" className="surface-cyan-mist py-[clamp(10rem,18vw,14rem)]"><Container><p className="text-xs font-semibold uppercase tracking-[0.28em] text-ethiorail-deep-green">404</p><h1 className="mt-5 max-w-[12ch] text-[clamp(3rem,7vw,6rem)] font-semibold leading-[0.95] tracking-[-0.06em] text-rail-ink">Page not found.</h1><p className="mt-6 max-w-[34rem] text-lg leading-[1.65] text-secondary-text">The page you requested does not exist or is not available yet.</p><div className="mt-8 flex flex-wrap gap-3"><Link href="/en" className={`${linkClass} border-ethiorail-green bg-ethiorail-green text-cool-canvas`}>Return Home</Link><Link href="/en/services" className={`${linkClass} border-rail-ink bg-rail-ink text-cool-canvas`}>Explore Services</Link></div></Container></section></main>; }

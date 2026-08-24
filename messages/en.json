@@ -1,0 +1,1222 @@
+{
+  "Foundation": {
+    "label": "Design Foundation",
+    "title": "EthioRail Website Foundation",
+    "description": "English localization is active.",
+    "language": "English localization is active."
+  },
+  "Brand": {
+    "name": "Ethio Rail Logistics",
+    "tagline": "Official website",
+    "logoAlt": "Official transparent Ethio Rail Logistics logo",
+    "homeLabel": "Ethio Rail Logistics home"
+  },
+  "Shell": {
+    "headerLabel": "Global site shell",
+    "mainNavigation": "Primary navigation",
+    "mobileNavigation": "Mobile navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "footerLabel": "Footer"
+  },
+  "Language": {
+    "english": "English",
+    "amharic": "Amharic",
+    "englishShort": "EN",
+    "amharicShort": "አማ",
+    "selectorLabel": "Language selector"
+  },
+  "Actions": {
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "Home": {
+    "metadata": {
+      "title": "EthioRail Logistics | Moving Ethiopia. Connecting the World.",
+      "description": "Integrated rail, road, port, and logistics solutions connecting Ethiopia to regional and global trade."
+    },
+    "hero": {
+      "eyebrow": "Integrated Logistics • Ethiopia",
+      "headlineLineOne": "Moving Ethiopia.",
+      "headlineLineTwo": "Connecting the World.",
+      "description": "Integrated rail, road, port, and logistics solutions connecting Ethiopia to regional and global trade.",
+      "primaryCta": "Get a Quote",
+      "secondaryCta": "Explore Our Network"
+    },
+    "quickActions": {
+      "eyebrow": "Quick Actions",
+      "getQuote": "Get a Quote",
+      "exploreServices": "Explore Services",
+      "schedulesRoutes": "Schedules & Routes",
+      "contactLogistics": "Contact Logistics"
+    },
+    "intro": {
+      "eyebrow": "ETHIO RAIL LOGISTICS",
+      "headlineLineOne": "One journey.",
+      "headlineLineTwo": "Every connection matters.",
+      "bodyOne": "Ethio Rail Logistics brings rail, road, port, warehousing, customs, and freight services into one connected logistics journey - helping cargo move from origin to destination with greater coordination.",
+      "bodyTwo": "From inland movement to international gateways, our role is to connect the stages that keep trade moving.",
+      "contextLink": "Explore Our Services"
+    },
+    "journey": {
+      "eyebrow": "ONE CONNECTED JOURNEY",
+      "headline": "From origin to global gateway.",
+      "description": "A multimodal logistics journey depends on every handoff working together. Ethio Rail Logistics connects the stages across inland transport, rail, port, and international freight.",
+      "supportingMediaAlt": "A freight locomotive pulling container wagons on the railway.",
+      "stages": [
+        {"title": "Origin"},
+        {"title": "Road Transport"},
+        {"title": "Inland / Dry Port"},
+        {"title": "Rail Corridor"},
+        {"title": "Djibouti / Port"},
+        {"title": "Ocean Freight"},
+        {"title": "Global Destination"}
+      ]
+    },
+    "services": {
+      "eyebrow": "OUR SERVICES",
+      "headlineLineOne": "One network.",
+      "headlineLineTwo": "Multiple ways to move.",
+      "description": "From inland transport and rail to ports, warehousing, customs, and international freight, our services connect the stages of the logistics journey.",
+      "viewAll": "View All Services",
+      "items": [
+        {
+          "summary": "Connected movement across road, rail, port, and inland handoffs.",
+          "label": "Multimodal Transportation",
+          "href": "/services/multimodal-transportation",
+          "mediaSrc": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
+          "mediaAlt": "Ethio-Djibouti Railway freight locomotive pulling a container train.",
+          "mediaPosition": "70% 50%"
+        },
+        {
+          "summary": "Ocean freight coordination that connects inland cargo with global sea routes.",
+          "label": "Ocean Freight & NVOCC",
+          "href": "/services/ocean-freight-nvocc",
+          "mediaSrc": "/media/images/rail/stock/freight-container-train-01.jpg",
+          "mediaAlt": "Generic freight container train in a non-Ethiopian rail setting.",
+          "mediaPosition": "50% 54%"
+        },
+        {
+          "summary": "Rail-linked inland transport for moving cargo across the corridor.",
+          "label": "Land & Rail Transportation",
+          "href": "/services/land-rail-transportation",
+          "mediaSrc": "/media/images/rail/ethiopia/ethiopian-railway-locomotive-01.jpg",
+          "mediaAlt": "Ethiopian Railway yellow locomotive on a freight line.",
+          "mediaPosition": "58% 50%"
+        },
+        {
+          "summary": "Shipment coordination across carriers, documents, and handoffs.",
+          "label": "Freight Forwarding",
+          "href": "/services/freight-forwarding",
+          "mediaSrc": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg",
+          "mediaAlt": "Ethiopian Railway locomotive loading containers under a gantry crane.",
+          "mediaPosition": "55% 46%"
+        },
+        {
+          "summary": "Clearance support that keeps cargo moving through border procedures.",
+          "label": "Customs Clearance",
+          "href": "/services/customs-clearance",
+          "mediaSrc": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg",
+          "mediaAlt": "Ethiopian Railway container loading scene at an intermodal terminal.",
+          "mediaPosition": "48% 46%"
+        },
+        {
+          "summary": "Storage and handling support for staging goods along the journey.",
+          "label": "Warehousing",
+          "href": "/services/warehousing",
+          "mediaSrc": "/media/images/rail/stock/freight-container-train-02.jpg",
+          "mediaAlt": "Generic container train on a rural freight line.",
+          "mediaPosition": "50% 52%"
+        },
+        {
+          "summary": "Inland staging and transfer support for cargo moving between modes.",
+          "label": "Inland Dry Port",
+          "href": "/services/inland-dry-port",
+          "mediaSrc": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
+          "mediaAlt": "Ethio-Djibouti Railway freight locomotive pulling a container train.",
+          "mediaPosition": "62% 50%"
+        },
+        {
+          "summary": "Charter coordination for specialized ocean freight movements.",
+          "label": "Voyage Charter",
+          "href": "/services/voyage-charter",
+          "mediaSrc": "/media/images/addis-ababa/addis-ababa-night-aerial-01.jpg",
+          "mediaAlt": "Night aerial view of Addis Ababa city lights and a roundabout.",
+          "mediaPosition": "50% 44%"
+        }
+      ]
+    },
+    "network": {
+      "eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR",
+      "headline": "A vital corridor to global trade.",
+      "description": "The Ethiopia–Djibouti corridor connects inland logistics with rail and port gateways, creating a critical link between Ethiopia and international trade routes.",
+      "viewNetwork": "Explore Our Network",
+      "schedulesRoutes": "Schedules & Routes",
+      "labels": {
+        "ethiopia": "Ethiopia",
+        "railCorridor": "Rail Corridor",
+        "djibouti": "Djibouti",
+        "portGateway": "Port Gateway",
+        "globalConnections": "Global Connections"
+      }
+    },
+    "why": {
+      "eyebrow": "WHY ETHIO RAIL LOGISTICS",
+      "headline": "Built around connected movement.",
+      "description": "Credibility comes from a logistics model built around connected stages, a clear corridor focus, and a practical understanding of how cargo moves from inland origins to international gateways.",
+      "pillars": [
+        {
+          "title": "Multimodal coordination",
+          "description": "Rail, road, port, warehousing, customs, and freight services are considered as connected stages of one logistics journey."
+        },
+        {
+          "title": "Corridor-focused logistics",
+          "description": "A logistics model shaped around Ethiopia’s connection to regional gateways and international trade routes."
+        },
+        {
+          "title": "One connected journey",
+          "description": "From inland movement to international gateways, each stage is approached as part of the same cargo journey."
+        }
+      ]
+    },
+    "digital": {
+      "eyebrow": "DIGITAL LOGISTICS",
+      "headline": "A clearer view of every journey.",
+      "description": "Our digital direction is focused on making logistics easier to understand, coordinate, and manage — bringing shipment visibility, documents, requests, and customer communication into a more connected experience.",
+      "secondarySentence": "The future EthioRail customer experience is being shaped around simpler access to the information and services that keep cargo moving.",
+      "capabilities": [
+        "Shipment visibility",
+        "Quote & booking requests",
+        "Shipping documents",
+        "Notifications & updates",
+        "Customer support",
+        "Account management"
+      ]
+    },
+    "insights": {
+      "eyebrow": "INSIGHTS",
+      "headline": "Updates from the journey ahead.",
+      "description": "Explore company updates, logistics perspectives, and resources from Ethio Rail Logistics.",
+      "links": [
+        {
+          "label": "News & Updates",
+          "href": "/insights/news"
+        },
+        {
+          "label": "Resources",
+          "href": "/insights/resources"
+        },
+        {
+          "label": "All Insights",
+          "href": "/insights"
+        }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "READY TO MOVE?",
+      "headline": "Let’s move your cargo.",
+      "description": "Tell us what you need to move and where it needs to go. Start with a quote or connect with our logistics team.",
+      "primaryCta": "Get a Quote",
+      "secondaryCta": "Contact Logistics"
+    }
+  },
+  "ServicesPage": {
+    "metadata": {"title": "Services | EthioRail Logistics", "description": "Connected rail, road, port, warehousing, customs, and freight services for cargo moving through the Ethiopia–Djibouti corridor."},
+    "hero": {"eyebrow": "OUR SERVICES", "title": "One connected way to move.", "description": "Explore the services that connect inland origins, the Ethiopia–Djibouti corridor, port gateways, and international trade routes.", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg", "imageAlt": "Ethiopian Railway locomotive loading containers under a gantry crane."},
+    "intro": {"eyebrow": "CONNECTED LOGISTICS", "title": "Every handoff is part of the journey.", "paragraphs": ["Ethio Rail Logistics brings the practical stages of cargo movement into one connected service view, from inland transport and rail to customs, warehousing, ports, and international freight.", "The right combination depends on the cargo, the origin, the destination, and the route. Our services are organized to make those connections easier to understand and coordinate."]},
+    "overview": {"eyebrow": "SERVICE INDEX", "title": "Eight ways to keep cargo moving.", "items": [
+      {"title": "Multimodal Transportation", "description": "Connected movement across road, rail, port, and inland handoffs.", "href": "/services/multimodal-transportation"},
+      {"title": "Ocean Freight / NVOCC", "description": "Ocean freight coordination connecting inland cargo with global sea routes.", "href": "/services/ocean-freight-nvocc"},
+      {"title": "Land & Rail Transportation", "description": "Rail-linked inland transport for cargo moving across the corridor.", "href": "/services/land-rail-transportation"},
+      {"title": "Freight Forwarding", "description": "Shipment coordination across carriers, documents, and handoffs.", "href": "/services/freight-forwarding"},
+      {"title": "Customs Clearance", "description": "Clearance support for cargo moving through border procedures.", "href": "/services/customs-clearance"},
+      {"title": "Warehousing", "description": "Storage and handling support for staging goods along the journey.", "href": "/services/warehousing"},
+      {"title": "Inland Dry Port", "description": "Inland staging and transfer support between transport modes.", "href": "/services/inland-dry-port"},
+      {"title": "Voyage Charter", "description": "Charter coordination for specialized ocean freight movements.", "href": "/services/voyage-charter"}
+    ]},
+    "corridor": {"eyebrow": "A CORRIDOR VIEW", "title": "Built around the route cargo actually travels.", "description": "The Ethiopia–Djibouti corridor links inland logistics with rail and port gateways. Our service model keeps that sequence in view, helping each stage sit within the wider movement rather than operating as an isolated handoff.", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "Illustrated Ethiopia–Djibouti corridor map showing Addis Ababa, Dire Dawa, Djibouti, and global markets."},
+    "related": {"eyebrow": "CONTINUE EXPLORING", "title": "See the network behind the services.", "links": [{"label": "Ethiopia–Djibouti Corridor", "href": "/network"}, {"label": "Schedules & Routes", "href": "/network/schedules-routes"}]},
+    "cta": {"eyebrow": "READY TO MOVE?", "title": "Let’s find the right route for your cargo.", "description": "Share what you need to move and where it needs to go. Start with a quote or connect with our logistics team.", "primary": "Get a Quote", "secondary": "Contact Logistics"}
+  },
+  "AboutPage": {
+    "overview": {
+      "metadata": {"title": "About | EthioRail Logistics", "description": "Learn how EthioRail connects transport modes, inland logistics, and corridor movement across Ethiopia and Djibouti."},
+      "hero": {"eyebrow": "ABOUT ETHIORAIL", "title": "Built around connected movement.", "description": "EthioRail Logistics brings a practical view of multimodal movement, connecting inland origins, road and rail stages, gateway access, and international routes.", "image": "/media/images/rail/ethiopia/ethiopian-railway-locomotive-01.jpg", "imageAlt": "Ethiopian Railway locomotive on the rail corridor."},
+      "intro": {"eyebrow": "WHO WE ARE", "title": "Logistics coordination with the route in view.", "paragraphs": ["EthioRail is a logistics organization focused on connecting the stages that move cargo across inland Ethiopia, the Ethiopia–Djibouti corridor, and onward trade routes.", "That means keeping road, rail, inland, port, ocean, and documentation conversations connected around the practical needs of each movement."]},
+      "media": {"eyebrow": "CORRIDOR CONTEXT", "title": "The business is shaped by the geography of movement.", "description": "The Ethiopia–Djibouti corridor provides the regional context for connecting inland logistics with gateway access. Explore the route itself in the Network section.", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "Ethiopia–Djibouti corridor map with Addis Ababa, Dire Dawa, Djibouti, and global markets.", "contain": true},
+      "feature": {"eyebrow": "HOW WE CONNECT THE WORK", "title": "A service view built around handoffs.", "items": [{"title": "Multimodal movement", "description": "Road, rail, inland, port, and ocean stages considered as one connected journey."}, {"title": "Practical coordination", "description": "Route, documentation, cargo, and handoff requirements kept in the same conversation."}, {"title": "Corridor awareness", "description": "A clear connection between inland origins, Djibouti gateway access, and international trade."}]},
+      "related": {"eyebrow": "EXPLORE ETHIORAIL", "title": "See the pages that explain the organization and its route.", "links": [{"label": "Vision & Mission", "href": "/about/vision-mission"}, {"label": "Leadership", "href": "/about/leadership"}, {"label": "Network Overview", "href": "/network"}, {"label": "Services", "href": "/services"}]},
+      "cta": {"eyebrow": "START A CONVERSATION", "title": "Need to move cargo with EthioRail?", "description": "Share the origin, destination, and movement requirements so the right logistics conversation can begin.", "primary": "Get a Quote", "secondary": "Contact Logistics"}
+    },
+    "leadership": {
+      "metadata": {"title": "Leadership | EthioRail Logistics", "description": "Leadership information for EthioRail Logistics will be published as verified organizational information becomes available."},
+      "hero": {"eyebrow": "LEADERSHIP", "title": "Accountability for connected logistics.", "description": "EthioRail’s leadership information will be presented here as verified organizational information becomes available.", "image": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg", "imageAlt": "Freight train carrying containers on the Ethiopia–Djibouti railway."},
+      "intro": {"eyebrow": "LEADERSHIP INFORMATION", "title": "A clear place for verified organizational information.", "paragraphs": ["Leadership details are important to understanding an organization and should be published accurately.", "This page is intentionally prepared for verified names, roles, and biographies rather than presenting invented people or placeholder profiles."]},
+      "feature": {"eyebrow": "CURRENT CONTENT STATE", "title": "Verified information will be published here.", "items": [{"title": "Leadership information pending verification", "description": "Leadership names, roles, and biographies will be added when approved organizational information is available."}]},
+      "related": {"eyebrow": "CONTINUE EXPLORING", "title": "Understand the wider EthioRail context.", "links": [{"label": "About Overview", "href": "/about"}, {"label": "Vision & Mission", "href": "/about/vision-mission"}, {"label": "Network Overview", "href": "/network"}, {"label": "Services", "href": "/services"}]},
+      "cta": {"eyebrow": "CONNECT THE CONVERSATION", "title": "Talk with the EthioRail team.", "description": "For current logistics questions, use the contact or quote path while organizational information continues to be verified.", "primary": "Get a Quote", "secondary": "Contact Logistics"}
+    },
+    "visionMission": {
+      "metadata": {"title": "Vision & Mission | EthioRail Logistics", "description": "Explore the working direction behind EthioRail’s connected logistics and corridor-focused approach."},
+      "hero": {"eyebrow": "VISION & MISSION", "title": "A direction for connected logistics.", "description": "This page describes the working direction of EthioRail’s logistics approach without presenting unverified prose as an official corporate statement.", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg", "imageAlt": "Rail freight containers being handled along the Ethiopian railway."},
+      "intro": {"eyebrow": "IMPORTANT CONTEXT", "title": "A structure ready for verified corporate wording.", "paragraphs": ["Official vision and mission statements were not available in the approved project content at this stage.", "The explanatory sections below provide a clear working structure. Verified corporate wording can be inserted later without changing the page architecture."]},
+      "feature": {"eyebrow": "WORKING DIRECTION", "title": "What guides the work today.", "items": [{"title": "Vision", "description": "Connect inland Ethiopian logistics with regional gateways and international trade routes through a clearer view of movement."}, {"title": "Mission", "description": "Coordinate practical road, rail, inland, port, ocean, and documentation stages around the cargo journey."}, {"title": "Strategic direction", "description": "Keep the corridor, its handoffs, and the needs of each shipment visible in the logistics conversation."}]},
+      "related": {"eyebrow": "SEE THE SYSTEM", "title": "Connect direction to the route and services.", "links": [{"label": "About Overview", "href": "/about"}, {"label": "Leadership", "href": "/about/leadership"}, {"label": "Ethiopia–Djibouti Corridor", "href": "/network/ethiopia-djibouti-corridor"}, {"label": "Services", "href": "/services"}]},
+      "cta": {"eyebrow": "MOVE WITH CLARITY", "title": "Start with the journey you need to coordinate.", "description": "Share the movement context and let the next logistics conversation take shape around the route.", "primary": "Get a Quote", "secondary": "Contact Logistics"}
+    }
+  },
+  "NetworkPage": {
+    "overview": {
+      "metadata": {"title": "Network | EthioRail Logistics", "description": "Explore the Ethiopia–Djibouti corridor, key locations, route architecture, and connected logistics pathways."},
+      "hero": {"eyebrow": "THE NETWORK", "title": "A corridor built for connected trade.", "description": "See how inland origins, rail-linked movement, gateway connections, and global routes fit together across the Ethiopia–Djibouti corridor.", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "Illustrated Ethiopia–Djibouti corridor map connecting Addis Ababa, Dire Dawa, Djibouti, and global markets."},
+      "intro": {"eyebrow": "NETWORK OVERVIEW", "title": "From inland Ethiopia to international gateways.", "paragraphs": ["The network is defined by the practical movement of cargo between inland origins, corridor connections, and port gateways.", "Explore the places and route stages that give this geography its logistics importance, without reducing the journey to a single handoff."]},
+      "media": {"eyebrow": "CORRIDOR FEATURE", "title": "Ethiopia–Djibouti is the central connection.", "description": "The corridor links inland Ethiopian movement with Djibouti gateway access and onward maritime trade routes. View the route in context, then explore its locations and operating stages.", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "Ethiopia–Djibouti corridor map with Addis Ababa, Dire Dawa, Djibouti, and global markets.", "contain": true},
+      "feature": {"eyebrow": "NETWORK COMPONENTS", "title": "The places and stages around the route.", "items": [{"title": "Addis Ababa", "description": "An inland origin point for cargo entering the corridor."}, {"title": "Dire Dawa", "description": "A geographic connection along the Ethiopia–Djibouti rail corridor."}, {"title": "Djibouti", "description": "A gateway connection between inland movement and maritime routes."}, {"title": "Road and rail", "description": "Connected inland modes that help cargo move toward the gateway."}, {"title": "Port access", "description": "The corridor’s connection to onward international trade."}, {"title": "Global markets", "description": "Destinations reached through coordinated logistics pathways."}]},
+      "related": {"eyebrow": "EXPLORE THE NETWORK", "title": "Go deeper into the corridor.", "links": [{"label": "Ethiopia–Djibouti Corridor", "href": "/network/ethiopia-djibouti-corridor"}, {"label": "Locations", "href": "/network/locations"}, {"label": "Schedules & Routes", "href": "/network/schedules-routes"}, {"label": "Multimodal Transportation", "href": "/services/multimodal-transportation"}]},
+      "cta": {"eyebrow": "PLAN THE ROUTE", "title": "Start with the geography of your cargo.", "description": "Share the origin, destination, and movement requirements. Our team can help frame the next logistics conversation.", "primary": "Get a Quote", "secondary": "Explore Services"}
+    },
+    "corridor": {
+      "metadata": {"title": "Ethiopia–Djibouti Corridor | EthioRail Logistics", "description": "Understand the inland, rail, road, and gateway connections that shape the Ethiopia–Djibouti corridor."},
+      "hero": {"eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR", "title": "A vital corridor to global trade.", "description": "The corridor connects inland Ethiopian logistics with rail, road, port, and onward international trade routes.", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "Detailed Ethiopia–Djibouti corridor map showing Addis Ababa, Dire Dawa, Djibouti, and global markets."},
+      "intro": {"eyebrow": "WHY THE CORRIDOR MATTERS", "title": "A connected route across inland and maritime geography.", "paragraphs": ["Cargo moving through this geography depends on coordinated stages rather than a single mode.", "The Ethiopia–Djibouti corridor provides the geographic context for connecting inland origins to a regional gateway and onward trade routes."]},
+      "media": {"eyebrow": "THE ROUTE IN CONTEXT", "title": "Inland origin, corridor connection, gateway access.", "description": "Addis Ababa and other inland origins connect through the corridor toward Dire Dawa and Djibouti. The map shows the relationship between the route and the wider region.", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "Ethiopia–Djibouti corridor map showing the route from Addis Ababa through Dire Dawa to Djibouti.", "contain": true},
+      "journey": {"eyebrow": "MOVEMENT STAGES", "title": "A route made of connected handoffs.", "steps": [{"title": "Inland origin", "description": "Cargo begins with a defined origin, requirement, and movement plan."}, {"title": "Road and rail connection", "description": "Inland transport stages connect cargo toward the corridor."}, {"title": "Dire Dawa connection", "description": "The route geography continues toward the Djibouti gateway."}, {"title": "Djibouti gateway", "description": "Gateway access connects inland movement with onward maritime routes."}]},
+      "feature": {"eyebrow": "CORRIDOR ANCHORS", "title": "The geography behind the movement.", "items": [{"title": "Addis Ababa", "description": "An inland origin context for cargo entering the network."}, {"title": "Dire Dawa", "description": "A key geographic point along the corridor connection."}, {"title": "Djibouti", "description": "The gateway context for onward maritime movement."}]},
+      "related": {"eyebrow": "CONNECTED CAPABILITIES", "title": "Services that support the corridor.", "links": [{"label": "Multimodal Transportation", "href": "/services/multimodal-transportation"}, {"label": "Land & Rail Transportation", "href": "/services/land-rail-transportation"}, {"label": "Inland Dry Port", "href": "/services/inland-dry-port"}, {"label": "Ocean Freight / NVOCC", "href": "/services/ocean-freight-nvocc"}]},
+      "cta": {"eyebrow": "MOVE THROUGH THE CORRIDOR", "title": "Build the next step around your route.", "description": "Tell us where the cargo starts, where it needs to go, and which stages need coordination.", "primary": "Get a Quote", "secondary": "View Network"}
+    },
+    "locations": {
+      "metadata": {"title": "Locations | EthioRail Logistics", "description": "Explore the verified geographic anchors of the EthioRail network: Addis Ababa, Dire Dawa, and Djibouti."},
+      "hero": {"eyebrow": "NETWORK LOCATIONS", "title": "The geography that keeps the corridor moving.", "description": "Explore the verified location anchors that help explain how inland cargo connects with the Ethiopia–Djibouti gateway.", "image": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg", "imageAlt": "Freight train carrying containers on the Ethiopia–Djibouti railway."},
+      "intro": {"eyebrow": "GEOGRAPHIC CONTEXT", "title": "Three anchors, one connected route.", "paragraphs": ["Network geography is useful when it clarifies the relationship between origin, corridor, and gateway.", "These locations are presented as route anchors, not as an invented directory of facilities or branches."]},
+      "media": {"eyebrow": "MAP CONTEXT", "title": "See the anchors in relation to the route.", "description": "The corridor map places Addis Ababa, Dire Dawa, and Djibouti within the wider regional geography.", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "Map showing Addis Ababa, Dire Dawa, and Djibouti along the Ethiopia–Djibouti corridor.", "contain": true},
+      "feature": {"eyebrow": "LOCATION ANCHORS", "title": "Known points along the corridor.", "items": [{"title": "Addis Ababa", "description": "Inland origin context and a starting point for corridor planning."}, {"title": "Dire Dawa", "description": "A connection point along the Ethiopia–Djibouti rail geography."}, {"title": "Djibouti", "description": "Gateway context for port access and onward trade routes."}]},
+      "related": {"eyebrow": "CONTINUE EXPLORING", "title": "Connect locations to the wider network.", "links": [{"label": "Network Overview", "href": "/network"}, {"label": "Ethiopia–Djibouti Corridor", "href": "/network/ethiopia-djibouti-corridor"}, {"label": "Schedules & Routes", "href": "/network/schedules-routes"}, {"label": "Freight Forwarding", "href": "/services/freight-forwarding"}]},
+      "cta": {"eyebrow": "UNDERSTAND THE ROUTE", "title": "Let the geography guide the conversation.", "description": "Share your origin and destination so the relevant network stages can be discussed clearly.", "primary": "Get a Quote", "secondary": "View Services"}
+    },
+    "schedulesRoutes": {
+      "metadata": {"title": "Schedules & Routes | EthioRail Logistics", "description": "Understand the route architecture and planning context for cargo moving through the Ethiopia–Djibouti corridor."},
+      "hero": {"eyebrow": "SCHEDULES & ROUTES", "title": "Plan around the route, not a guess.", "description": "Use the network geography to frame route planning while verified operational schedule information is prepared for publication.", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg", "imageAlt": "Ethiopian railway freight operations with containers and rail equipment."},
+      "intro": {"eyebrow": "ROUTE PLANNING", "title": "Clear route context comes before a timetable.", "paragraphs": ["Road, rail, inland, gateway, and onward movement stages can connect in different ways depending on the cargo and destination.", "Detailed operational schedules will be published when verified information is available. Until then, this page explains the route architecture without fabricating departures, frequencies, or tracking data."]},
+      "journey": {"eyebrow": "ROUTE ARCHITECTURE", "title": "The stages to clarify when planning.", "steps": [{"title": "Origin", "description": "Define where the cargo begins and what the first handoff requires."}, {"title": "Inland connection", "description": "Consider the road, rail, or inland staging relationship."}, {"title": "Gateway", "description": "Frame the connection toward Djibouti and onward trade routes."}, {"title": "Destination", "description": "Align the route conversation with the final cargo requirement."}]},
+      "feature": {"eyebrow": "CURRENT INFORMATION STATE", "title": "What this page does and does not provide.", "items": [{"title": "Route context", "description": "An overview of how the corridor stages relate to one another."}, {"title": "Verified information", "description": "Operational schedules will be added only when confirmed."}, {"title": "Planning conversation", "description": "A starting point for discussing cargo, origin, destination, and handoffs."}]},
+      "related": {"eyebrow": "PLAN THE NEXT VIEW", "title": "Use the route context with these pages.", "links": [{"label": "Network Overview", "href": "/network"}, {"label": "Ethiopia–Djibouti Corridor", "href": "/network/ethiopia-djibouti-corridor"}, {"label": "Locations", "href": "/network/locations"}, {"label": "Multimodal Transportation", "href": "/services/multimodal-transportation"}]},
+      "cta": {"eyebrow": "DISCUSS YOUR ROUTE", "title": "Start with the information you already have.", "description": "Share the cargo, origin, destination, and timing context. We can identify the right questions for the route conversation.", "primary": "Get a Quote", "secondary": "Contact Logistics"}
+    }
+  },
+  "OceanFreightService": {
+    "metadata": {
+      "title": "Ocean Freight / NVOCC | Ethio Rail Logistics",
+      "description": "የውቅያኖስ ጭነትን ከወደብ መግቢያ እና ከዓለም አቀፍ መንገዶች ጋር ያስተባብሩ።"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "services": "Services",
+      "current": "Ocean Freight / NVOCC"
+    },
+    "hero": {
+      "eyebrow": "OCEAN FREIGHT / NVOCC",
+      "title": "Connect inland cargo with ocean trade routes.",
+      "description": "የውቅያኖስ ጭነትን ከወደብ መግቢያ እና ከዓለም አቀፍ መንገዶች ጋር ያስተባብሩ።",
+      "image": "/media/images/port/container-terminal-crane-01.jpg",
+      "imageAlt": "Ocean Freight / NVOCC logistics image"
+    },
+    "overview": {
+      "eyebrow": "SERVICE OVERVIEW",
+      "title": "Connect inland cargo with ocean trade routes.",
+      "paragraphs": [
+        "የውቅያኖስ ጭነትን ከወደብ መግቢያ እና ከዓለም አቀፍ መንገዶች ጋር ያስተባብሩ።",
+        "Keep the route, information, and handoffs clear around the cargo."
+      ]
+    },
+    "journey": {
+      "eyebrow": "THE JOURNEY",
+      "title": "Connect each stage of the journey.",
+      "steps": [
+        {
+          "title": "Origin",
+          "description": "Coordinate the origin stage around the shipment."
+        },
+        {
+          "title": "Route Planning",
+          "description": "Coordinate the route planning stage around the shipment."
+        },
+        {
+          "title": "Gateway Handoff",
+          "description": "Coordinate the gateway handoff stage around the shipment."
+        },
+        {
+          "title": "Onward Movement",
+          "description": "Coordinate the onward movement stage around the shipment."
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "CONNECTED MODES",
+      "title": "The stages around the route.",
+      "items": [
+        {
+          "title": "Route Planning",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Cargo Staging",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Gateway Connection",
+          "description": "Keep the next handoff clear and organized."
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR",
+      "title": "Connect inland movement with the regional gateway.",
+      "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+    },
+    "value": {
+      "eyebrow": "WHAT WE COORDINATE",
+      "title": "Practical clarity at every handoff.",
+      "items": [
+        {
+          "title": "Route visibility",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Coordination support",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Forward readiness",
+          "description": "Make the next cargo stage easier to understand."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "EXPLORE MORE",
+      "title": "Explore the services around your route.",
+      "links": [
+        {
+          "label": "Land & Rail Transportation",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "Freight Forwarding",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "Customs Clearance",
+          "href": "/services/customs-clearance"
+        },
+        {
+          "label": "Warehousing",
+          "href": "/services/warehousing"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "PLAN THE NEXT STEP",
+      "title": "Talk through the route.",
+      "description": "Share the cargo and the next movement you are planning.",
+      "primary": "Get a Quote",
+      "secondary": "Explore Services"
+    }
+  },
+  "LandRailService": {
+    "metadata": {
+      "title": "Land & Rail Transportation | Ethio Rail Logistics",
+      "description": "የመንገድ እና የባቡር እንቅስቃሴን በአንድ የውስጥ እቅድ ያገናኙ።"
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "services": "Services",
+      "current": "Land & Rail Transportation"
+    },
+    "hero": {
+      "eyebrow": "LAND & RAIL TRANSPORTATION",
+      "title": "Road and rail, planned as one inland connection.",
+      "description": "የመንገድ እና የባቡር እንቅስቃሴን በአንድ የውስጥ እቅድ ያገናኙ።",
+      "image": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
+      "imageAlt": "Land & Rail Transportation logistics image"
+    },
+    "overview": {
+      "eyebrow": "SERVICE OVERVIEW",
+      "title": "Road and rail, planned as one inland connection.",
+      "paragraphs": [
+        "የመንገድ እና የባቡር እንቅስቃሴን በአንድ የውስጥ እቅድ ያገናኙ።",
+        "Keep the route, information, and handoffs clear around the cargo."
+      ]
+    },
+    "journey": {
+      "eyebrow": "THE JOURNEY",
+      "title": "Connect each stage of the journey.",
+      "steps": [
+        {
+          "title": "Origin",
+          "description": "Coordinate the origin stage around the shipment."
+        },
+        {
+          "title": "Route Planning",
+          "description": "Coordinate the route planning stage around the shipment."
+        },
+        {
+          "title": "Gateway Handoff",
+          "description": "Coordinate the gateway handoff stage around the shipment."
+        },
+        {
+          "title": "Onward Movement",
+          "description": "Coordinate the onward movement stage around the shipment."
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "CONNECTED MODES",
+      "title": "The stages around the route.",
+      "items": [
+        {
+          "title": "Route Planning",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Cargo Staging",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Gateway Connection",
+          "description": "Keep the next handoff clear and organized."
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR",
+      "title": "Connect inland movement with the regional gateway.",
+      "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+    },
+    "value": {
+      "eyebrow": "WHAT WE COORDINATE",
+      "title": "Practical clarity at every handoff.",
+      "items": [
+        {
+          "title": "Route visibility",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Coordination support",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Forward readiness",
+          "description": "Make the next cargo stage easier to understand."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "EXPLORE MORE",
+      "title": "Explore the services around your route.",
+      "links": [
+        {
+          "label": "Ocean Freight / NVOCC",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "Freight Forwarding",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "Customs Clearance",
+          "href": "/services/customs-clearance"
+        },
+        {
+          "label": "Warehousing",
+          "href": "/services/warehousing"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "PLAN THE NEXT STEP",
+      "title": "Talk through the route.",
+      "description": "Share the cargo and the next movement you are planning.",
+      "primary": "Get a Quote",
+      "secondary": "Explore Services"
+    }
+  },
+  "FreightForwardingService": {
+    "metadata": {
+      "title": "Freight Forwarding | Ethio Rail Logistics",
+      "description": "Bring route planning, documents, and handoffs into one clear view."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "services": "Services",
+      "current": "Freight Forwarding"
+    },
+    "hero": {
+      "eyebrow": "FREIGHT FORWARDING",
+      "title": "Coordinate the movement behind the shipment.",
+      "description": "Bring route planning, documents, and handoffs into one clear view.",
+      "image": "/media/images/rail/stock/freight-container-train-01.jpg",
+      "imageAlt": "Freight Forwarding logistics image"
+    },
+    "overview": {
+      "eyebrow": "SERVICE OVERVIEW",
+      "title": "Coordinate the movement behind the shipment.",
+      "paragraphs": [
+        "Bring route planning, documents, and handoffs into one clear view.",
+        "Keep the route, information, and handoffs clear around the cargo."
+      ]
+    },
+    "journey": {
+      "eyebrow": "THE JOURNEY",
+      "title": "Connect each stage of the journey.",
+      "steps": [
+        {
+          "title": "Origin",
+          "description": "Coordinate the origin stage around the shipment."
+        },
+        {
+          "title": "Route Planning",
+          "description": "Coordinate the route planning stage around the shipment."
+        },
+        {
+          "title": "Gateway Handoff",
+          "description": "Coordinate the gateway handoff stage around the shipment."
+        },
+        {
+          "title": "Onward Movement",
+          "description": "Coordinate the onward movement stage around the shipment."
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "CONNECTED MODES",
+      "title": "The stages around the route.",
+      "items": [
+        {
+          "title": "Route Planning",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Cargo Staging",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Gateway Connection",
+          "description": "Keep the next handoff clear and organized."
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR",
+      "title": "Connect inland movement with the regional gateway.",
+      "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+    },
+    "value": {
+      "eyebrow": "WHAT WE COORDINATE",
+      "title": "Practical clarity at every handoff.",
+      "items": [
+        {
+          "title": "Route visibility",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Coordination support",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Forward readiness",
+          "description": "Make the next cargo stage easier to understand."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "EXPLORE MORE",
+      "title": "Explore the services around your route.",
+      "links": [
+        {
+          "label": "Ocean Freight / NVOCC",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "Land & Rail Transportation",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "Customs Clearance",
+          "href": "/services/customs-clearance"
+        },
+        {
+          "label": "Warehousing",
+          "href": "/services/warehousing"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "PLAN THE NEXT STEP",
+      "title": "Talk through the route.",
+      "description": "Share the cargo and the next movement you are planning.",
+      "primary": "Get a Quote",
+      "secondary": "Explore Services"
+    }
+  },
+  "CustomsClearanceService": {
+    "metadata": {
+      "title": "Customs Clearance | Ethio Rail Logistics",
+      "description": "Organize shipment information and gateway handoffs for the onward route."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "services": "Services",
+      "current": "Customs Clearance"
+    },
+    "hero": {
+      "eyebrow": "CUSTOMS CLEARANCE",
+      "title": "Bring clarity to the customs stage.",
+      "description": "Organize shipment information and gateway handoffs for the onward route.",
+      "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg",
+      "imageAlt": "Customs Clearance logistics image"
+    },
+    "overview": {
+      "eyebrow": "SERVICE OVERVIEW",
+      "title": "Bring clarity to the customs stage.",
+      "paragraphs": [
+        "Organize shipment information and gateway handoffs for the onward route.",
+        "Keep the route, information, and handoffs clear around the cargo."
+      ]
+    },
+    "journey": {
+      "eyebrow": "THE JOURNEY",
+      "title": "Connect each stage of the journey.",
+      "steps": [
+        {
+          "title": "Origin",
+          "description": "Coordinate the origin stage around the shipment."
+        },
+        {
+          "title": "Route Planning",
+          "description": "Coordinate the route planning stage around the shipment."
+        },
+        {
+          "title": "Gateway Handoff",
+          "description": "Coordinate the gateway handoff stage around the shipment."
+        },
+        {
+          "title": "Onward Movement",
+          "description": "Coordinate the onward movement stage around the shipment."
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "CONNECTED MODES",
+      "title": "The stages around the route.",
+      "items": [
+        {
+          "title": "Route Planning",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Cargo Staging",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Gateway Connection",
+          "description": "Keep the next handoff clear and organized."
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR",
+      "title": "Connect inland movement with the regional gateway.",
+      "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+    },
+    "value": {
+      "eyebrow": "WHAT WE COORDINATE",
+      "title": "Practical clarity at every handoff.",
+      "items": [
+        {
+          "title": "Route visibility",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Coordination support",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Forward readiness",
+          "description": "Make the next cargo stage easier to understand."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "EXPLORE MORE",
+      "title": "Explore the services around your route.",
+      "links": [
+        {
+          "label": "Ocean Freight / NVOCC",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "Land & Rail Transportation",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "Freight Forwarding",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "Warehousing",
+          "href": "/services/warehousing"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "PLAN THE NEXT STEP",
+      "title": "Talk through the route.",
+      "description": "Share the cargo and the next movement you are planning.",
+      "primary": "Get a Quote",
+      "secondary": "Explore Services"
+    }
+  },
+  "WarehousingService": {
+    "metadata": {
+      "title": "Warehousing | Ethio Rail Logistics",
+      "description": "Coordinate cargo staging and handling around the next movement."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "services": "Services",
+      "current": "Warehousing"
+    },
+    "hero": {
+      "eyebrow": "WAREHOUSING",
+      "title": "Create a practical pause between transport stages.",
+      "description": "Coordinate cargo staging and handling around the next movement.",
+      "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg",
+      "imageAlt": "Warehousing logistics image"
+    },
+    "overview": {
+      "eyebrow": "SERVICE OVERVIEW",
+      "title": "Create a practical pause between transport stages.",
+      "paragraphs": [
+        "Coordinate cargo staging and handling around the next movement.",
+        "Keep the route, information, and handoffs clear around the cargo."
+      ]
+    },
+    "journey": {
+      "eyebrow": "THE JOURNEY",
+      "title": "Connect each stage of the journey.",
+      "steps": [
+        {
+          "title": "Origin",
+          "description": "Coordinate the origin stage around the shipment."
+        },
+        {
+          "title": "Route Planning",
+          "description": "Coordinate the route planning stage around the shipment."
+        },
+        {
+          "title": "Gateway Handoff",
+          "description": "Coordinate the gateway handoff stage around the shipment."
+        },
+        {
+          "title": "Onward Movement",
+          "description": "Coordinate the onward movement stage around the shipment."
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "CONNECTED MODES",
+      "title": "The stages around the route.",
+      "items": [
+        {
+          "title": "Route Planning",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Cargo Staging",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Gateway Connection",
+          "description": "Keep the next handoff clear and organized."
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR",
+      "title": "Connect inland movement with the regional gateway.",
+      "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+    },
+    "value": {
+      "eyebrow": "WHAT WE COORDINATE",
+      "title": "Practical clarity at every handoff.",
+      "items": [
+        {
+          "title": "Route visibility",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Coordination support",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Forward readiness",
+          "description": "Make the next cargo stage easier to understand."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "EXPLORE MORE",
+      "title": "Explore the services around your route.",
+      "links": [
+        {
+          "label": "Ocean Freight / NVOCC",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "Land & Rail Transportation",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "Freight Forwarding",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "Customs Clearance",
+          "href": "/services/customs-clearance"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "PLAN THE NEXT STEP",
+      "title": "Talk through the route.",
+      "description": "Share the cargo and the next movement you are planning.",
+      "primary": "Get a Quote",
+      "secondary": "Explore Services"
+    }
+  },
+  "InlandDryPortService": {
+    "metadata": {
+      "title": "Inland Dry Port | Ethio Rail Logistics",
+      "description": "Connect inland staging, road and rail handoffs, and port movement."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "services": "Services",
+      "current": "Inland Dry Port"
+    },
+    "hero": {
+      "eyebrow": "INLAND DRY PORT",
+      "title": "An inland gateway for connected cargo movement.",
+      "description": "Connect inland staging, road and rail handoffs, and port movement.",
+      "image": "/media/images/rail/ethiopia/ethiopian-railway-locomotive-01.jpg",
+      "imageAlt": "Inland Dry Port logistics image"
+    },
+    "overview": {
+      "eyebrow": "SERVICE OVERVIEW",
+      "title": "An inland gateway for connected cargo movement.",
+      "paragraphs": [
+        "Connect inland staging, road and rail handoffs, and port movement.",
+        "Keep the route, information, and handoffs clear around the cargo."
+      ]
+    },
+    "journey": {
+      "eyebrow": "THE JOURNEY",
+      "title": "Connect each stage of the journey.",
+      "steps": [
+        {
+          "title": "Origin",
+          "description": "Coordinate the origin stage around the shipment."
+        },
+        {
+          "title": "Route Planning",
+          "description": "Coordinate the route planning stage around the shipment."
+        },
+        {
+          "title": "Gateway Handoff",
+          "description": "Coordinate the gateway handoff stage around the shipment."
+        },
+        {
+          "title": "Onward Movement",
+          "description": "Coordinate the onward movement stage around the shipment."
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "CONNECTED MODES",
+      "title": "The stages around the route.",
+      "items": [
+        {
+          "title": "Route Planning",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Cargo Staging",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Gateway Connection",
+          "description": "Keep the next handoff clear and organized."
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR",
+      "title": "Connect inland movement with the regional gateway.",
+      "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+    },
+    "value": {
+      "eyebrow": "WHAT WE COORDINATE",
+      "title": "Practical clarity at every handoff.",
+      "items": [
+        {
+          "title": "Route visibility",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Coordination support",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Forward readiness",
+          "description": "Make the next cargo stage easier to understand."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "EXPLORE MORE",
+      "title": "Explore the services around your route.",
+      "links": [
+        {
+          "label": "Ocean Freight / NVOCC",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "Land & Rail Transportation",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "Freight Forwarding",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "Customs Clearance",
+          "href": "/services/customs-clearance"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "PLAN THE NEXT STEP",
+      "title": "Talk through the route.",
+      "description": "Share the cargo and the next movement you are planning.",
+      "primary": "Get a Quote",
+      "secondary": "Explore Services"
+    }
+  },
+  "VoyageCharterService": {
+    "metadata": {
+      "title": "Voyage Charter | Ethio Rail Logistics",
+      "description": "Coordinate the port, cargo, and route context around a voyage requirement."
+    },
+    "breadcrumbs": {
+      "home": "Home",
+      "services": "Services",
+      "current": "Voyage Charter"
+    },
+    "hero": {
+      "eyebrow": "VOYAGE CHARTER",
+      "title": "Plan ocean movement around the cargo and route.",
+      "description": "Coordinate the port, cargo, and route context around a voyage requirement.",
+      "image": "/media/images/port/container-terminal-crane-01.jpg",
+      "imageAlt": "Voyage Charter logistics image"
+    },
+    "overview": {
+      "eyebrow": "SERVICE OVERVIEW",
+      "title": "Plan ocean movement around the cargo and route.",
+      "paragraphs": [
+        "Coordinate the port, cargo, and route context around a voyage requirement.",
+        "Keep the route, information, and handoffs clear around the cargo."
+      ]
+    },
+    "journey": {
+      "eyebrow": "THE JOURNEY",
+      "title": "Connect each stage of the journey.",
+      "steps": [
+        {
+          "title": "Origin",
+          "description": "Coordinate the origin stage around the shipment."
+        },
+        {
+          "title": "Route Planning",
+          "description": "Coordinate the route planning stage around the shipment."
+        },
+        {
+          "title": "Gateway Handoff",
+          "description": "Coordinate the gateway handoff stage around the shipment."
+        },
+        {
+          "title": "Onward Movement",
+          "description": "Coordinate the onward movement stage around the shipment."
+        }
+      ]
+    },
+    "modes": {
+      "eyebrow": "CONNECTED MODES",
+      "title": "The stages around the route.",
+      "items": [
+        {
+          "title": "Route Planning",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Cargo Staging",
+          "description": "Keep the next handoff clear and organized."
+        },
+        {
+          "title": "Gateway Connection",
+          "description": "Keep the next handoff clear and organized."
+        }
+      ]
+    },
+    "corridor": {
+      "eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR",
+      "title": "Connect inland movement with the regional gateway.",
+      "description": "The Ethiopia–Djibouti corridor connects inland logistics with port access.",
+      "image": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
+    },
+    "value": {
+      "eyebrow": "WHAT WE COORDINATE",
+      "title": "Practical clarity at every handoff.",
+      "items": [
+        {
+          "title": "Route visibility",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Coordination support",
+          "description": "Make the next cargo stage easier to understand."
+        },
+        {
+          "title": "Forward readiness",
+          "description": "Make the next cargo stage easier to understand."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "EXPLORE MORE",
+      "title": "Explore the services around your route.",
+      "links": [
+        {
+          "label": "Ocean Freight / NVOCC",
+          "href": "/services/ocean-freight-nvocc"
+        },
+        {
+          "label": "Land & Rail Transportation",
+          "href": "/services/land-rail-transportation"
+        },
+        {
+          "label": "Freight Forwarding",
+          "href": "/services/freight-forwarding"
+        },
+        {
+          "label": "Customs Clearance",
+          "href": "/services/customs-clearance"
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "PLAN THE NEXT STEP",
+      "title": "Talk through the route.",
+      "description": "Share the cargo and the next movement you are planning.",
+      "primary": "Get a Quote",
+      "secondary": "Explore Services"
+    }
+  },
+  "MultimodalService": {
+    "metadata": {"title": "Multimodal Transportation | Ethio Rail Logistics", "description": "Connected road, rail, inland, port, and ocean logistics stages for coordinated cargo movement."},
+    "breadcrumbs": {"home": "Home", "services": "Services", "current": "Multimodal Transportation"},
+    "hero": {"eyebrow": "MULTIMODAL TRANSPORTATION", "title": "One journey. Multiple modes. One coordinated movement.", "description": "EthioRail coordinates movement across road, rail, inland logistics points, ports, and ocean connections as part of a connected cargo journey.", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg", "imageAlt": "Ethiopian Railway freight train and container handling equipment at an intermodal terminal."},
+    "overview": {"eyebrow": "THE SERVICE", "title": "Different modes, understood as one journey.", "paragraphs": ["Multimodal transportation brings more than one transport mode into a coordinated cargo movement. Road connections, rail corridors, inland logistics points, port gateways, and ocean routes can each have a place in the same journey.", "The service is about making those transitions easier to understand and coordinate, so the movement is planned around the route and the cargo rather than treated as a series of disconnected handoffs."]},
+    "journey": {"eyebrow": "HOW THE JOURNEY WORKS", "title": "A connected sequence from origin to destination.", "steps": [
+      {"title": "Origin / Cargo Collection", "description": "Cargo begins at its origin and is prepared for the first connection."},
+      {"title": "Road Connection", "description": "Inland road movement connects the origin with the next logistics point."},
+      {"title": "Inland Logistics / Dry Port", "description": "Cargo can be staged, handled, or transferred as the journey changes mode."},
+      {"title": "Rail Corridor", "description": "Rail provides a corridor connection for the next part of the movement."},
+      {"title": "Port Connection", "description": "The inland journey connects toward a port and its gateway operations."},
+      {"title": "Ocean / International Connection", "description": "Cargo can continue through ocean and international trade connections."},
+      {"title": "Destination", "description": "The journey concludes with the final connection to its destination."}
+    ]},
+    "modes": {"eyebrow": "CONNECTED MODES", "title": "Each mode has a role in the movement.", "items": [
+      {"title": "Road", "description": "First-mile and inland movement between origins, facilities, and transport connections."},
+      {"title": "Rail", "description": "Corridor movement linking inland cargo flows with regional gateways."},
+      {"title": "Inland Logistics", "description": "Cargo handling, staging, and dry-port connections between modes."},
+      {"title": "Port", "description": "Gateway connection where inland movement meets maritime logistics."},
+      {"title": "Ocean", "description": "International onward movement toward wider trade routes and destinations."}
+    ]},
+    "corridor": {"eyebrow": "ETHIOPIA–DJIBOUTI CORRIDOR", "title": "Built around the Ethiopia–Djibouti corridor.", "description": "The Ethiopia–Djibouti corridor connects inland Ethiopian cargo flows toward Djibouti and international maritime gateways. The route gives multimodal planning a clear geographic context without reducing every shipment to the same sequence.", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "Ethiopia–Djibouti corridor map showing Addis Ababa, Dire Dawa, Djibouti, and global markets."},
+    "value": {"eyebrow": "WHY COORDINATION MATTERS", "title": "Clarity across the handoffs.", "items": [
+      {"title": "Coordinated handoffs", "description": "Different transport modes can be planned as connected stages of one cargo journey."},
+      {"title": "Corridor connectivity", "description": "Road, rail, inland, and port movements can be understood within the route they serve."},
+      {"title": "Operational visibility", "description": "A clearer sequence helps show where each transport stage fits into the overall movement."},
+      {"title": "Flexible routing", "description": "Different modes can support different cargo requirements and route conditions."}
+    ]},
+    "related": {"eyebrow": "RELATED SERVICES", "title": "Extend the journey with connected services.", "links": [
+      {"label": "Land & Rail Transportation", "href": "/services/land-rail-transportation"},
+      {"label": "Freight Forwarding", "href": "/services/freight-forwarding"},
+      {"label": "Customs Clearance", "href": "/services/customs-clearance"},
+      {"label": "Inland Dry Port", "href": "/services/inland-dry-port"}
+    ]},
+    "cta": {"eyebrow": "READY TO PLAN THE JOURNEY?", "title": "Need help planning a multimodal cargo journey?", "description": "Share what you need to move and where it needs to go. Start with a quote or connect with our logistics team.", "primary": "Get a Quote", "secondary": "Contact Logistics"}
+  },  "Navigation": {
+    "mainNavigation": "Primary navigation",
+    "services": "Services",
+    "network": "Network",
+    "about": "About",
+    "aboutOverview": "About Overview",
+    "insights": "Insights",
+    "careers": "Careers",
+    "contact": "Contact",
+    "getQuote": "Get a Quote",
+    "viewAllServices": "View All Services",
+    "viewAllInsights": "View All Insights",
+    "multimodalTransportation": "Multimodal Transportation",
+    "oceanFreightNvocc": "Ocean Freight / NVOCC",
+    "landRailTransportation": "Land Rail Transportation",
+    "freightForwarding": "Freight Forwarding",
+    "customsClearance": "Customs Clearance",
+    "warehousing": "Warehousing",
+    "inlandDryPort": "Inland Dry Port",
+    "voyageCharter": "Voyage Charter",
+    "company": "Company",
+    "leadership": "Leadership",
+    "visionMission": "Vision & Mission",
+    "news": "News & Updates",
+    "resources": "Resources",
+    "networkOverview": "Network Overview",
+    "corridor": "Ethiopia-Djibouti Corridor",
+    "locations": "Locations",
+    "schedulesRoutes": "Schedules & Routes",
+    "support": "Support",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "Footer": {
+    "copyright": "© 2026 Ethio Rail Logistics",
+    "support": "Support",
+    "legal": "Legal"
+  }
+}

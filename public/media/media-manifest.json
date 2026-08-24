@@ -1,0 +1,253 @@
+{
+  "assets": [
+    {
+      "originalFilename": "v8m_4A7zVun0QfDiRQ9501yjzZbtNrzJ7p7xTtMZ5O3rGqgDGxxvciHSQU_ScHnYY3smmcVH7h_r5MWsT9obdCGPoHTf08Ah5FiGgmIAOu7DY3U-m9ZSfUsBuYxWEHpwx-GWukr2NNaO4t93vJg8z92ByN05q0i2E9Fg6efUk85QbOM7jWwx3tit9elpBTRI.jpeg",
+      "filename": "ethio-djibouti-freight-container-train-01.jpg",
+      "path": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
+      "type": "image",
+      "category": "rail",
+      "origin": "ethiopia",
+      "description": "Ethio-Djibouti Railway freight locomotive pulling a container train",
+      "intendedUse": [
+        "homepage rail section",
+        "rail service page"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "4VUsiCQPjuy8PYqde9hS69OG0nHTWFBPjmY-XcjHzFiCebJiN7C1KmRQWOhR98FOoz52y_YXNp6v_fvUxDhT0uCmaQ73E0In5yQj_xRbPaEA_vQOW8-phAK-zJLkoeNL27E4EBVm7EaE-cunnNMY4byBE_2x8WO_GWHvHw3Epbwild-QKw24zbd41QzTI-D7.jpeg",
+      "filename": "container-terminal-crane-01.jpg",
+      "path": "/media/images/port/container-terminal-crane-01.jpg",
+      "type": "image",
+      "category": "port",
+      "origin": "unknown",
+      "description": "Container terminal crane lifting a shipping container beside rail wagons",
+      "intendedUse": [
+        "port logistics section",
+        "intermodal cargo section"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "train.jpeg",
+      "filename": "ethiopian-railway-container-loading-01.jpg",
+      "path": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg",
+      "type": "image",
+      "category": "rail",
+      "origin": "ethiopia",
+      "description": "Ethiopian Railway locomotive loading containers under a gantry crane",
+      "intendedUse": [
+        "freight operations section",
+        "rail service page"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "Ethiopian_Railway_train.jpg",
+      "filename": "ethiopian-railway-locomotive-01.jpg",
+      "path": "/media/images/rail/ethiopia/ethiopian-railway-locomotive-01.jpg",
+      "type": "image",
+      "category": "rail",
+      "origin": "ethiopia",
+      "description": "Ethiopian Railway yellow locomotive on a freight line",
+      "intendedUse": [
+        "homepage hero section",
+        "about us rail story"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "ChatGPT Image Aug 18, 2026, 10_48_37 AM.png",
+      "filename": "ethio-djibouti-corridor-map.png",
+      "path": "/media/images/maps/ethio-djibouti-corridor-map.png",
+      "type": "image",
+      "category": "maps",
+      "origin": "unknown",
+      "description": "Approved Ethiopia–Djibouti corridor map showing Addis Ababa, Dire Dawa, Djibouti, and global markets",
+      "intendedUse": [
+        "homepage network corridor section",
+        "network overview section"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "jV4e1qf7zO5nnK7cQPt1ktnLW-HDsxUPoagko9Fc88sMCAd4ZOj738cBC1XMj24A0x1AR9T_svG3m4-lEfjE5mFm_0cY0ihsE0KHaPYxqOqSxgvUncTgjI38ahojYB8XMt6td6_tkUP1ME8Q-IzuZtemVfRJQ9ZOteAlK8PBDOTBCa2i3Nd5pkl5iXisb8Ji.jpeg",
+      "filename": "ethiopian-railway-container-loading-02.jpg",
+      "path": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg",
+      "type": "image",
+      "category": "rail",
+      "origin": "ethiopia",
+      "description": "Ethiopian Railway container loading scene at an intermodal terminal",
+      "intendedUse": [
+        "freight operations section",
+        "terminal logistics section"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "Rail photo #1 — BEST GENERAL RAIL IMAGE.jpg",
+      "filename": "freight-container-train-01.jpg",
+      "path": "/media/images/rail/stock/freight-container-train-01.jpg",
+      "type": "image",
+      "category": "rail",
+      "origin": "stock",
+      "description": "Generic freight container train in a non-Ethiopian rail setting",
+      "intendedUse": [
+        "generic rail background",
+        "supporting rail imagery"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "gift-habeshaw-r8-j717XJWc-unsplash.jpg",
+      "filename": "addis-ababa-night-aerial-01.jpg",
+      "path": "/media/images/addis-ababa/addis-ababa-night-aerial-01.jpg",
+      "type": "image",
+      "category": "addis-ababa",
+      "origin": "unknown",
+      "description": "Night aerial view of Addis Ababa city lights and roundabout",
+      "intendedUse": [
+        "addis ababa city section",
+        "location or contact page background"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "Rail photo #2 — containers + railway.jpg",
+      "filename": "freight-container-train-02.jpg",
+      "path": "/media/images/rail/stock/freight-container-train-02.jpg",
+      "type": "image",
+      "category": "rail",
+      "origin": "stock",
+      "description": "Generic container train on a rural freight line",
+      "intendedUse": [
+        "generic rail background",
+        "supporting freight logistics section"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "Hero #1 — MAIN HERO — Freight train through dry landscape(1).mp4",
+      "filename": "freight-train-dry-landscape-01.mp4",
+      "path": "/media/video/hero/freight-train-dry-landscape-01.mp4",
+      "type": "video",
+      "category": "hero",
+      "origin": "stock",
+      "priority": "primary",
+      "description": "Wide freight-train footage moving through a dry, arid landscape with large open sky and strong horizontal movement.",
+      "intendedUse": [
+        "Primary homepage hero candidate",
+        "Homepage rail/logistics introduction"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "Hero #2 — Rail + container terminal(1).mp4",
+      "filename": "freight-train-container-terminal-01.mp4",
+      "path": "/media/video/rail/freight-train-container-terminal-01.mp4",
+      "type": "video",
+      "category": "rail",
+      "origin": "stock",
+      "priority": "medium",
+      "description": "Freight locomotive operating through an electrified container and rail terminal.",
+      "intendedUse": [
+        "Rail transportation service page",
+        "Supporting homepage rail section",
+        "Logistics operations background"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "Wide warehouse interior(1).mp4",
+      "filename": "warehouse-operations-wide-01.mp4",
+      "path": "/media/video/warehouse/warehouse-operations-wide-01.mp4",
+      "type": "video",
+      "category": "warehouse",
+      "origin": "stock",
+      "priority": "high-for-service",
+      "description": "Wide interior view of an operating warehouse with storage racks, packaged goods, forklifts, and open warehouse floor.",
+      "intendedUse": [
+        "Warehousing service page",
+        "Homepage warehousing service preview",
+        "Logistics capabilities section"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "ChatGPT_Image_Aug_21__2026__09_12_31_AM-removebg-preview.png",
+      "filename": "ethiorail-logo.png",
+      "path": "/media/brand/ethiorail-logo.png",
+      "type": "image",
+      "category": "brand",
+      "origin": "company",
+      "description": "Official transparent Ethio Rail Logistics logo supplied by the client",
+      "intendedUse": [
+        "website header",
+        "mobile navigation",
+        "footer"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "ChatGPT_Image_Aug_21__2026__09_12_31_AM-removebg-preview.png",
+      "filename": "ethiorail-logo-display.png",
+      "path": "/media/brand/ethiorail-logo-display.png",
+      "type": "image",
+      "category": "brand",
+      "origin": "company",
+      "description": "Display-trimmed derivative of the supplied transparent Ethio Rail Logistics logo with a white wordmark and cropped visible artwork bounds",
+      "intendedUse": [
+        "website header",
+        "mobile navigation",
+        "footer"
+      ],
+      "source": "/media/brand/ethiorail-logo.png",
+      "license": null
+    },
+    {
+      "originalFilename": "ethiorail-logo.png",
+      "filename": "ethiorail-logo-dark-surface-display.png",
+      "path": "/media/brand/ethiorail-logo-dark-surface-display.png",
+      "type": "image",
+      "category": "brand",
+      "origin": "company",
+      "description": "Cropped display derivative of the supplied Ethio Rail Logistics logo for dark header surfaces",
+      "intendedUse": [
+        "dark header",
+        "mobile dark header",
+        "dark shell brand lockup"
+      ],
+      "source": "/media/brand/ethiorail-logo.png",
+      "license": null
+    },
+    {
+      "originalFilename": "Ethip-Rail-logo-transpartent.png",
+      "filename": "ethiorail-logo-light-surface-display.png",
+      "path": "/media/brand/ethiorail-logo-light-surface-display.png",
+      "type": "image",
+      "category": "brand",
+      "origin": "company",
+      "description": "Official transparent Ethio Rail Logistics logo with a dark wordmark for light header surfaces",
+      "intendedUse": [
+        "light header",
+        "mobile light header",
+        "light shell brand lockup"
+      ],
+      "source": null,
+      "license": null
+    }
+  ]
+}
