@@ -293,6 +293,22 @@
       ],
       "source": null,
       "license": null
+    },
+    {
+      "originalFilename": "ethiopia-djibouti-corridor-rail-01.mp4",
+      "filename": "ethiopia-djibouti-corridor-rail-01.mp4",
+      "path": "/media/video/rail/ethiopia-djibouti-corridor-rail-01.mp4",
+      "type": "video",
+      "category": "rail",
+      "origin": "stock",
+      "priority": "high-for-network",
+      "description": "Cinematic freight-train footage supporting the Ethiopia–Djibouti corridor story.",
+      "intendedUse": [
+        "Ethiopia–Djibouti corridor page",
+        "rail journey media"
+      ],
+      "source": null,
+      "license": null
     }
   ]
 }
