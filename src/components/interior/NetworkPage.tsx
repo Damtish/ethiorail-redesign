@@ -28,6 +28,7 @@ export function NetworkPage({content, breadcrumbs}: {content: NetworkPageContent
         imageAlt={content.hero.imageAlt}
         video={content.hero.video}
         videoPoster={content.hero.videoPoster}
+        fullBleedVideo
         theme="dark"
         breadcrumbs={breadcrumbs}
       />
