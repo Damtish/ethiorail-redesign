@@ -442,9 +442,7 @@
       "title": "Road and rail, planned as one inland connection.",
       "description": "የመንገድ እና የባቡር እንቅስቃሴን በአንድ የውስጥ እቅድ ያገናኙ።",
       "image": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
-      "imageAlt": "Land & Rail Transportation logistics image",
-      "video": "/media/video/rail/freight-train-container-terminal-01.mp4",
-      "videoPoster": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg"
+      "imageAlt": "Land & Rail Transportation logistics image"
     },
     "overview": {
       "eyebrow": "SERVICE OVERVIEW",
@@ -1158,7 +1156,7 @@
   "MultimodalService": {
     "metadata": {"title": "Multimodal Transportation | Ethio Rail Logistics", "description": "Connected road, rail, inland, port, and ocean logistics stages for coordinated cargo movement."},
     "breadcrumbs": {"home": "Home", "services": "Services", "current": "Multimodal Transportation"},
-    "hero": {"eyebrow": "MULTIMODAL TRANSPORTATION", "title": "One journey. Multiple modes. One coordinated movement.", "description": "EthioRail coordinates movement across road, rail, inland logistics points, ports, and ocean connections as part of a connected cargo journey.", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg", "imageAlt": "Ethiopian Railway freight train and container handling equipment at an intermodal terminal.", "video": "/media/video/rail/multimodal-transportation-01.mp4", "videoPoster": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg"},
+    "hero": {"eyebrow": "MULTIMODAL TRANSPORTATION", "title": "One journey. Multiple modes. One coordinated movement.", "description": "EthioRail coordinates movement across road, rail, inland logistics points, ports, and ocean connections as part of a connected cargo journey.", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg", "imageAlt": "Ethiopian Railway freight train and container handling equipment at an intermodal terminal.", "video": "/media/video/rail/freight-train-container-terminal-01.mp4", "videoPoster": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg"},
     "overview": {"eyebrow": "THE SERVICE", "title": "Different modes, understood as one journey.", "paragraphs": ["Multimodal transportation brings more than one transport mode into a coordinated cargo movement. Road connections, rail corridors, inland logistics points, port gateways, and ocean routes can each have a place in the same journey.", "The service is about making those transitions easier to understand and coordinate, so the movement is planned around the route and the cargo rather than treated as a series of disconnected handoffs."]},
     "journey": {"eyebrow": "HOW THE JOURNEY WORKS", "title": "A connected sequence from origin to destination.", "steps": [
       {"title": "Origin / Cargo Collection", "description": "Cargo begins at its origin and is prepared for the first connection."},

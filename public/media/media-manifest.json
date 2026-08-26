@@ -161,24 +161,8 @@
       "priority": "medium",
       "description": "Freight locomotive operating through an electrified container and rail terminal.",
       "intendedUse": [
-        "Rail transportation service page",
-        "Supporting homepage rail section",
+        "Multimodal Transportation service page",
         "Logistics operations background"
-      ],
-      "source": null,
-      "license": null
-    },
-    {
-      "originalFilename": "multimodal-transportation-01.mp4",
-      "filename": "multimodal-transportation-01.mp4",
-      "path": "/media/video/rail/multimodal-transportation-01.mp4",
-      "type": "video",
-      "category": "rail",
-      "origin": "stock",
-      "priority": "high-for-service",
-      "description": "Multimodal freight movement featuring rail and container logistics operations.",
-      "intendedUse": [
-        "Multimodal Transportation service page hero"
       ],
       "source": null,
       "license": null
