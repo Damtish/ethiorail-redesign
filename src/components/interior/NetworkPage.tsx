@@ -8,11 +8,10 @@ export type NetworkLink = {label: string; href: string};
 
 export type NetworkPageContent = {
   metadata: {title: string; description: string};
-  hero: {eyebrow: string; title: string; description: string; image: string; imageAlt: string};
+  hero: {eyebrow: string; title: string; description: string; image: string; imageAlt: string; video?: string; videoPoster?: string};
   intro: {eyebrow: string; title: string; paragraphs: string[]};
   feature?: {eyebrow: string; title: string; items: NetworkItem[]};
   media?: {eyebrow: string; title: string; description: string; image: string; imageAlt: string; contain?: boolean};
-  cinematicMedia?: {eyebrow: string; title: string; description: string; image: string; imageAlt: string; video: string; videoPoster?: string};
   journey?: {eyebrow: string; title: string; steps: NetworkItem[]};
   related: {eyebrow: string; title: string; links: NetworkLink[]};
   cta: {eyebrow: string; title: string; description: string; primary: string; secondary: string};
@@ -27,23 +26,14 @@ export function NetworkPage({content, breadcrumbs}: {content: NetworkPageContent
         description={content.hero.description}
         image={content.hero.image}
         imageAlt={content.hero.imageAlt}
+        video={content.hero.video}
+        videoPoster={content.hero.videoPoster}
         theme="dark"
         breadcrumbs={breadcrumbs}
       />
       <EditorialSplit eyebrow={content.intro.eyebrow} title={content.intro.title}>
         {content.intro.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
       </EditorialSplit>
-      {content.cinematicMedia ? (
-        <MediaSplit
-          eyebrow={content.cinematicMedia.eyebrow}
-          title={content.cinematicMedia.title}
-          description={content.cinematicMedia.description}
-          image={content.cinematicMedia.image}
-          imageAlt={content.cinematicMedia.imageAlt}
-          video={content.cinematicMedia.video}
-          videoPoster={content.cinematicMedia.videoPoster}
-        />
-      ) : null}
       {content.media ? (
         <MediaSplit
           eyebrow={content.media.eyebrow}
