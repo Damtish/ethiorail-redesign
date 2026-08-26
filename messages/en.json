@@ -442,7 +442,9 @@
       "title": "Road and rail, planned as one inland connection.",
       "description": "የመንገድ እና የባቡር እንቅስቃሴን በአንድ የውስጥ እቅድ ያገናኙ።",
       "image": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
-      "imageAlt": "Land & Rail Transportation logistics image"
+      "imageAlt": "Land & Rail Transportation logistics image",
+      "video": "/media/video/road/land-rail-transportation-01.mp4",
+      "videoPoster": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg"
     },
     "overview": {
       "eyebrow": "SERVICE OVERVIEW",
