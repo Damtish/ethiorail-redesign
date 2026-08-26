@@ -169,6 +169,21 @@
       "license": null
     },
     {
+      "originalFilename": "multimodal-transportation-01.mp4",
+      "filename": "multimodal-transportation-01.mp4",
+      "path": "/media/video/rail/multimodal-transportation-01.mp4",
+      "type": "video",
+      "category": "rail",
+      "origin": "stock",
+      "priority": "high-for-service",
+      "description": "Multimodal freight movement featuring rail and container logistics operations.",
+      "intendedUse": [
+        "Multimodal Transportation service page hero"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
       "originalFilename": "Wide warehouse interior(1).mp4",
       "filename": "warehouse-operations-wide-01.mp4",
       "path": "/media/video/warehouse/warehouse-operations-wide-01.mp4",

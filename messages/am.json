@@ -1158,7 +1158,7 @@
   "MultimodalService": {
     "metadata": {"title": "ባለ ብዙ ሞድ መጓጓዣ | ኢትዮ ሬይል ሎጂስቲክስ", "description": "ለተቀናጀ የጭነት እንቅስቃሴ የመንገድ፣ የባቡር፣ የውስጥ፣ የወደብ እና የባሕር ሎጂስቲክስ ደረጃዎች።"},
     "breadcrumbs": {"home": "መነሻ", "services": "አገልግሎቶች", "current": "ባለ ብዙ ሞድ መጓጓዣ"},
-    "hero": {"eyebrow": "ባለ ብዙ ሞድ መጓጓዣ", "title": "አንድ ጉዞ። ብዙ ሞዶች። አንድ የተቀናጀ እንቅስቃሴ።", "description": "ኢትዮ ሬይል በመንገድ፣ በባቡር፣ በውስጥ የሎጂስቲክስ ነጥቦች፣ በወደቦች እና በባሕር ግንኙነቶች መካከል ያለውን እንቅስቃሴ እንደ አንድ የተገናኘ የጭነት ጉዞ ያስተባብራል።", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg", "imageAlt": "የኢትዮጵያ ባቡር የጭነት ባቡር እና የኮንቴነር መጫኛ መሳሪያዎች በኢንተርሞዳል ተርሚናል።"},
+    "hero": {"eyebrow": "ባለ ብዙ ሞድ መጓጓዣ", "title": "አንድ ጉዞ። ብዙ ሞዶች። አንድ የተቀናጀ እንቅስቃሴ።", "description": "ኢትዮ ሬይል በመንገድ፣ በባቡር፣ በውስጥ የሎጂስቲክስ ነጥቦች፣ በወደቦች እና በባሕር ግንኙነቶች መካከል ያለውን እንቅስቃሴ እንደ አንድ የተገናኘ የጭነት ጉዞ ያስተባብራል።", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg", "imageAlt": "የኢትዮጵያ ባቡር የጭነት ባቡር እና የኮንቴነር መጫኛ መሳሪያዎች በኢንተርሞዳል ተርሚናል።", "video": "/media/video/rail/multimodal-transportation-01.mp4", "videoPoster": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg"},
     "overview": {"eyebrow": "አገልግሎቱ", "title": "የተለያዩ ሞዶችን እንደ አንድ ጉዞ መረዳት።", "paragraphs": ["ባለ ብዙ ሞድ መጓጓዣ ከአንድ በላይ የመጓጓዣ ሞድ በተቀናጀ የጭነት እንቅስቃሴ ውስጥ ያገናኛል። የመንገድ ግንኙነቶች፣ የባቡር ኮሪደሮች፣ የውስጥ ሎጂስቲክስ ነጥቦች፣ የወደብ መግቢያዎች እና የባሕር መስመሮች በአንድ ጉዞ ውስጥ የራሳቸው ቦታ ሊኖራቸው ይችላል።", "አገልግሎቱ እነዚህን ሽግግሮች ለመረዳት እና ለማስተባበር ቀላል ማድረግ ላይ ያተኩራል።"]},
     "journey": {"eyebrow": "ጉዞው እንዴት ይሰራል", "title": "ከመነሻ እስከ መድረሻ የተገናኘ ቅደም ተከተል።", "steps": [
       {"title": "መነሻ / የጭነት ስብስብ", "description": "ጭነት ከመነሻው ይጀምራል እና ለመጀመሪያ ግንኙነት ይዘጋጃል።"},
