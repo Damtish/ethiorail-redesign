@@ -196,7 +196,23 @@
       ],
       "source": null,
       "license": null
-    },    {
+    },
+    {
+      "originalFilename": "network-logistics-overview-01.mp4",
+      "filename": "network-logistics-overview-01.mp4",
+      "path": "/media/video/network/network-logistics-overview-01.mp4",
+      "type": "video",
+      "category": "network",
+      "origin": "stock",
+      "priority": "high-for-network",
+      "description": "Network logistics overview footage for connected corridor and gateway movement.",
+      "intendedUse": [
+        "Network overview page hero"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
       "originalFilename": "Wide warehouse interior(1).mp4",
       "filename": "warehouse-operations-wide-01.mp4",
       "path": "/media/video/warehouse/warehouse-operations-wide-01.mp4",

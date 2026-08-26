@@ -269,7 +269,9 @@
   "NetworkPage": {
     "overview": {
       "metadata": {"title": "ኔትወርክ | ኢትዮ ሬይል ሎጂስቲክስ", "description": "የኢትዮ–ጅቡቲ ኮሪደርን፣ ዋና ቦታዎችን እና የተገናኙ የሎጂስቲክስ መንገዶችን ይመልከቱ።"},
-      "hero": {"eyebrow": "ኔትወርኩ", "title": "ለተገናኘ ንግድ የተገነባ ኮሪደር።", "description": "የውስጥ መነሻዎች፣ ባቡር፣ መግቢያዎች እና ዓለም አቀፍ መንገዶች በኢትዮ–ጅቡቲ ኮሪደር እንዴት እንደሚገናኙ ይመልከቱ።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "አዲስ አበባን፣ ድሬዳዋን፣ ጅቡቲን እና ዓለም አቀፍ ገበያዎችን የሚያገናኝ ካርታ።"},
+      "hero": {"eyebrow": "ኔትወርኩ", "title": "ለተገናኘ ንግድ የተገነባ ኮሪደር።", "description": "የውስጥ መነሻዎች፣ ባቡር፣ መግቢያዎች እና ዓለም አቀፍ መንገዶች በኢትዮ–ጅቡቲ ኮሪደር እንዴት እንደሚገናኙ ይመልከቱ።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "አዲስ አበባን፣ ድሬዳዋን፣ ጅቡቲን እና ዓለም አቀፍ ገበያዎችን የሚያገናኝ ካርታ።",
+          "video": "/media/video/network/network-logistics-overview-01.mp4",
+          "videoPoster": "/media/images/maps/ethio-djibouti-corridor-map.png"},
       "intro": {"eyebrow": "የኔትወርክ አጠቃላይ እይታ", "title": "ከውስጥ ኢትዮጵያ እስከ ዓለም አቀፍ መግቢያዎች።", "paragraphs": ["ኔትወርኩ በውስጥ መነሻዎች፣ በኮሪደር ግንኙነቶች እና በወደብ መግቢያዎች መካከል በሚካሄድ ተግባራዊ የጭነት እንቅስቃሴ ይገለጻል።", "እነዚህን ቦታዎች እና የመንገድ ደረጃዎች በመመልከት የዚህን ጂኦግራፊ የሎጂስቲክስ ጠቀሜታ ይረዱ።"]},
       "media": {"eyebrow": "የኮሪደር ባህሪ", "title": "ኢትዮ–ጅቡቲ ዋናው ግንኙነት ነው።", "description": "ኮሪደሩ የውስጥ የኢትዮጵያ እንቅስቃሴን ከጅቡቲ መግቢያ እና ከዓለም የባሕር መንገዶች ጋር ያገናኛል።", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "የኢትዮ–ጅቡቲ ኮሪደር ካርታ።", "contain": true},
       "feature": {"eyebrow": "የኔትወርኩ አካላት", "title": "በመንገዱ ዙሪያ ያሉ ቦታዎች እና ደረጃዎች።", "items": [{"title": "አዲስ አበባ", "description": "ጭነት ወደ ኮሪደሩ የሚገባበት የውስጥ መነሻ።"}, {"title": "ድሬዳዋ", "description": "በኢትዮ–ጅቡቲ የባቡር ኮሪደር ላይ ያለ ጂኦግራፊ ግንኙነት።"}, {"title": "ጅቡቲ", "description": "የውስጥ እንቅስቃሴን ከባሕር መንገዶች ጋር የሚያገናኝ መግቢያ።"}]},
