@@ -1050,7 +1050,9 @@
       "title": "Plan ocean movement around the cargo and route.",
       "description": "Coordinate the port, cargo, and route context around a voyage requirement.",
       "image": "/media/images/port/container-terminal-crane-01.jpg",
-      "imageAlt": "Voyage Charter logistics image"
+      "imageAlt": "Voyage Charter logistics image",
+      "video": "/media/video/port/voyage-charter-01.mp4",
+      "videoPoster": "/media/images/port/container-terminal-crane-01.jpg"
     },
     "overview": {
       "eyebrow": "SERVICE OVERVIEW",

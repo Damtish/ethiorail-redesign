@@ -183,6 +183,20 @@
       "license": null
     },
     {
+      "originalFilename": "voyage-charter-01.mp4",
+      "filename": "voyage-charter-01.mp4",
+      "path": "/media/video/port/voyage-charter-01.mp4",
+      "type": "video",
+      "category": "port",
+      "origin": "stock",
+      "priority": "high-for-service",
+      "description": "Ocean and port operations footage for Voyage Charter service presentation.",
+      "intendedUse": [
+        "Voyage Charter service page hero"
+      ],
+      "source": null,
+      "license": null
+    },    {
       "originalFilename": "Wide warehouse interior(1).mp4",
       "filename": "warehouse-operations-wide-01.mp4",
       "path": "/media/video/warehouse/warehouse-operations-wide-01.mp4",
