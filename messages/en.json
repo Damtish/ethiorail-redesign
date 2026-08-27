@@ -310,7 +310,7 @@
   "OceanFreightService": {
     "metadata": {
       "title": "Ocean Freight / NVOCC | Ethio Rail Logistics",
-      "description": "የውቅያኖስ ጭነትን ከወደብ መግቢያ እና ከዓለም አቀፍ መንገዶች ጋር ያስተባብሩ።"
+      "description": "Coordinate ocean freight around port gateways and international trade routes."
     },
     "breadcrumbs": {
       "home": "Home",
@@ -320,7 +320,7 @@
     "hero": {
       "eyebrow": "OCEAN FREIGHT / NVOCC",
       "title": "Connect inland cargo with ocean trade routes.",
-      "description": "የውቅያኖስ ጭነትን ከወደብ መግቢያ እና ከዓለም አቀፍ መንገዶች ጋር ያስተባብሩ።",
+      "description": "Coordinate ocean freight around port gateways and international trade routes.",
       "image": "/media/images/port/container-terminal-crane-01.jpg",
       "imageAlt": "Ocean Freight / NVOCC logistics image",
       "video": "/media/video/port/ocean-port-operations-01.mp4",
@@ -330,7 +330,7 @@
       "eyebrow": "SERVICE OVERVIEW",
       "title": "Connect inland cargo with ocean trade routes.",
       "paragraphs": [
-        "የውቅያኖስ ጭነትን ከወደብ መግቢያ እና ከዓለም አቀፍ መንገዶች ጋር ያስተባብሩ።",
+        "Coordinate ocean freight around port gateways and international trade routes.",
         "Keep the route, information, and handoffs clear around the cargo."
       ]
     },
@@ -432,7 +432,7 @@
   "LandRailService": {
     "metadata": {
       "title": "Land & Rail Transportation | Ethio Rail Logistics",
-      "description": "የመንገድ እና የባቡር እንቅስቃሴን በአንድ የውስጥ እቅድ ያገናኙ።"
+      "description": "Connect road and rail movement through one inland plan."
     },
     "breadcrumbs": {
       "home": "Home",
@@ -442,7 +442,7 @@
     "hero": {
       "eyebrow": "LAND & RAIL TRANSPORTATION",
       "title": "Road and rail, planned as one inland connection.",
-      "description": "የመንገድ እና የባቡር እንቅስቃሴን በአንድ የውስጥ እቅድ ያገናኙ።",
+      "description": "Connect road and rail movement through one inland plan.",
       "image": "/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg",
       "imageAlt": "Land & Rail Transportation logistics image",
       "video": "/media/video/road/land-rail-transportation-01.mp4",
@@ -452,7 +452,7 @@
       "eyebrow": "SERVICE OVERVIEW",
       "title": "Road and rail, planned as one inland connection.",
       "paragraphs": [
-        "የመንገድ እና የባቡር እንቅስቃሴን በአንድ የውስጥ እቅድ ያገናኙ።",
+        "Connect road and rail movement through one inland plan.",
         "Keep the route, information, and handoffs clear around the cargo."
       ]
     },
