@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import {Container} from "@/components/ui/Container";
 import {Eyebrow} from "@/components/ui/Eyebrow";
+import {EditorialVideo} from "@/components/shared/EditorialVideo";
 import {cn} from "@/lib/cn";
 import {BreadcrumbItem, Breadcrumbs} from "./Breadcrumbs";
 
@@ -43,28 +44,15 @@ export function InteriorHero({
       )}
     >
       {fullBleedVideo && video ? (
-        <>
-          <video
-            src={video}
-            poster={poster}
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            aria-hidden="true"
-            data-editorial-video
-            className="absolute inset-0 !h-full !w-full object-cover object-[68%_50%] motion-reduce:hidden"
-          />
-          <Image
-            src={poster}
-            alt={imageAlt}
-            fill
-            priority
-            sizes="100vw"
-            className="hidden object-cover object-[68%_50%] motion-reduce:block"
-          />
-        </>
+        <EditorialVideo
+          src={video}
+          poster={poster}
+          className="absolute inset-0 !h-full !w-full object-cover object-[68%_50%]"
+          posterClassName="absolute inset-0 object-cover object-[68%_50%]"
+          sizes="100vw"
+          priority
+          playLabel="Play video"
+        />
       ) : null}
       {dark ? (
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_78%_18%,rgba(88,224,242,0.13),transparent_32%),linear-gradient(115deg,rgba(10,25,35,0.98)_0%,rgba(10,25,35,0.84)_48%,rgba(10,25,35,0.48)_100%)]" />
@@ -97,27 +85,15 @@ export function InteriorHero({
           </div>
           {!fullBleedVideo || !video ? <div className="relative min-h-[16rem] overflow-hidden rounded-[0.5rem] border border-white/10 shadow-[0_24px_70px_rgba(10,25,35,0.2)] sm:min-h-[20rem] lg:mt-7 lg:min-h-[clamp(24.5rem,31vw,27rem)]">
             {video ? (
-              <>
-                <video
-                  src={video}
-                  poster={poster}
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="metadata"
-                  aria-hidden="true"
-                  data-editorial-video
-                  className="absolute inset-0 !h-full !w-full object-cover object-[68%_50%] motion-reduce:hidden"
-                />
-                <Image
-                  src={poster}
-                  alt={imageAlt}
-                  fill
-                  sizes="(min-width: 1024px) 52vw, 100vw"
-                  className="hidden object-cover object-[68%_50%] motion-reduce:block"
-                />
-              </>
+              <EditorialVideo
+                src={video}
+                poster={poster}
+                className="absolute inset-0 !h-full !w-full object-cover object-[68%_50%]"
+                posterClassName="absolute inset-0 object-cover object-[68%_50%]"
+                sizes="(min-width: 1024px) 52vw, 100vw"
+                priority
+                playLabel="Play video"
+              />
             ) : (
               <Image
                 src={image}

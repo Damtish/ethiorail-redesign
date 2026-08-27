@@ -3,6 +3,7 @@ import type {ReactNode} from "react";
 
 import {Container} from "@/components/ui/Container";
 import {Eyebrow} from "@/components/ui/Eyebrow";
+import {EditorialVideo} from "@/components/shared/EditorialVideo";
 import {SectionHeading} from "@/components/ui/SectionHeading";
 import {Link} from "@/i18n/navigation";
 import {cn} from "@/lib/cn";
@@ -60,27 +61,14 @@ export function MediaSplit({eyebrow, title, description, image, imageAlt, video,
         <div className={cn("grid items-center gap-10 lg:grid-cols-2 lg:gap-16", reversed && "lg:[&>div:first-child]:order-2")}>
           <div className={cn("relative min-h-[18rem] overflow-hidden rounded-[0.5rem] border border-steel-mist/80 sm:min-h-[24rem]", contain && "bg-deep-slate")}>
             {hasVideo ? (
-              <>
-                <video
-                  src={video}
-                  poster={videoPoster ?? image}
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="metadata"
-                  aria-hidden="true"
-                  data-editorial-video
-                  className="absolute inset-0 h-full w-full object-cover motion-reduce:hidden"
-                />
-                <Image
-                  src={videoPoster ?? image}
-                  alt={imageAlt}
-                  fill
-                  sizes="(min-width: 1024px) 50vw, 100vw"
-                  className="hidden object-cover motion-reduce:block"
-                />
-              </>
+              <EditorialVideo
+                src={video!}
+                poster={videoPoster ?? image}
+                className="absolute inset-0 !h-full !w-full object-cover"
+                posterClassName="absolute inset-0 object-cover"
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                playLabel="Play video"
+              />
             ) : (
               <Image src={image} alt={imageAlt} fill sizes="(min-width: 1024px) 50vw, 100vw" className={cn(contain ? "object-contain p-3 sm:p-5" : "object-cover")} />
             )}

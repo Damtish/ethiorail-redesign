@@ -1,6 +1,7 @@
 import {cn} from "@/lib/cn";
 import {Container} from "@/components/ui/Container";
 import {LinkButton} from "@/components/ui/LinkButton";
+import {EditorialVideo} from "@/components/shared/EditorialVideo";
 
 type HeroContent = {
   eyebrow: string;
@@ -29,20 +30,15 @@ export function Hero({locale, content}: HeroProps) {
         aria-hidden="true"
         className="pointer-events-none absolute inset-0"
       >
-        <video
+        <EditorialVideo
+          src="/media/video/hero/freight-train-dry-landscape-01.mp4"
+          poster="/media/images/rail/ethiopia/ethio-djibouti-freight-container-train-01.jpg"
           className="absolute inset-0 !h-full !w-full object-cover object-[62%_52%] sm:object-[60%_52%] lg:object-[58%_50%]"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          aria-hidden="true"
-        >
-          <source
-            src="/media/video/hero/freight-train-dry-landscape-01.mp4"
-            type="video/mp4"
-          />
-        </video>
+          posterClassName="absolute inset-0 object-cover object-[62%_52%] sm:object-[60%_52%] lg:object-[58%_50%]"
+          sizes="100vw"
+          priority
+          playLabel={isAmharic ? "ቪዲዮ አጫውት" : "Play video"}
+        />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(10,25,35,0.84)_0%,rgba(10,25,35,0.72)_16%,rgba(10,25,35,0.34)_44%,rgba(10,25,35,0.18)_70%,rgba(10,25,35,0.28)_100%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_28%,rgba(88,224,242,0.16)_0%,rgba(88,224,242,0)_30%),radial-gradient(circle_at_78%_16%,rgba(0,149,7,0.14)_0%,rgba(0,149,7,0)_26%),linear-gradient(180deg,rgba(10,25,35,0.18)_0%,rgba(10,25,35,0.38)_100%)]" />
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(10,25,35,0.14)_0%,rgba(10,25,35,0.02)_26%,rgba(10,25,35,0.08)_76%,rgba(10,25,35,0.3)_100%)]" />
