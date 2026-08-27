@@ -12,7 +12,7 @@ type PageProps = {params: Promise<{locale: string}>};
 type MultimodalMessages = {
   metadata: {title: string; description: string};
   breadcrumbs: {home: string; services: string; current: string};
-  hero: {eyebrow: string; title: string; description: string; image: string; imageAlt: string};
+  hero: {eyebrow: string; title: string; description: string; image: string; imageAlt: string; video?: string; videoPoster?: string};
   overview: {eyebrow: string; title: string; paragraphs: string[]};
   journey: {eyebrow: string; title: string; steps: Array<{title: string; description: string}>};
   modes: {eyebrow: string; title: string; items: Array<{title: string; description: string}>};
@@ -49,6 +49,9 @@ export default async function MultimodalTransportationPage({params}: PageProps) 
         description={messages.hero.description}
         image={messages.hero.image}
         imageAlt={messages.hero.imageAlt}
+        video={messages.hero.video}
+        videoPoster={messages.hero.videoPoster}
+        fullBleedVideo={Boolean(messages.hero.video)}
         theme="dark"
         breadcrumbs={[
           {label: messages.breadcrumbs.home, href: "/"},

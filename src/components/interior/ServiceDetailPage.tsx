@@ -28,6 +28,7 @@ export function ServiceDetailPage({messages}: ServiceDetailPageProps) {
         imageAlt={messages.hero.imageAlt}
         video={messages.hero.video}
         videoPoster={messages.hero.videoPoster}
+        fullBleedVideo={Boolean(messages.hero.video)}
         theme="dark"
         breadcrumbs={[
           {label: messages.breadcrumbs.home, href: "/"},
