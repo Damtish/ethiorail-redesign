@@ -6,6 +6,7 @@ import {useLocale, useTranslations} from "next-intl";
 import {Link} from "@/i18n/navigation";
 import {
   desktopDirectLinks,
+  desktopHomeLink,
   desktopPrimaryGroups,
   isActivePath,
   type NavigationGroup,
@@ -245,6 +246,22 @@ export function DesktopNavigation({pathname, theme, onMenuOpenChange}: DesktopNa
   return (
     <nav aria-label={t("mainNavigation")} className="flex items-center justify-center">
       <ul className="flex items-center gap-1 lg:gap-1.5">
+        <li>
+          <Link
+            href={desktopHomeLink.href}
+            className={cn(
+              "rounded-full px-2.5 py-1.5 text-sm transition-colors duration-200",
+              isAmharic ? "font-medium tracking-normal" : "font-semibold",
+              isActivePath(pathname, desktopHomeLink.href)
+                ? "text-ethiorail-green"
+                : isDarkTheme
+                  ? "text-text-on-dark hover:text-ethiorail-bright-green"
+                  : "text-rail-ink hover:text-deep-slate",
+            )}
+          >
+            {t(desktopHomeLink.labelKey)}
+          </Link>
+        </li>
         {translatedGroups.map((group) => {
           const isOpen = openGroup === group.key;
 

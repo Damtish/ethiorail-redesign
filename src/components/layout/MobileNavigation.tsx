@@ -7,6 +7,7 @@ import {useLocale, useTranslations} from "next-intl";
 import {Link} from "@/i18n/navigation";
 import {
   desktopDirectLinks,
+  desktopHomeLink,
   desktopPrimaryGroups,
   type NavigationGroup,
   isActivePath,
@@ -123,6 +124,17 @@ export function MobileNavigation({pathname, theme, onMenuOpenChange}: MobileNavi
             <div className="flex-1 overflow-y-auto">
               <div className="mx-auto grid w-full max-w-[90rem] gap-6 px-[clamp(1.125rem,2.5vw,3rem)] py-8 sm:py-10">
                 <nav aria-label={t("mobileNavigation")} className="grid">
+                  <Link
+                    href={desktopHomeLink.href}
+                    className={cn(
+                      "border-b border-white/12 py-4 text-base text-text-on-dark transition-colors duration-200 hover:text-ethiorail-bright-green",
+                      isAmharic ? "font-medium tracking-normal" : "font-semibold",
+                      isActivePath(pathname, desktopHomeLink.href) && "text-ethiorail-bright-green",
+                    )}
+                    onClick={() => setOpen(false)}
+                  >
+                    {nav(desktopHomeLink.labelKey)}
+                  </Link>
                   {desktopPrimaryGroups.map((group: NavigationGroup) => {
                     const isExpanded = expanded[group.key];
 

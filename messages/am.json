@@ -14,6 +14,7 @@
   "Shell": {
     "headerLabel": "የድር ገጽ መዋቅር",
     "mainNavigation": "ዋና መዳረሻዎች",
+    "home": "መነሻ",
     "mobileNavigation": "የሞባይል መዳረሻ",
     "openMenu": "ሜኑ ክፈት",
     "closeMenu": "ሜኑ ዝጋ",
@@ -1182,6 +1183,7 @@
     "cta": {"eyebrow": "ጉዞውን ለማቀድ ዝግጁ ነዎት?", "title": "ባለ ብዙ ሞድ የጭነት ጉዞ ለማቀድ እገዛ ይፈልጋሉ?", "description": "ምን ማጓጓዝ እንደሚፈልጉ እና ወዴት መድረስ እንዳለበት ያካፍሉን። በጥቅስ ይጀምሩ ወይም ከሎጂስቲክስ ቡድናችን ጋር ይገናኙ።", "primary": "ጥቅስ ይጠይቁ", "secondary": "ከሎጂስቲክስ ቡድን ጋር ይገናኙ"}
   },  "Navigation": {
     "mainNavigation": "ዋና መዳረሻዎች",
+    "home": "መነሻ",
     "services": "አገልግሎቶች",
     "network": "ኔትወርክ",
     "about": "ስለ እኛ",

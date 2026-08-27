@@ -14,6 +14,7 @@
   "Shell": {
     "headerLabel": "Global site shell",
     "mainNavigation": "Primary navigation",
+    "home": "Home",
     "mobileNavigation": "Mobile navigation",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
@@ -1198,6 +1199,7 @@
     "cta": {"eyebrow": "READY TO PLAN THE JOURNEY?", "title": "Need help planning a multimodal cargo journey?", "description": "Share what you need to move and where it needs to go. Start with a quote or connect with our logistics team.", "primary": "Get a Quote", "secondary": "Contact Logistics"}
   },  "Navigation": {
     "mainNavigation": "Primary navigation",
+    "home": "Home",
     "services": "Services",
     "network": "Network",
     "about": "About",

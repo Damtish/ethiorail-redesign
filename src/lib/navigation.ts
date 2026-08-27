@@ -1,4 +1,5 @@
 export type NavigationLabelKey =
+  | "home"
   | "services"
   | "network"
   | "about"
@@ -107,6 +108,8 @@ export const desktopPrimaryGroups = [
   },
 ] as const satisfies readonly NavigationGroup[];
 
+export const desktopHomeLink = {href: "/", labelKey: "home"} as const;
+
 export const desktopDirectLinks = [
   {href: "/careers", labelKey: "careers"},
 ] as const satisfies readonly NavigationItem[];
@@ -181,7 +184,7 @@ export const footerSections = [
 
 export function isActivePath(pathname: string, href: string): boolean {
   if (href === "/") {
-    return pathname === href;
+    return pathname === href || pathname === "/en" || pathname === "/am";
   }
 
   return pathname === href || pathname.startsWith(`${href}/`);
