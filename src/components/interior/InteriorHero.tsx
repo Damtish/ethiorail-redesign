@@ -17,6 +17,7 @@ type InteriorHeroProps = {
   breadcrumbs: BreadcrumbItem[];
   theme?: "dark" | "light";
   fullBleedVideo?: boolean;
+  videoObjectPosition?: string;
 };
 
 export function InteriorHero({
@@ -30,6 +31,7 @@ export function InteriorHero({
   breadcrumbs,
   theme = "dark",
   fullBleedVideo = false,
+  videoObjectPosition = "68% 50%",
 }: InteriorHeroProps) {
   const dark = theme === "dark";
   const poster = videoPoster ?? image;
@@ -47,7 +49,8 @@ export function InteriorHero({
         <EditorialVideo
           src={video}
           poster={poster}
-          className="absolute inset-0 !h-full !w-full object-cover object-[68%_50%]"
+          objectPosition={videoObjectPosition}
+          className="absolute inset-0 !h-full !w-full object-cover"
           posterClassName="absolute inset-0 object-cover object-[68%_50%]"
           sizes="100vw"
           priority
@@ -55,7 +58,7 @@ export function InteriorHero({
         />
       ) : null}
       {dark ? (
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_78%_18%,rgba(88,224,242,0.13),transparent_32%),linear-gradient(115deg,rgba(10,25,35,0.98)_0%,rgba(10,25,35,0.84)_48%,rgba(10,25,35,0.48)_100%)]" />
+        <div aria-hidden="true" className={cn("pointer-events-none absolute inset-0", fullBleedVideo && video ? "bg-[radial-gradient(circle_at_78%_18%,rgba(88,224,242,0.13),transparent_32%),linear-gradient(115deg,rgba(10,25,35,0.92)_0%,rgba(10,25,35,0.68)_48%,rgba(10,25,35,0.24)_100%),linear-gradient(180deg,rgba(10,25,35,0.16)_0%,rgba(10,25,35,0.02)_58%,rgba(10,25,35,0.12)_100%)]" : "bg-[radial-gradient(circle_at_78%_18%,rgba(88,224,242,0.13),transparent_32%),linear-gradient(115deg,rgba(10,25,35,0.98)_0%,rgba(10,25,35,0.84)_48%,rgba(10,25,35,0.48)_100%)]")} />
       ) : null}
       <Container className={cn(
         "relative z-10 pt-[clamp(7rem,12vw,8rem)] pb-[clamp(2.5rem,6vw,4rem)] lg:pt-[clamp(8.25rem,9vw,9.25rem)] lg:pb-[clamp(3rem,4vw,4rem)]",

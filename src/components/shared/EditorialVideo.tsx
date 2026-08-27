@@ -13,6 +13,7 @@ type EditorialVideoProps = {
   sizes?: string;
   priority?: boolean;
   playLabel?: string;
+  objectPosition?: string;
 };
 
 export function EditorialVideo({
@@ -23,6 +24,7 @@ export function EditorialVideo({
   sizes = "100vw",
   priority = false,
   playLabel = "Play video",
+  objectPosition,
 }: EditorialVideoProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [reducedMotion, setReducedMotion] = useState(false);
@@ -69,6 +71,7 @@ export function EditorialVideo({
         poster={poster}
         autoPlay={!showPoster}
         muted
+        style={{objectPosition}}
         loop
         playsInline
         preload="metadata"
@@ -83,6 +86,7 @@ export function EditorialVideo({
         priority={priority}
         sizes={sizes}
         aria-hidden="true"
+        style={{objectPosition}}
         className={cn("object-cover", !showPoster && "opacity-0", posterClassName)}
       />
       {showPoster ? (

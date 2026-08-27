@@ -52,6 +52,7 @@ export default async function MultimodalTransportationPage({params}: PageProps) 
         video={messages.hero.video}
         videoPoster={messages.hero.videoPoster}
         fullBleedVideo={Boolean(messages.hero.video)}
+        videoObjectPosition="68% 50%"
         theme="dark"
         breadcrumbs={[
           {label: messages.breadcrumbs.home, href: "/"},
