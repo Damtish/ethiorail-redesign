@@ -29,7 +29,7 @@ export function ServiceDetailPage({messages}: ServiceDetailPageProps) {
         video={messages.hero.video}
         videoPoster={messages.hero.videoPoster}
         fullBleedVideo={Boolean(messages.hero.video)}
-        videoObjectPosition={messages.hero.video?.includes("land-rail-transportation") ? "50% 70%" : undefined}
+        videoObjectPosition={messages.hero.video?.includes("land-rail-transportation") ? "50% 70%" : messages.hero.video?.includes("voyage-charter") ? "50% 100%" : undefined}
         theme="dark"
         breadcrumbs={[
           {label: messages.breadcrumbs.home, href: "/"},
