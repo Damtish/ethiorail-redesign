@@ -37,6 +37,7 @@ export function Hero({locale, content}: HeroProps) {
           posterClassName="absolute inset-0 object-cover object-[62%_52%] sm:object-[60%_52%] lg:object-[58%_50%]"
           sizes="100vw"
           priority
+          preload="auto"
           playLabel={isAmharic ? "ቪዲዮ አጫውት" : "Play video"}
         />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(10,25,35,0.84)_0%,rgba(10,25,35,0.72)_16%,rgba(10,25,35,0.34)_44%,rgba(10,25,35,0.18)_70%,rgba(10,25,35,0.28)_100%)]" />

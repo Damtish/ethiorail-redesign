@@ -14,6 +14,7 @@ type EditorialVideoProps = {
   priority?: boolean;
   playLabel?: string;
   objectPosition?: string;
+  preload?: 'metadata' | 'auto';
 };
 
 export function EditorialVideo({
@@ -25,11 +26,12 @@ export function EditorialVideo({
   priority = false,
   playLabel = "Play video",
   objectPosition,
+  preload = 'metadata',
 }: EditorialVideoProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [reducedMotion, setReducedMotion] = useState(false);
   const [requestedPlayback, setRequestedPlayback] = useState(false);
-  const showPoster = reducedMotion && !requestedPlayback;
+  const [videoReady, setVideoReady] = useState(false);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -43,7 +45,26 @@ export function EditorialVideo({
 
   useEffect(() => {
     const video = videoRef.current;
-    if (!video || showPoster) return;
+    if (!video) return;
+
+    const markReady = () => setVideoReady(true);
+
+    if (video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
+      markReady();
+    } else {
+      video.addEventListener("loadeddata", markReady);
+      video.addEventListener("canplay", markReady);
+    }
+
+    return () => {
+      video.removeEventListener("loadeddata", markReady);
+      video.removeEventListener("canplay", markReady);
+    };
+  }, [src]);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video || (reducedMotion && !requestedPlayback)) return;
 
     video.defaultMuted = true;
     video.muted = true;
@@ -61,7 +82,7 @@ export function EditorialVideo({
     }
 
     return () => video.removeEventListener("canplay", startPlayback);
-  }, [showPoster]);
+  }, [reducedMotion, requestedPlayback]);
 
   return (
     <>
@@ -69,15 +90,15 @@ export function EditorialVideo({
         ref={videoRef}
         src={src}
         poster={poster}
-        autoPlay={!showPoster}
+        autoPlay={!reducedMotion || requestedPlayback}
         muted
         style={{objectPosition}}
         loop
         playsInline
-        preload="metadata"
+        preload={preload}
         aria-hidden="true"
         data-editorial-video
-        className={cn(className, showPoster && "opacity-0")}
+        className={cn(className, "transition-opacity duration-500", !videoReady && "opacity-0")}
       />
       <Image
         src={poster}
@@ -87,9 +108,9 @@ export function EditorialVideo({
         sizes={sizes}
         aria-hidden="true"
         style={{objectPosition}}
-        className={cn("object-cover", !showPoster && "opacity-0", posterClassName)}
+        className={cn("object-cover transition-opacity duration-500", videoReady && "opacity-0", posterClassName)}
       />
-      {showPoster ? (
+      {reducedMotion && !requestedPlayback ? (
         <button
           type="button"
           onClick={() => setRequestedPlayback(true)}

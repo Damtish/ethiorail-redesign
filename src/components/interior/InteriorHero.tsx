@@ -54,6 +54,7 @@ export function InteriorHero({
           posterClassName="absolute inset-0 object-cover object-[68%_50%]"
           sizes="100vw"
           priority
+          preload={fullBleedVideo ? "auto" : "metadata"}
           playLabel="Play video"
         />
       ) : null}
@@ -95,6 +96,7 @@ export function InteriorHero({
                 posterClassName="absolute inset-0 object-cover object-[68%_50%]"
                 sizes="(min-width: 1024px) 52vw, 100vw"
                 priority
+                preload="metadata"
                 playLabel="Play video"
               />
             ) : (
