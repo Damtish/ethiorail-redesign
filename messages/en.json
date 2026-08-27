@@ -688,7 +688,9 @@
       "title": "Bring clarity to the customs stage.",
       "description": "Organize shipment information and gateway handoffs for the onward route.",
       "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg",
-      "imageAlt": "Customs Clearance logistics image"
+      "imageAlt": "Customs Clearance logistics image",
+      "video": "/media/video/customs/customs-clearance-01.mp4",
+      "videoPoster": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg"
     },
     "overview": {
       "eyebrow": "SERVICE OVERVIEW",

@@ -688,7 +688,9 @@
       "title": "በጉምሩክ ደረጃ ግልጽነትን ያምጡ።",
       "description": "የጭነት መረጃን እና የመግቢያ ርክክቦችን ለቀጣዩ መንገድ ያደራጁ።",
       "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg",
-      "imageAlt": "የጉምሩክ ማጣሪያ የሎጂስቲክስ ምስል"
+      "imageAlt": "የጉምሩክ ማጣሪያ የሎጂስቲክስ ምስል",
+      "video": "/media/video/customs/customs-clearance-01.mp4",
+      "videoPoster": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg"
     },
     "overview": {
       "eyebrow": "የአገልግሎት እይታ",

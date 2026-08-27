@@ -275,6 +275,21 @@
       "license": null
     },
     {
+      "originalFilename": "customs-clearance-01.mp4",
+      "filename": "customs-clearance-01.mp4",
+      "path": "/media/video/customs/customs-clearance-01.mp4",
+      "type": "video",
+      "category": "customs",
+      "origin": "stock",
+      "priority": "medium",
+      "description": "Customs clearance and border logistics activity showing cargo movement and handoffs.",
+      "intendedUse": [
+        "Customs Clearance service page hero"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
       "originalFilename": "ChatGPT_Image_Aug_21__2026__09_12_31_AM-removebg-preview.png",
       "filename": "ethiorail-logo.png",
       "path": "/media/brand/ethiorail-logo.png",
