@@ -67,13 +67,14 @@ export function TrustedPartners({locale, content}: TrustedPartnersProps) {
                 index % 2 === 0 ? "surface-mint-panel" : "surface-cyan-panel",
               )}
             >
-              <div className="flex h-28 items-center justify-start rounded-[6px] border border-steel-mist/70 bg-white/75 px-5 sm:h-32">
+              <div className="relative flex h-[10rem] items-center justify-center overflow-hidden rounded-[6px] border border-steel-mist/70 bg-white/75 p-6 sm:h-[11rem] sm:p-7">
                 <Image
                   src={partner.logoSrc}
                   alt={partner.logoAlt}
                   width={280}
                   height={140}
-                  className="h-full w-full object-contain object-left"
+                  sizes="(min-width: 1024px) 34vw, 80vw"
+                  className="h-auto w-auto max-h-[8.5rem] max-w-[78%] object-contain object-center"
                 />
               </div>
               <div className="mt-6 flex flex-1 flex-col">
