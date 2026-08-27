@@ -71,10 +71,9 @@ export function TrustedPartners({locale, content}: TrustedPartnersProps) {
                 <Image
                   src={partner.logoSrc}
                   alt={partner.logoAlt}
-                  width={280}
-                  height={140}
+                  fill
                   sizes="(min-width: 1024px) 34vw, 80vw"
-                  className="h-auto w-auto max-h-[8.5rem] max-w-[78%] object-contain object-center"
+                  className="object-contain object-center p-6 sm:p-7"
                 />
               </div>
               <div className="mt-6 flex flex-1 flex-col">
