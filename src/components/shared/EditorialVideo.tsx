@@ -96,6 +96,7 @@ export function EditorialVideo({
         loop
         playsInline
         preload={preload}
+        onError={() => setVideoReady(false)}
         aria-hidden="true"
         data-editorial-video
         className={cn(className, "transition-opacity duration-500", !videoReady && "opacity-0")}
@@ -105,6 +106,7 @@ export function EditorialVideo({
         alt=""
         fill
         priority={priority}
+        fetchPriority={priority ? "high" : undefined}
         sizes={sizes}
         aria-hidden="true"
         style={{objectPosition}}
