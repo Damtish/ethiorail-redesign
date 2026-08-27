@@ -31,6 +31,7 @@ export function Header() {
   const desktopMenuOpenRef = useRef(false);
   const mobileMenuOpenRef = useRef(false);
   const pathnameRef = useRef(pathname);
+  const accumulatedScrollDeltaRef = useRef(0);
 
   useEffect(() => {
     const updateVisibility = () => {
@@ -43,13 +44,21 @@ export function Header() {
         mobileMenuOpenRef.current ||
         focusedInsideHeader
       ) {
+        accumulatedScrollDeltaRef.current = 0;
         setVisibility({hidden: false, pathname: pathnameRef.current});
       } else {
         const delta = currentScrollY - previousScrollYRef.current;
-        if (delta > 8) {
+        if (Math.sign(delta) !== Math.sign(accumulatedScrollDeltaRef.current)) {
+          accumulatedScrollDeltaRef.current = 0;
+        }
+        accumulatedScrollDeltaRef.current += delta;
+
+        if (accumulatedScrollDeltaRef.current > 10) {
           setVisibility({hidden: true, pathname: pathnameRef.current});
-        } else if (delta < -8) {
+          accumulatedScrollDeltaRef.current = 0;
+        } else if (accumulatedScrollDeltaRef.current < -10) {
           setVisibility({hidden: false, pathname: pathnameRef.current});
+          accumulatedScrollDeltaRef.current = 0;
         }
       }
 
@@ -78,6 +87,7 @@ export function Header() {
   useEffect(() => {
     pathnameRef.current = pathname;
     previousScrollYRef.current = window.scrollY;
+    accumulatedScrollDeltaRef.current = 0;
   }, [pathname]);
 
   useLayoutEffect(() => {
