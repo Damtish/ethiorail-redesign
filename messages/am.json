@@ -181,6 +181,28 @@
         }
       ]
     },
+    "trustedPartners": {
+      "eyebrow": "የታመኑ አጋሮቻችን",
+      "headline": "በጠንካራ አጋርነት የተገነባ።",
+      "description": "በኢትዮጵያ የመጓጓዣ እና የሎጂስቲክስ ኔትወርክ ውስጥ ከታመኑ ድርጅቶች ጋር በመስራት አስተማማኝ የጭነት እንቅስቃሴን እና የተገናኘ ንግድን እንደግፋለን።",
+      "visitWebsite": "ድረ-ገጹን ይጎብኙ ↗",
+      "partners": [
+        {
+          "name": "Ethiopian Railways Corporation",
+          "description": "የኢትዮጵያን የባቡር መሠረተ ልማት እና የባቡር መጓጓዣ ኔትወርክን የሚደግፍ ስትራቴጂካዊ አጋር።",
+          "logoAlt": "የኢትዮጵያ ባቡር ኮርፖሬሽን አርማ",
+          "logoSrc": "/media/partners/erc.png",
+          "href": "https://erc.gov.et/"
+        },
+        {
+          "name": "GetAs International PLC",
+          "description": "በኢትዮጵያ የሎጂስቲክስ እና የንግድ አገልግሎቶችን የሚደግፍ የታመነ የንግድ አጋር።",
+          "logoAlt": "የGetAs International PLC አርማ",
+          "logoSrc": "/media/partners/getas.png",
+          "href": "https://getasplc.com/"
+        }
+      ]
+    },
     "digital": {
       "eyebrow": "ዲጂታል ሎጂስቲክስ",
       "headline": "የእያንዳንዱ ጉዞ ግልጽ እይታ.",

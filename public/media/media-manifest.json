@@ -368,6 +368,34 @@
       ],
       "source": null,
       "license": null
+    },
+    {
+      "originalFilename": "40795-removebg-preview.png",
+      "filename": "erc.png",
+      "path": "/media/partners/erc.png",
+      "type": "image",
+      "category": "partner",
+      "origin": "company",
+      "description": "Ethiopian Railways Corporation logo supplied by the client",
+      "intendedUse": [
+        "trusted partners homepage section"
+      ],
+      "source": null,
+      "license": null
+    },
+    {
+      "originalFilename": "logo-with-white-letters.png",
+      "filename": "getas.png",
+      "path": "/media/partners/getas.png",
+      "type": "image",
+      "category": "partner",
+      "origin": "company",
+      "description": "GetAs International PLC logo supplied by the client",
+      "intendedUse": [
+        "trusted partners homepage section"
+      ],
+      "source": null,
+      "license": null
     }
   ]
 }

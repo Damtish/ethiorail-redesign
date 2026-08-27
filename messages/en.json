@@ -181,6 +181,28 @@
         }
       ]
     },
+    "trustedPartners": {
+      "eyebrow": "OUR TRUSTED PARTNERS",
+      "headline": "Built on strong partnerships.",
+      "description": "We work with trusted organizations across Ethiopia’s transport and logistics network to support reliable cargo movement and connected trade.",
+      "visitWebsite": "Visit Website ↗",
+      "partners": [
+        {
+          "name": "Ethiopian Railways Corporation",
+          "description": "Strategic partner supporting Ethiopia’s railway infrastructure and rail transport network.",
+          "logoAlt": "Ethiopian Railways Corporation logo",
+          "logoSrc": "/media/partners/erc.png",
+          "href": "https://erc.gov.et/"
+        },
+        {
+          "name": "GetAs International PLC",
+          "description": "A trusted business partner supporting logistics and trade services in Ethiopia.",
+          "logoAlt": "GetAs International PLC logo",
+          "logoSrc": "/media/partners/getas.png",
+          "href": "https://getasplc.com/"
+        }
+      ]
+    },
     "digital": {
       "eyebrow": "DIGITAL LOGISTICS",
       "headline": "A clearer view of every journey.",

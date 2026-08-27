@@ -10,6 +10,7 @@ import {Hero} from "@/components/home/Hero";
 import {MultimodalJourney} from "@/components/home/MultimodalJourney";
 import {NetworkCorridor} from "@/components/home/NetworkCorridor";
 import {ServicesShowcase} from "@/components/home/ServicesShowcase";
+import {TrustedPartners} from "@/components/home/TrustedPartners";
 import {QuickActions} from "@/components/home/QuickActions";
 import {WhyEthioRail} from "@/components/home/WhyEthioRail";
 import {isAppLocale} from "@/i18n/routing";
@@ -96,6 +97,19 @@ async function loadMessages(locale: "en" | "am") {
           description: string;
         }>;
       };
+      trustedPartners: {
+        eyebrow: string;
+        headline: string;
+        description: string;
+        visitWebsite: string;
+        partners: Array<{
+          name: string;
+          description: string;
+          logoAlt: string;
+          logoSrc: string;
+          href: string;
+        }>;
+      };
       digital: {
         eyebrow: string;
         headline: string;
@@ -160,6 +174,7 @@ export default async function LocalePage({params}: LocalePageProps) {
       <ServicesShowcase locale={locale} content={messages.Home.services} />
       <NetworkCorridor locale={locale} content={messages.Home.network} />
       <WhyEthioRail locale={locale} content={messages.Home.why} />
+      <TrustedPartners locale={locale} content={messages.Home.trustedPartners} />
       <DigitalFuture locale={locale} content={messages.Home.digital} />
       <InsightsPreview locale={locale} content={messages.Home.insights} />
       <FinalCta locale={locale} content={messages.Home.finalCta} />
