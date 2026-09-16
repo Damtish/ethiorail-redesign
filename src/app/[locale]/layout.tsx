@@ -1,3 +1,5 @@
+import {RouteExperience} from "@/components/shared/RouteExperience";
+
 import type {Metadata} from "next";
 import localFont from "next/font/local";
 import {NextIntlClientProvider} from "next-intl";
@@ -10,6 +12,7 @@ import {Header} from "@/components/layout/Header";
 import {routing, isAppLocale} from "@/i18n/routing";
 
 import "../globals.css";
+import "../experience.css";
 
 const manrope = localFont({
   variable: "--font-manrope",
@@ -121,12 +124,11 @@ export default async function LocaleLayout({children, params}: LocaleLayoutProps
   };
 
   return (
-    <html lang={locale} className={`${manrope.variable} ${notoSansEthiopic.variable}`}>
-      <body className="surface-mint-canvas text-rail-ink antialiased">
+    <html suppressHydrationWarning lang={locale} className={`${manrope.variable} ${notoSansEthiopic.variable}`}>
+      <head><script dangerouslySetInnerHTML={{__html: "(function(){try{var t=localStorage.getItem('erl-theme');document.documentElement.dataset.theme=t==='dark'||t==='light'?t:'light';}catch(e){document.documentElement.dataset.theme='light';}})();"}} /></head><body className="antialiased">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
-          {children}
-          <Footer />
+          <RouteExperience>{children}<Footer /></RouteExperience>
         </NextIntlClientProvider>
       </body>
     </html>

@@ -1,5 +1,5 @@
 import type {Metadata} from "next";
-import {notFound} from "next/navigation";
+import {notFound, permanentRedirect} from "next/navigation";
 import {setRequestLocale} from "next-intl/server";
 
 import {ServiceDetailPage, type ServiceDetailMessages} from "@/components/interior/ServiceDetailPage";
@@ -8,15 +8,18 @@ import amMessages from "../../../../../messages/am.json";
 import enMessages from "../../../../../messages/en.json";
 
 const serviceKeys = {
-  "ocean-freight-nvocc": "OceanFreightService",
-  "land-rail-transportation": "LandRailService",
+  "value-added-logistics": "ValueAddedService",
+  "supply-chain-solutions": "SupplyChainService",
+  "ocean-freight": "OceanFreightService",
+  "rail-inland-transportation": "LandRailService",
   "freight-forwarding": "FreightForwardingService",
   "customs-clearance": "CustomsClearanceService",
-  warehousing: "WarehousingService",
+  "warehousing-distribution": "WarehousingService",
   "inland-dry-port": "InlandDryPortService",
   "voyage-charter": "VoyageCharterService",
 } as const;
 
+const legacySlugs: Record<string,string> = {"land-rail-transportation":"rail-inland-transportation","ocean-freight-nvocc":"ocean-freight","warehousing":"warehousing-distribution"};
 type ServiceSlug = keyof typeof serviceKeys;
 type PageProps = {params: Promise<{locale: string; slug: string}>};
 
@@ -33,7 +36,9 @@ export function generateStaticParams() {
 
 async function resolveParams(params: PageProps["params"]) {
   const {locale, slug} = await params;
-  if (!isAppLocale(locale) || !(slug in serviceKeys)) notFound();
+  if (!isAppLocale(locale)) notFound();
+  if (Object.hasOwn(legacySlugs,slug)) permanentRedirect("/"+locale+"/services/"+legacySlugs[slug]);
+  if (!Object.hasOwn(serviceKeys,slug)) notFound();
   return {locale, slug: slug as ServiceSlug};
 }
 

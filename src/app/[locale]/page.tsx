@@ -2,17 +2,8 @@ import type {Metadata} from "next";
 import {notFound} from "next/navigation";
 import {setRequestLocale} from "next-intl/server";
 
-import {CompanyIntro} from "@/components/home/CompanyIntro";
-import {DigitalFuture} from "@/components/home/DigitalFuture";
-import {FinalCta} from "@/components/home/FinalCta";
-import {InsightsPreview} from "@/components/home/InsightsPreview";
 import {Hero} from "@/components/home/Hero";
-import {MultimodalJourney} from "@/components/home/MultimodalJourney";
-import {NetworkCorridor} from "@/components/home/NetworkCorridor";
-import {ServicesShowcase} from "@/components/home/ServicesShowcase";
-import {TrustedPartners} from "@/components/home/TrustedPartners";
-import {QuickActions} from "@/components/home/QuickActions";
-import {WhyEthioRail} from "@/components/home/WhyEthioRail";
+import {HomeExperience} from "@/components/home/HomeExperience";
 import {isAppLocale} from "@/i18n/routing";
 
 type LocalePageProps = {
@@ -104,12 +95,15 @@ async function loadMessages(locale: "en" | "am") {
         visitWebsite: string;
         partners: Array<{
           name: string;
+          ownership: string;
           description: string;
           logoAlt: string;
           logoSrc: string;
           href: string;
         }>;
       };
+      whatWeDo: {eyebrow: string; headline: string; description: string; items: Array<{label: string; title: string; description: string}>};
+      segments: {eyebrow: string; headline: string; items: Array<{title: string; description: string}>};
       digital: {
         eyebrow: string;
         headline: string;
@@ -166,18 +160,9 @@ export default async function LocalePage({params}: LocalePageProps) {
   const messages = await loadMessages(locale);
 
   return (
-    <main className="surface-mint-canvas">
+    <main id="main-content" className="surface-mint-canvas">
       <Hero locale={locale} content={messages.Home.hero} />
-      <QuickActions locale={locale} content={messages.Home.quickActions} />
-      <CompanyIntro locale={locale} content={messages.Home.intro} />
-      <MultimodalJourney locale={locale} content={messages.Home.journey} />
-      <ServicesShowcase locale={locale} content={messages.Home.services} />
-      <NetworkCorridor locale={locale} content={messages.Home.network} />
-      <WhyEthioRail locale={locale} content={messages.Home.why} />
-      <TrustedPartners locale={locale} content={messages.Home.trustedPartners} />
-      <DigitalFuture locale={locale} content={messages.Home.digital} />
-      <InsightsPreview locale={locale} content={messages.Home.insights} />
-      <FinalCta locale={locale} content={messages.Home.finalCta} />
+      <HomeExperience locale={locale} content={messages.Home} />
     </main>
   );
 }

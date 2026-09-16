@@ -14,12 +14,12 @@ export type NetworkPageContent = {
   media?: {eyebrow: string; title: string; description: string; image: string; imageAlt: string; contain?: boolean};
   journey?: {eyebrow: string; title: string; steps: NetworkItem[]};
   related: {eyebrow: string; title: string; links: NetworkLink[]};
-  cta: {eyebrow: string; title: string; description: string; primary: string; secondary: string};
+  cta: {eyebrow: string; title: string; description: string; primary: string; secondary: string; primaryHref: string; secondaryHref: string};
 };
 
 export function NetworkPage({content, breadcrumbs}: {content: NetworkPageContent; breadcrumbs: BreadcrumbItem[]}) {
   return (
-    <main className="surface-mint-canvas">
+    <main id="main-content" className="surface-mint-canvas">
       <InteriorHero
         eyebrow={content.hero.eyebrow}
         title={content.hero.title}
@@ -58,7 +58,7 @@ export function NetworkPage({content, breadcrumbs}: {content: NetworkPageContent
         title={content.cta.title}
         description={content.cta.description}
         primaryLabel={content.cta.primary}
-        secondaryLabel={content.cta.secondary}
+        secondaryLabel={content.cta.secondary} primaryHref={content.cta.primaryHref} secondaryHref={content.cta.secondaryHref}
       />
     </main>
   );

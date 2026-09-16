@@ -14,6 +14,7 @@ type TrustedPartnersContent = {
   visitWebsite: string;
   partners: Array<{
     name: string;
+    ownership: string;
     description: string;
     logoAlt: string;
     logoSrc: string;
@@ -95,7 +96,7 @@ export function TrustedPartners({locale, content}: TrustedPartnersProps) {
               </div>
               <div className="mt-5 flex flex-1 flex-col">
                 <span className="text-[0.68rem] font-semibold uppercase tracking-[0.26em] text-ethiorail-deep-green">
-                  {isAmharic ? "ስትራቴጀያዊ አጋር" : "Strategic Partner"}
+                  {partner.ownership}
                 </span>
                 <h3
                   className={cn(

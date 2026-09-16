@@ -2,9 +2,10 @@ import type {Metadata} from "next";
 import {notFound} from "next/navigation";
 import {setRequestLocale} from "next-intl/server";
 
+import {ServiceExplorer} from "@/components/shared/ServiceExplorer";
 import {InteriorCta} from "@/components/interior/InteriorCta";
 import {InteriorHero} from "@/components/interior/InteriorHero";
-import {EditorialSplit, FeatureList, MediaSplit, RelatedLinks} from "@/components/interior/InteriorSections";
+import {EditorialSplit, MediaSplit, RelatedLinks} from "@/components/interior/InteriorSections";
 import {isAppLocale} from "@/i18n/routing";
 
 type ServicesPageProps = {params: Promise<{locale: string}>};
@@ -16,7 +17,7 @@ type ServicesMessages = {
   overview: {eyebrow: string; title: string; items: Array<{title: string; description: string; href: string}>};
   corridor: {eyebrow: string; title: string; description: string; image: string; imageAlt: string};
   related: {eyebrow: string; title: string; links: Array<{label: string; href: string}>};
-  cta: {eyebrow: string; title: string; description: string; primary: string; secondary: string};
+  cta: {eyebrow: string; title: string; description: string; primary: string; secondary: string; primaryHref: string; secondaryHref: string};
 };
 
 async function loadServicesMessages(locale: "en" | "am") {
@@ -38,8 +39,10 @@ export default async function ServicesPage({params}: ServicesPageProps) {
   setRequestLocale(locale);
   const messages = await loadServicesMessages(locale);
 
+  const home = (await import(`../../../../messages/${locale}.json`)).default.Home;
+  const serviceItems = home.services.items;
   return (
-    <main className="surface-mint-canvas">
+    <main id="main-content" className="surface-mint-canvas">
       <InteriorHero
         eyebrow={messages.hero.eyebrow}
         title={messages.hero.title}
@@ -52,10 +55,10 @@ export default async function ServicesPage({params}: ServicesPageProps) {
       <EditorialSplit eyebrow={messages.intro.eyebrow} title={messages.intro.title}>
         {messages.intro.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
       </EditorialSplit>
-      <FeatureList eyebrow={messages.overview.eyebrow} title={messages.overview.title} items={messages.overview.items} />
+      <section className="home-services"><div className="erl-container"><p className="eyebrow">{messages.overview.eyebrow}</p><h2 className="section-title">{messages.overview.title}</h2><ServiceExplorer locale={locale} items={serviceItems}/></div></section>
       <MediaSplit eyebrow={messages.corridor.eyebrow} title={messages.corridor.title} description={messages.corridor.description} image={messages.corridor.image} imageAlt={messages.corridor.imageAlt} reversed />
       <RelatedLinks eyebrow={messages.related.eyebrow} title={messages.related.title} links={messages.related.links} />
-      <InteriorCta eyebrow={messages.cta.eyebrow} title={messages.cta.title} description={messages.cta.description} primaryLabel={messages.cta.primary} secondaryLabel={messages.cta.secondary} />
+      <InteriorCta eyebrow={messages.cta.eyebrow} title={messages.cta.title} description={messages.cta.description} primaryLabel={messages.cta.primary} secondaryLabel={messages.cta.secondary} primaryHref={messages.cta.primaryHref} secondaryHref={messages.cta.secondaryHref} />
     </main>
   );
 }

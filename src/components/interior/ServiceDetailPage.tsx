@@ -12,14 +12,14 @@ export type ServiceDetailMessages = {
   corridor: {eyebrow: string; title: string; description: string; image: string; imageAlt: string; video?: string; videoPoster?: string};
   value: {eyebrow: string; title: string; items: Array<{title: string; description: string}>};
   related: {eyebrow: string; title: string; links: Array<{label: string; href: string}>};
-  cta: {eyebrow: string; title: string; description: string; primary: string; secondary: string};
+  cta: {eyebrow: string; title: string; description: string; primary: string; secondary: string; primaryHref: string; secondaryHref: string};
 };
 
 type ServiceDetailPageProps = {messages: ServiceDetailMessages};
 
 export function ServiceDetailPage({messages}: ServiceDetailPageProps) {
   return (
-    <main className="surface-mint-canvas">
+    <main id="main-content" className="surface-mint-canvas">
       <InteriorHero
         eyebrow={messages.hero.eyebrow}
         title={messages.hero.title}
@@ -54,7 +54,7 @@ export function ServiceDetailPage({messages}: ServiceDetailPageProps) {
       />
       <FeatureList eyebrow={messages.value.eyebrow} title={messages.value.title} items={messages.value.items} />
       <RelatedLinks eyebrow={messages.related.eyebrow} title={messages.related.title} links={messages.related.links} />
-      <InteriorCta eyebrow={messages.cta.eyebrow} title={messages.cta.title} description={messages.cta.description} primaryLabel={messages.cta.primary} secondaryLabel={messages.cta.secondary} />
+      <InteriorCta eyebrow={messages.cta.eyebrow} title={messages.cta.title} description={messages.cta.description} primaryLabel={messages.cta.primary} secondaryLabel={messages.cta.secondary} primaryHref={messages.cta.primaryHref} secondaryHref={messages.cta.secondaryHref} />
     </main>
   );
 }

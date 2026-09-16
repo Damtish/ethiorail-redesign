@@ -1,0 +1,18 @@
+import type {Metadata} from "next";
+import {notFound} from "next/navigation";
+import {setRequestLocale} from "next-intl/server";
+
+import {ServiceDetailPage, type ServiceDetailMessages} from "@/components/interior/ServiceDetailPage";
+import {isAppLocale} from "@/i18n/routing";
+import amMessages from "../../../../../messages/am.json";
+import enMessages from "../../../../../messages/en.json";
+
+type Props = {params: Promise<{locale: string}>};
+const base = {en: enMessages.MultimodalService, am: amMessages.MultimodalService} as const;
+const content = {
+  en: {...base.en, metadata: {title: "Consolidation & Deconsolidation | Ethio Rail Logistics", description: "Coordinate consolidated cargo, storage, and onward distribution across the logistics journey."}, breadcrumbs: {...base.en.breadcrumbs, current: "Consolidation & Deconsolidation"}, hero: {...base.en.hero, eyebrow: "CONSOLIDATION & DECONSOLIDATION", title: "Bring smaller shipments together.", description: "Coordinate the combining, storage, separation, and onward distribution of cargo when a full-container movement is not required."}, overview: {...base.en.overview, eyebrow: "SERVICE OVERVIEW", title: "A practical path for shared cargo space.", paragraphs: ["Consolidation combines several smaller shipments into one larger shipment for movement and handling.", "Deconsolidation separates consolidated cargo at destination for onward distribution, with storage coordination and clear handoffs around the journey."]}, modes: {...base.en.modes, eyebrow: "CONTAINER SOLUTIONS", title: "FCL and LCL options.", items: [{title: "FCL", description: "Dedicated container movement for customers with enough cargo to use a full container."}, {title: "LCL", description: "Consolidated cargo movement for shipments that do not require a full container."}]}} as ServiceDetailMessages,
+  am: {...base.am, metadata: {title: "የጭነት ማጠናከሪያ እና መለያየት | ኢትዮ ሬይል ሎጂስቲክስ", description: "የተጠናከረ ጭነትን፣ ማከማቻን እና የማስተላለፊያ ማስተባበሪያን ያስተባብሩ።"}, breadcrumbs: {...base.am.breadcrumbs, current: "የጭነት ማጠናከሪያ እና መለያየት"}, hero: {...base.am.hero, eyebrow: "የጭነት ማጠናከሪያ እና መለያየት", title: "ትናንሽ ጭነቶችን በአንድ ላይ ያሰባስቡ።", description: "ሙሉ ኮንቴነር ሳያስፈልግ ጭነትን የማጠናከር፣ የማከማቸት፣ የመለየት እና የማስተላለፍ ሂደትን ያስተባብሩ።"}, overview: {...base.am.overview, eyebrow: "የአገልግሎት ማብራሪያ", title: "ለተካፈሉ የጭነት ቦታዎች ተግባራዊ መንገድ።", paragraphs: ["ማጠናከር ብዙ ትናንሽ ጭነቶችን ለመጓጓዣ በአንድ ትልቅ ጭነት ውስጥ ማጣመር ነው።", "መለያየት ደግሞ በመድረሻ የተጠናከረ ጭነትን ለቀጣይ ስርጭት መለየት ነው።"]}, modes: {...base.am.modes, eyebrow: "የኮንቴነር መፍትሄዎች", title: "FCL እና LCL አማራጮች።", items: [{title: "FCL", description: "ሙሉ ኮንቴነር ለሚሞላ ጭነት የተለየ የኮንቴነር እንቅስቃሴ።"}, {title: "LCL", description: "ሙሉ ኮንቴነር ለማይፈልግ ጭነት የተጠናከረ እንቅስቃሴ።"}]}} as ServiceDetailMessages,
+} as const;
+
+export async function generateMetadata({params}: Props): Promise<Metadata> { const {locale} = await params; if (!isAppLocale(locale)) notFound(); setRequestLocale(locale); return content[locale].metadata; }
+export default async function ConsolidationPage({params}: Props) { const {locale} = await params; if (!isAppLocale(locale)) notFound(); setRequestLocale(locale); return <ServiceDetailPage messages={content[locale]} />; }

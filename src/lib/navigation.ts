@@ -1,4 +1,6 @@
 export type NavigationLabelKey =
+  | "valueAdded" | "supplyChain" | "shareholders" | "faq" | "inlandTerminal"
+  | "bids"
   | "home"
   | "services"
   | "network"
@@ -13,6 +15,8 @@ export type NavigationLabelKey =
   | "company"
   | "leadership"
   | "visionMission"
+  | "sustainability"
+  | "digitalLogistics"
   | "news"
   | "resources"
   | "networkOverview"
@@ -30,6 +34,7 @@ export type NavigationLabelKey =
   | "customsClearance"
   | "warehousing"
   | "inlandDryPort"
+  | "consolidationDeconsolidation"
   | "voyageCharter";
 
 export type NavigationItem = {
@@ -57,12 +62,12 @@ export const desktopPrimaryGroups = [
         labelKey: "multimodalTransportation",
       },
       {
-        href: "/services/ocean-freight-nvocc",
-        labelKey: "oceanFreightNvocc",
+        href: "/services/rail-inland-transportation",
+        labelKey: "landRailTransportation",
       },
       {
-        href: "/services/land-rail-transportation",
-        labelKey: "landRailTransportation",
+        href: "/services/ocean-freight",
+        labelKey: "oceanFreightNvocc",
       },
       {
         href: "/services/freight-forwarding",
@@ -72,9 +77,10 @@ export const desktopPrimaryGroups = [
         href: "/services/customs-clearance",
         labelKey: "customsClearance",
       },
-      {href: "/services/warehousing", labelKey: "warehousing"},
-      {href: "/services/inland-dry-port", labelKey: "inlandDryPort"},
-      {href: "/services/voyage-charter", labelKey: "voyageCharter"},
+      {href: "/services/warehousing-distribution", labelKey: "warehousing"},
+      {href: "/services/consolidation-deconsolidation", labelKey: "consolidationDeconsolidation"},
+      {href: "/services/value-added-logistics", labelKey: "valueAdded"},
+      {href: "/services/supply-chain-solutions", labelKey: "supplyChain"},
     ],
     viewAll: {href: "/services", labelKey: "viewAllServices"},
   },
@@ -83,7 +89,7 @@ export const desktopPrimaryGroups = [
     labelKey: "network",
     items: [
       {href: "/network/ethiopia-djibouti-corridor", labelKey: "corridor"},
-      {href: "/network/locations", labelKey: "locations"},
+      {href: "/services/inland-dry-port", labelKey: "inlandTerminal"},
       {href: "/network/schedules-routes", labelKey: "schedulesRoutes"},
     ],
     viewAll: {href: "/network", labelKey: "networkOverview"},
@@ -93,8 +99,9 @@ export const desktopPrimaryGroups = [
     labelKey: "about",
     items: [
       {href: "/about", labelKey: "aboutOverview"},
-      {href: "/about/leadership", labelKey: "leadership"},
+      {href: "/about/shareholders", labelKey: "shareholders"},
       {href: "/about/vision-mission", labelKey: "visionMission"},
+      {href: "/about/sustainability", labelKey: "sustainability"},
     ],
   },
   {
@@ -111,6 +118,7 @@ export const desktopPrimaryGroups = [
 export const desktopHomeLink = {href: "/", labelKey: "home"} as const;
 
 export const desktopDirectLinks = [
+  {href: "/digital-logistics", labelKey: "digitalLogistics"},
   {href: "/careers", labelKey: "careers"},
 ] as const satisfies readonly NavigationItem[];
 
@@ -124,12 +132,12 @@ export const footerSections = [
         labelKey: "multimodalTransportation",
       },
       {
-        href: "/services/ocean-freight-nvocc",
-        labelKey: "oceanFreightNvocc",
+        href: "/services/rail-inland-transportation",
+        labelKey: "landRailTransportation",
       },
       {
-        href: "/services/land-rail-transportation",
-        labelKey: "landRailTransportation",
+        href: "/services/ocean-freight",
+        labelKey: "oceanFreightNvocc",
       },
       {
         href: "/services/freight-forwarding",
@@ -139,9 +147,10 @@ export const footerSections = [
         href: "/services/customs-clearance",
         labelKey: "customsClearance",
       },
-      {href: "/services/warehousing", labelKey: "warehousing"},
-      {href: "/services/inland-dry-port", labelKey: "inlandDryPort"},
-      {href: "/services/voyage-charter", labelKey: "voyageCharter"},
+      {href: "/services/warehousing-distribution", labelKey: "warehousing"},
+      {href: "/services/consolidation-deconsolidation", labelKey: "consolidationDeconsolidation"},
+      {href: "/services/value-added-logistics", labelKey: "valueAdded"},
+      {href: "/services/supply-chain-solutions", labelKey: "supplyChain"},
     ],
   },
   {
@@ -149,6 +158,7 @@ export const footerSections = [
     labelKey: "network",
     items: [
       {href: "/network", labelKey: "networkOverview"},
+      {href: "/network/locations", labelKey: "locations"},
       {href: "/network/ethiopia-djibouti-corridor", labelKey: "corridor"},
       {href: "/network/schedules-routes", labelKey: "schedulesRoutes"},
     ],
@@ -158,7 +168,10 @@ export const footerSections = [
     labelKey: "company",
     items: [
       {href: "/about", labelKey: "company"},
+      {href: "/about/shareholders", labelKey: "shareholders"},
       {href: "/about/leadership", labelKey: "leadership"},
+      {href: "/about/vision-mission", labelKey: "visionMission"},
+      {href: "/about/sustainability", labelKey: "sustainability"},
       {href: "/careers", labelKey: "careers"},
       {href: "/insights/news", labelKey: "news"},
     ],
@@ -168,6 +181,10 @@ export const footerSections = [
     labelKey: "support",
     items: [
       {href: "/contact", labelKey: "contact"},
+      {href: "/faq", labelKey: "faq"},
+      {href: "/digital-logistics", labelKey: "digitalLogistics"},
+      {href: "/bids", labelKey: "bids"},
+      {href: "/insights", labelKey: "insights"},
       {href: "/quote", labelKey: "getQuote"},
       {href: "/insights/resources", labelKey: "resources"},
     ],
