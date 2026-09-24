@@ -153,6 +153,14 @@
           "mediaPosition": "50% 50%"
         },
         {
+          "label": "Dry Port & Terminal Services",
+          "summary": "Coordinate terminal handling, temporary storage, customs support and onward connections where available.",
+          "href": "/services/dry-port-terminal-services",
+          "mediaSrc": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-02.jpg",
+          "mediaAlt": "Container handling at an Ethiopian intermodal terminal.",
+          "mediaPosition": "50% 50%"
+        },
+        {
           "summary": "Cargo preparation, labeling and packing support, subject to shipment review.",
           "label": "Value-Added Logistics",
           "href": "/services/value-added-logistics",
@@ -352,7 +360,7 @@
     },
     "overview": {
       "eyebrow": "SERVICE INDEX",
-      "title": "Eight ways to keep cargo moving.",
+      "title": "Ten ways to keep cargo moving.",
       "items": [
         {
           "title": "Multimodal Transportation",
@@ -388,6 +396,11 @@
           "title": "Consolidation & Deconsolidation",
           "description": "Combine smaller shipments, coordinate storage, and separate cargo for onward delivery.",
           "href": "/services/consolidation-deconsolidation"
+        },
+        {
+          "title": "Dry Port & Terminal Services",
+          "description": "Coordinate terminal handling, temporary storage, customs support and onward connections through the logistics network.",
+          "href": "/services/dry-port-terminal-services"
         },
         {
           "title": "Value-Added Logistics",
@@ -820,8 +833,8 @@
             "href": "/services/rail-inland-transportation"
           },
           {
-            "label": "Inland Dry Port",
-            "href": "/services/inland-dry-port"
+            "label": "Dry Port & Terminal Services",
+            "href": "/services/dry-port-terminal-services"
           },
           {
             "label": "Ocean Freight",
@@ -1406,29 +1419,21 @@
       "title": "Bring clarity to the customs stage.",
       "paragraphs": [
         "Organize shipment information and gateway handoffs for the onward route.",
-        "Keep the route, information, and handoffs clear around the cargo."
+        "ERL supports and coordinates the customs process with the customer and responsible authorities; approval remains with the responsible authority."
       ]
     },
     "journey": {
       "eyebrow": "THE JOURNEY",
       "title": "Connect each stage of the journey.",
       "steps": [
-        {
-          "title": "Origin",
-          "description": "Coordinate the origin stage around the shipment."
-        },
-        {
-          "title": "Route Planning",
-          "description": "Coordinate the route planning stage around the shipment."
-        },
-        {
-          "title": "Gateway Handoff",
-          "description": "Coordinate the gateway handoff stage around the shipment."
-        },
-        {
-          "title": "Onward Movement",
-          "description": "Coordinate the onward movement stage around the shipment."
-        }
+        {"title": "Pre-clearance / Pre-arrival review", "description": "Review shipment information and available documentation before cargo arrival where applicable."},
+        {"title": "Document preparation", "description": "Coordinate commercial invoices, packing lists, transport documents, permits, certificates and other required shipment information."},
+        {"title": "Customs declaration", "description": "Support preparation and coordination of information needed for the applicable customs declaration process."},
+        {"title": "Assessment & regulatory coordination", "description": "Coordinate required classification, valuation information and applicable regulatory requirements."},
+        {"title": "Inspection / verification", "description": "Support documentation, scanning or physical inspection coordination when requested by responsible authorities."},
+        {"title": "Duties, taxes & requirements", "description": "Support the customer in coordinating applicable payment and document requirements."},
+        {"title": "Customs release", "description": "After approval by the responsible authority, connect the cargo with the next logistics stage."},
+        {"title": "Onward movement", "description": "Connect customs release with terminal, rail, inland transport, warehousing or final delivery."}
       ]
     },
     "modes": {
@@ -2011,8 +2016,8 @@
           "href": "/services/customs-clearance"
         },
         {
-          "label": "Inland Dry Port",
-          "href": "/services/inland-dry-port"
+          "label": "Dry Port & Terminal Services",
+          "href": "/services/dry-port-terminal-services"
         }
       ]
     },
@@ -2045,7 +2050,7 @@
     "freightForwarding": "Freight Forwarding",
     "customsClearance": "Customs Clearance",
     "warehousing": "Warehousing & Distribution",
-    "inlandDryPort": "Inland Dry Port",
+    "inlandDryPort": "Dry Port & Terminal Services",
     "consolidationDeconsolidation": "Consolidation & Deconsolidation",
     "voyageCharter": "Voyage Charter",
     "company": "Company",
@@ -2066,6 +2071,7 @@
     "bids": "Bids",
     "valueAdded": "Value-Added Logistics",
     "supplyChain": "Supply Chain Solutions",
+    "dryPortTerminal": "Dry Port & Terminal Services",
     "shareholders": "Our Shareholders",
     "faq": "FAQ",
     "inlandTerminal": "Inland Terminal & Dry Port Services"
@@ -2074,6 +2080,18 @@
     "copyright": "© 2026 Ethio Rail Logistics",
     "support": "Support",
     "legal": "Legal"
+  },
+  "DryPortTerminalService": {
+    "metadata": {"title": "Dry Port & Terminal Services | Ethio Rail Logistics", "description": "Connect cargo, terminals and transport modes through one coordinated movement."},
+    "breadcrumbs": {"home": "Home", "services": "Services", "current": "Dry Port & Terminal Services"},
+    "hero": {"eyebrow": "DRY PORT & TERMINAL SERVICES", "title": "Connect cargo, terminals and transport modes.", "description": "Coordinate dry-port and terminal activities through the logistics network as part of one connected cargo journey.", "image": "/media/images/rail/ethiopia/ethiopian-railway-container-loading-01.jpg", "imageAlt": "Containers being handled beside an Ethiopian railway locomotive."},
+    "overview": {"eyebrow": "SERVICE OVERVIEW", "title": "Terminal coordination around the wider cargo journey.", "paragraphs": ["ERL coordinates dry-port and terminal activities as part of the wider cargo journey, including services connected through Modjo and Dire Dawa.", "Depending on shipment requirements, the service can connect terminal handling, temporary storage, consolidation and deconsolidation, customs support and onward rail or inland movement. Services are subject to operational availability."]},
+    "journey": {"eyebrow": "DRY PORT PROCESS", "title": "Move from arrival to onward connection.", "steps": [{"title": "Cargo arrival", "description": "Receive the shipment into the planned terminal stage."}, {"title": "Terminal coordination", "description": "Coordinate access, handling and required handoffs through the logistics network."}, {"title": "Customs support", "description": "Coordinate applicable customs and documentation requirements."}, {"title": "Handling / temporary storage", "description": "Support cargo or container handling and temporary storage where available."}, {"title": "Consolidation or deconsolidation", "description": "Coordinate shared cargo preparation where appropriate."}, {"title": "Rail / inland connection", "description": "Connect the terminal stage with rail or inland transport."}, {"title": "Onward movement", "description": "Coordinate the next movement or delivery stage."}]},
+    "modes": {"eyebrow": "CAPABILITIES", "title": "What can be coordinated.", "items": [{"title": "Container transfer", "description": "Coordinate container movement between terminal and transport stages."}, {"title": "Terminal handling coordination", "description": "Support handling instructions and operational handoffs."}, {"title": "Temporary cargo/container storage", "description": "Coordinate temporary storage where operationally available."}, {"title": "Consolidation and deconsolidation", "description": "Prepare shared cargo for onward movement where appropriate."}, {"title": "Customs coordination", "description": "Connect customs support with the terminal stage."}, {"title": "Rail, inland and onward delivery", "description": "Coordinate the next transport connection around the shipment."}]},
+    "corridor": {"eyebrow": "MODJO AND DIRE DAWA", "title": "Connect terminal stages through the corridor.", "description": "Dry-port and terminal services may be coordinated through locations such as Modjo and Dire Dawa, subject to shipment requirements, facility access and operational availability.", "image": "/media/images/maps/ethio-djibouti-corridor-map.png", "imageAlt": "Illustrated Ethiopia–Djibouti corridor map showing Modjo, Dire Dawa, Djibouti, and global markets."},
+    "value": {"eyebrow": "COORDINATION SUPPORT", "title": "Keep the terminal handoff clear.", "items": [{"title": "Cargo visibility", "description": "Make the terminal stage and next movement easier to understand."}, {"title": "Operational handoffs", "description": "Connect terminal, customs, transport and delivery information."}, {"title": "Shipment-specific planning", "description": "Review the appropriate combination around the shipment requirement."}]},
+    "related": {"eyebrow": "EXPLORE MORE", "title": "See the services around the terminal stage.", "links": [{"label": "Consolidation & Deconsolidation", "href": "/services/consolidation-deconsolidation"}, {"label": "Customs Clearance", "href": "/services/customs-clearance"}, {"label": "Rail & Inland Transportation", "href": "/services/rail-inland-transportation"}]},
+    "cta": {"eyebrow": "PLAN YOUR DRY PORT MOVEMENT", "title": "Plan your dry-port movement.", "description": "Share the cargo, terminal stage and onward connection you are planning.", "primary": "Get a Quote", "secondary": "Contact Logistics", "primaryHref": "/quote", "secondaryHref": "/contact"}
   },
   "ValueAddedService": {
     "metadata": {
@@ -2200,7 +2218,7 @@
   "SupplyChainService": {
     "metadata": {
       "title": "Supply Chain Solutions | Ethio Rail Logistics",
-      "description": "Connect origin, storage, transport and delivery requirements in one coordinated plan."
+      "description": "From order planning to final delivery, connect supply chain requirements in one coordinated plan."
     },
     "breadcrumbs": {
       "home": "Home",
@@ -2209,56 +2227,61 @@
     },
     "hero": {
       "eyebrow": "Supply Chain Solutions",
-      "title": "Supply Chain Solutions",
-      "description": "Connect origin, storage, transport and delivery requirements in one coordinated plan.",
+      "title": "From order planning to final delivery.",
+      "description": "ERL works with customers to structure logistics around the complete supply chain rather than only one transport leg. The solution can connect order coordination, shipment readiness, pre-clearance, consolidation, transportation, warehousing, value-added services and final delivery around one coordinated plan.",
       "image": "/media/images/rail/stock/freight-container-train-01.jpg",
       "imageAlt": "Freight Forwarding logistics image"
     },
     "overview": {
       "eyebrow": "Supply Chain Solutions",
-      "title": "Support shaped around your shipment.",
+      "title": "From order planning to final delivery.",
       "paragraphs": [
-        "Connect origin, storage, transport and delivery requirements in one coordinated plan.",
-        "Scope and availability are confirmed through shipment review and our logistics network."
+        "ERL works with customers to structure logistics around the complete supply chain rather than only one transport leg.",
+        "The solution can connect order coordination, shipment readiness, pre-clearance, consolidation, transportation, warehousing, value-added services and final delivery around one coordinated plan. Scope and availability are confirmed through shipment review and the logistics network."
       ]
     },
     "journey": {
       "eyebrow": "HOW WE COORDINATE",
-      "title": "From requirements to a coordinated plan.",
+      "title": "From understanding to continuous improvement.",
       "steps": [
-        {
-          "title": "Define requirements",
-          "description": ""
-        },
-        {
-          "title": "Review options",
-          "description": ""
-        },
-        {
-          "title": "Plan handoffs",
-          "description": ""
-        },
-        {
-          "title": "Confirm next steps",
-          "description": ""
-        }
+        {"title": "Understand", "description": "Understand the cargo, orders, suppliers, origin, destination and business requirement."},
+        {"title": "Order management", "description": "Coordinate order status, supplier readiness, shipment timing and required information."},
+        {"title": "Pre-clearance", "description": "Prepare shipment information and documentation before arrival where applicable."},
+        {"title": "Consolidate", "description": "Combine compatible shipments where consolidation is appropriate."},
+        {"title": "Move", "description": "Coordinate rail, road and ocean movement according to shipment requirements."},
+        {"title": "Store & handle", "description": "Coordinate warehousing, terminal activity and cargo handling where required."},
+        {"title": "Value-added services", "description": "Coordinate packaging, labeling, kitting and cargo preparation where operationally available."},
+        {"title": "Deliver", "description": "Connect the shipment with onward transport and final delivery."},
+        {"title": "Review & improve", "description": "Identify opportunities to improve communication, handoffs, visibility and logistics efficiency."}
       ]
     },
     "modes": {
-      "eyebrow": "Supply Chain Solutions",
-      "title": "Support that may be coordinated",
+      "eyebrow": "SUPPLY CHAIN SOLUTIONS",
+      "title": "The factors that shape the solution.",
       "items": [
         {
-          "title": "Route planning",
-          "description": "Reviewed against cargo requirements and operational availability."
+          "title": "Cargo type",
+          "description": "The cargo type and handling needs influence the service combination."
         },
         {
-          "title": "Storage coordination",
-          "description": "Reviewed against cargo requirements and operational availability."
+          "title": "Shipment volume",
+          "description": "Volume and shipment profile help shape consolidation, transport and storage planning."
         },
         {
-          "title": "Documents and handoff planning",
-          "description": "Reviewed against cargo requirements and operational availability."
+          "title": "Origin and destination",
+          "description": "The route between origin and destination sets the required movement stages."
+        },
+        {
+          "title": "Supplier and customs requirements",
+          "description": "Supplier information and customs requirements affect readiness and documentation."
+        },
+        {
+          "title": "Transport modes",
+          "description": "Available rail, road and ocean connections are considered around the shipment."
+        },
+        {
+          "title": "Storage, timing and final delivery",
+          "description": "Storage requirements, timing and final delivery needs guide the practical plan."
         }
       ]
     },
@@ -2270,20 +2293,32 @@
       "imageAlt": "Illustrated Ethiopia–Djibouti corridor map"
     },
     "value": {
-      "eyebrow": "WHAT WE COORDINATE",
-      "title": "Keep the stages connected.",
+      "eyebrow": "CUSTOMIZED LOGISTICS SOLUTIONS",
+      "title": "Structure the right combination around the shipment.",
       "items": [
         {
-          "title": "Route visibility",
-          "description": "Make the next cargo stage easier to understand."
+          "title": "Discover",
+          "description": "Understand the customer's cargo and business requirement."
         },
         {
-          "title": "Coordination support",
-          "description": "Make the next cargo stage easier to understand."
+          "title": "Assess",
+          "description": "Review origin, destination, documentation, volume, timing and service needs."
         },
         {
-          "title": "Forward readiness",
-          "description": "Make the next cargo stage easier to understand."
+          "title": "Design",
+          "description": "Build and connect the appropriate combination of transport and supporting logistics services."
+        },
+        {
+          "title": "Coordinate",
+          "description": "Connect the required suppliers, carriers, customs processes, terminals, warehousing and logistics partners."
+        },
+        {
+          "title": "Execute",
+          "description": "Coordinate the agreed shipment stages with suppliers, carriers, customs, terminals and warehousing."
+        },
+        {
+          "title": "Review",
+          "description": "Review the movement and identify possible improvements for future shipments."
         }
       ]
     },

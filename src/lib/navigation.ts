@@ -1,5 +1,5 @@
 export type NavigationLabelKey =
-  | "valueAdded" | "supplyChain" | "shareholders" | "faq" | "inlandTerminal"
+  | "valueAdded" | "supplyChain" | "dryPortTerminal" | "shareholders" | "faq" | "inlandTerminal"
   | "bids"
   | "home"
   | "services"
@@ -79,6 +79,7 @@ export const desktopPrimaryGroups = [
       },
       {href: "/services/warehousing-distribution", labelKey: "warehousing"},
       {href: "/services/consolidation-deconsolidation", labelKey: "consolidationDeconsolidation"},
+      {href: "/services/dry-port-terminal-services", labelKey: "dryPortTerminal"},
       {href: "/services/value-added-logistics", labelKey: "valueAdded"},
       {href: "/services/supply-chain-solutions", labelKey: "supplyChain"},
     ],
@@ -149,6 +150,7 @@ export const footerSections = [
       },
       {href: "/services/warehousing-distribution", labelKey: "warehousing"},
       {href: "/services/consolidation-deconsolidation", labelKey: "consolidationDeconsolidation"},
+      {href: "/services/dry-port-terminal-services", labelKey: "dryPortTerminal"},
       {href: "/services/value-added-logistics", labelKey: "valueAdded"},
       {href: "/services/supply-chain-solutions", labelKey: "supplyChain"},
     ],

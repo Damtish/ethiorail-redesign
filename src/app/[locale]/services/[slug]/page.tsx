@@ -15,11 +15,12 @@ const serviceKeys = {
   "freight-forwarding": "FreightForwardingService",
   "customs-clearance": "CustomsClearanceService",
   "warehousing-distribution": "WarehousingService",
+  "dry-port-terminal-services": "DryPortTerminalService",
   "inland-dry-port": "InlandDryPortService",
   "voyage-charter": "VoyageCharterService",
 } as const;
 
-const legacySlugs: Record<string,string> = {"land-rail-transportation":"rail-inland-transportation","ocean-freight-nvocc":"ocean-freight","warehousing":"warehousing-distribution"};
+const legacySlugs: Record<string,string> = {"land-rail-transportation":"rail-inland-transportation","ocean-freight-nvocc":"ocean-freight","warehousing":"warehousing-distribution","inland-dry-port":"dry-port-terminal-services"};
 type ServiceSlug = keyof typeof serviceKeys;
 type PageProps = {params: Promise<{locale: string; slug: string}>};
 
