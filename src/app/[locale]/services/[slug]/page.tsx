@@ -11,6 +11,7 @@ const serviceKeys = {
   "value-added-logistics": "ValueAddedService",
   "supply-chain-solutions": "SupplyChainService",
   "ocean-freight": "OceanFreightService",
+  "air-freight": "AirFreightService",
   "rail-inland-transportation": "LandRailService",
   "freight-forwarding": "FreightForwardingService",
   "customs-clearance": "CustomsClearanceService",

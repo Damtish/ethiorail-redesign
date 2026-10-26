@@ -2,6 +2,7 @@ import {RouteExperience} from "@/components/shared/RouteExperience";
 
 import type {Metadata} from "next";
 import localFont from "next/font/local";
+import Script from "next/script";
 import {NextIntlClientProvider} from "next-intl";
 import {notFound} from "next/navigation";
 import type {ReactNode} from "react";
@@ -125,7 +126,7 @@ export default async function LocaleLayout({children, params}: LocaleLayoutProps
 
   return (
     <html suppressHydrationWarning lang={locale} className={`${manrope.variable} ${notoSansEthiopic.variable}`}>
-      <head><script dangerouslySetInnerHTML={{__html: "(function(){try{var t=localStorage.getItem('erl-theme');document.documentElement.dataset.theme=t==='dark'||t==='light'?t:'light';}catch(e){document.documentElement.dataset.theme='light';}})();"}} /></head><body className="antialiased">
+      <head><Script id="theme-init" strategy="beforeInteractive">{`(function(){try{var t=localStorage.getItem('erl-theme');document.documentElement.dataset.theme=t==='dark'||t==='light'?t:'light';}catch(e){document.documentElement.dataset.theme='light';}})();`}</Script></head><body className="antialiased">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           <RouteExperience>{children}<Footer /></RouteExperience>

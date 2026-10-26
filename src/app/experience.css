@@ -42,19 +42,13 @@
 .home-services{background:linear-gradient(180deg,var(--canvas),var(--blue-green))}
 .service-explorer{display:grid;grid-template-columns:1.05fr 1fr;gap:52px;align-items:start;margin-top:42px}
 .service-visual{position:sticky;top:calc(var(--header-height) + 24px);height:600px;border-radius:24px 24px 110px 24px;overflow:hidden;background:#0a1923}
-.service-visual img{object-fit:cover;transition:transform .65s;opacity:.82}
+.service-visual-media{position:absolute;inset:0}.service-visual img{object-fit:cover;transition:transform .65s,opacity .35s;opacity:.82}.service-visual-media::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,18,24,.84),transparent 65%);pointer-events:none}
 .service-visual:hover img{transform:scale(1.035)}
-.service-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,18,24,.84),transparent 65%);pointer-events:none}
 .service-visual-caption{position:absolute;bottom:36px;left:32px;right:32px;z-index:1;color:#fff;font-size:28px;line-height:1.25}
+.service-visual-summary{font-size:15px;line-height:1.55;margin:12px 0 0;color:#d4e0e2;max-width:34rem}.service-visual-caption .text-link{color:#b3f1c0;margin-top:12px}
 .service-rows{border-top:1px solid var(--line)}
 .service-row{border-bottom:1px solid var(--line)}
-.service-row summary{display:grid;grid-template-columns:32px 1fr 24px;align-items:center;gap:14px;padding:20px 4px;list-style:none;cursor:pointer}
-.service-row summary::-webkit-details-marker{display:none}.service-row summary h3{font-size:20px;margin:0;line-height:1.35}
-.service-row summary>span:first-child{color:var(--green-text);font-size:12px}
-.service-row summary>span:last-child{font-size:22px;color:var(--green-text);transition:transform .2s}
-.service-row[open] summary>span:last-child{transform:rotate(45deg)}
-.service-row[open]{background:var(--glass);border-radius:12px}
-.service-row[open] summary{padding-inline:16px}
+.service-row-trigger{width:100%;display:grid;grid-template-columns:32px 1fr 24px;align-items:center;gap:14px;padding:20px 4px;list-style:none;cursor:pointer;border:0;background:transparent;color:var(--text);text-align:left}.service-row-trigger h3{font-size:20px;margin:0;line-height:1.35}.service-row-trigger>span:first-child{color:var(--green-text);font-size:12px}.service-row-trigger>span:last-child{font-size:22px;color:var(--green-text)}.service-row.is-active{background:var(--glass);border-radius:12px}.service-row.is-active .service-row-trigger{padding-inline:16px}
 .service-row-body{padding:0 28px 24px 62px}.service-row-body p{color:var(--muted);font-size:16px}
 .home-corridor,.corridor-stage{background:radial-gradient(ellipse at 100% 50%,rgba(88,224,242,.15),transparent 60%),radial-gradient(ellipse at 0% 80%,rgba(0,149,7,.16),transparent 60%),#0a1923;color:#f7faf8;--muted:#b7c4c8;--green-text:#89e79a;--line:rgba(255,255,255,.18)}
 .home-corridor .corridor-layout{grid-template-columns:.8fr 1.2fr;gap:48px}
@@ -157,7 +151,7 @@
  .service-explorer,.split-intro,.related-layout,.digital-panel,.digital-page-grid{grid-template-columns:1fr;gap:32px}
  .service-visual{position:relative;top:auto;height:320px;border-radius:20px 20px 64px 20px}
  .service-visual-caption{font-size:24px;left:24px;bottom:24px}
- .service-row summary h3{font-size:18px}
+ .service-row-trigger h3{font-size:18px}
  .feature-flow,[data-route*="warehousing"] .feature-flow,[data-route*="/about"] .feature-flow{grid-template-columns:1fr}
  .feature-item{gap:16px}.feature-index{font-size:26px}
  .journey-line,.multimodal-line{grid-template-columns:1fr;gap:0;margin-top:32px;padding-left:0}
@@ -185,7 +179,7 @@
 /* Flagship map and semantic shared refinements */
 .flagship-map{position:relative;height:600px;background:#10232d;border:1px solid rgba(88,224,242,.3);border-radius:24px;box-shadow:0 22px 65px rgba(0,0,0,.18)}
 .prose-flow p+p{margin-top:20px}
-.erl-header{background:var(--header);transition:box-shadow .25s}
+.erl-header{background:rgba(7,18,24,.96)!important;color:#f7faf8;transition:box-shadow .25s}
 [data-scrolled="true"] .erl-header{box-shadow:0 8px 28px rgba(10,25,35,.12)}
 .service-visual-caption .eyebrow{color:#8ce8a0}
 .partner-card .ownership+.eyebrow{font-size:12px}

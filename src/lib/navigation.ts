@@ -28,6 +28,7 @@ export type NavigationLabelKey =
   | "privacy"
   | "terms"
   | "multimodalTransportation"
+  | "airFreight"
   | "oceanFreightNvocc"
   | "landRailTransportation"
   | "freightForwarding"
@@ -62,6 +63,10 @@ export const desktopPrimaryGroups = [
         labelKey: "multimodalTransportation",
       },
       {
+        href: "/services/freight-forwarding",
+        labelKey: "freightForwarding",
+      },
+      {
         href: "/services/rail-inland-transportation",
         labelKey: "landRailTransportation",
       },
@@ -69,10 +74,7 @@ export const desktopPrimaryGroups = [
         href: "/services/ocean-freight",
         labelKey: "oceanFreightNvocc",
       },
-      {
-        href: "/services/freight-forwarding",
-        labelKey: "freightForwarding",
-      },
+      {href: "/services/air-freight", labelKey: "airFreight"},
       {
         href: "/services/customs-clearance",
         labelKey: "customsClearance",
@@ -133,6 +135,10 @@ export const footerSections = [
         labelKey: "multimodalTransportation",
       },
       {
+        href: "/services/freight-forwarding",
+        labelKey: "freightForwarding",
+      },
+      {
         href: "/services/rail-inland-transportation",
         labelKey: "landRailTransportation",
       },
@@ -140,10 +146,7 @@ export const footerSections = [
         href: "/services/ocean-freight",
         labelKey: "oceanFreightNvocc",
       },
-      {
-        href: "/services/freight-forwarding",
-        labelKey: "freightForwarding",
-      },
+      {href: "/services/air-freight", labelKey: "airFreight"},
       {
         href: "/services/customs-clearance",
         labelKey: "customsClearance",

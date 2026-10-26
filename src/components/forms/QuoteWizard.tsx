@@ -4,7 +4,7 @@ import {useLocale} from "next-intl";
 import {Link} from "@/i18n/navigation";
 type Values=Record<string,string>;
 const groups=[["fullName","company","email","phone"],["movement","origin","destination","date"],["cargo","load","size","count","weight"]];
-const serviceNames=[["Inland Pickup","የውስጥ ጭነት ማንሳት"],["Rail","ባቡር"],["Ocean Freight","የባሕር ጭነት"],["Freight Forwarding","የጭነት ማስተላለፍ"],["Customs","ጉምሩክ"],["Warehousing","መጋዘን"],["Consolidation","ጭነት ማሰባሰብ"],["Final Delivery","የመጨረሻ ማድረስ"],["Other","ሌላ"]];
+const serviceNames=[["Multimodal Transportation","ባለብዙ መንገድ መጓጓዣ"],["Freight Forwarding","የጭነት ማስተላለፍ"],["Rail & Inland Transportation","የባቡርና የውስጥ መጓጓዣ"],["Ocean Freight","የባሕር ጭነት"],["Air Freight","የአየር ጭነት"],["Customs Clearance","የጉምሩክ ማጽዳት"],["Warehousing & Distribution","መጋዘንና ስርጭት"],["Consolidation & Deconsolidation","ማሰባሰብና መለያየት"],["Dry Port & Terminal Services","የደረቅ ወደብና ተርሚናል አገልግሎቶች"],["Value-Added Logistics","ተጨማሪ እሴት ያላቸው ሎጂስቲክስ"],["Supply Chain Solutions","የአቅርቦት ሰንሰለት መፍትሄዎች"],["Other","ሌላ"]];
 const labels:Record<string,[string,string]>={fullName:["Full Name","ሙሉ ስም"],company:["Company / Organization","ድርጅት"],email:["Email","ኢሜይል"],phone:["Phone","ስልክ"],movement:["Import / Export","ገቢ / ወጪ"],origin:["Origin","መነሻ"],destination:["Destination","መድረሻ"],date:["Expected Shipment Date","የሚጠበቀው የጭነት ቀን"],cargo:["Cargo Type","የጭነት ዓይነት"],load:["FCL / LCL / Not Sure","FCL / LCL / እርግጠኛ አይደለሁም"],size:["Container Size","የኮንቴነር መጠን"],count:["Number of Containers","የኮንቴነሮች ብዛት"],weight:["Estimated Weight (kg)","የተገመተ ክብደት (ኪ.ግ)"]};
 export function QuoteWizard(){
  const am=useLocale()==="am", lang=am?1:0;
