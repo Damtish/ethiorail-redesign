@@ -179,7 +179,7 @@
 /* Flagship map and semantic shared refinements */
 .flagship-map{position:relative;height:600px;background:#10232d;border:1px solid rgba(88,224,242,.3);border-radius:24px;box-shadow:0 22px 65px rgba(0,0,0,.18)}
 .prose-flow p+p{margin-top:20px}
-.erl-header{background:rgba(7,18,24,.96)!important;color:#f7faf8;transition:box-shadow .25s}
+.erl-header{transition:box-shadow .25s}
 [data-scrolled="true"] .erl-header{box-shadow:0 8px 28px rgba(10,25,35,.12)}
 .service-visual-caption .eyebrow{color:#8ce8a0}
 .partner-card .ownership+.eyebrow{font-size:12px}
