@@ -1,0 +1,1 @@
+export default function TermsRootLayout({children}:{children:React.ReactNode}) { return <html lang="en"><body>{children}</body></html>; }

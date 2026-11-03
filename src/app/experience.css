@@ -20,7 +20,7 @@
 .erl-button.secondary{background:var(--glass);backdrop-filter:blur(8px)}
 .site-header{background:var(--header);transition:box-shadow .25s}
 [data-scrolled="true"] .site-header{box-shadow:0 8px 28px rgba(10,25,35,.12)}
-.nav-dropdown{background:var(--glass)!important;backdrop-filter:blur(24px);border-top:2px solid var(--green)!important}
+.nav-dropdown{background:var(--raised)!important;backdrop-filter:blur(24px);border-top:2px solid var(--green)!important}
 .theme-toggle svg{transition:transform .4s}.theme-toggle:hover svg{transform:rotate(25deg)}
 .home-hero{height:min(830px,100svh);min-height:670px}
 .hero-overlay{background:radial-gradient(ellipse at 10% 80%,rgba(0,107,7,.26),transparent 54%),radial-gradient(ellipse at 92% 0%,rgba(88,224,242,.14),transparent 50%),linear-gradient(180deg,rgba(7,18,24,.25),rgba(7,18,24,.52) 58%,rgba(7,18,24,.78))}

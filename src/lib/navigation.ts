@@ -1,4 +1,6 @@
 export type NavigationLabelKey =
+ | "service0" | "service1" | "service2" | "service3" | "service4" | "service5" | "service6" | "service7" | "service8" | "service9" | "service10" | "service11" | "service12"
+
   | "valueAdded" | "supplyChain" | "dryPortTerminal" | "shareholders" | "faq" | "inlandTerminal"
   | "bids"
   | "home"
@@ -57,34 +59,7 @@ export const desktopPrimaryGroups = [
   {
     key: "services",
     labelKey: "services",
-    items: [
-      {
-        href: "/services/multimodal-transportation",
-        labelKey: "multimodalTransportation",
-      },
-      {
-        href: "/services/freight-forwarding",
-        labelKey: "freightForwarding",
-      },
-      {
-        href: "/services/rail-inland-transportation",
-        labelKey: "landRailTransportation",
-      },
-      {
-        href: "/services/ocean-freight",
-        labelKey: "oceanFreightNvocc",
-      },
-      {href: "/services/air-freight", labelKey: "airFreight"},
-      {
-        href: "/services/customs-clearance",
-        labelKey: "customsClearance",
-      },
-      {href: "/services/warehousing-distribution", labelKey: "warehousing"},
-      {href: "/services/consolidation-deconsolidation", labelKey: "consolidationDeconsolidation"},
-      {href: "/services/dry-port-terminal-services", labelKey: "dryPortTerminal"},
-      {href: "/services/value-added-logistics", labelKey: "valueAdded"},
-      {href: "/services/supply-chain-solutions", labelKey: "supplyChain"},
-    ],
+    items: [{"href":"/services/multi-modal-operation","labelKey":"service0"},{"href":"/services/ex-factory-transportation","labelKey":"service1"},{"href":"/services/pre-clearance","labelKey":"service2"},{"href":"/services/customs-clearance","labelKey":"service3"},{"href":"/services/freight","labelKey":"service4"},{"href":"/services/road-rail-transportation","labelKey":"service5"},{"href":"/services/dry-port-handling","labelKey":"service6"},{"href":"/services/last-mile-delivery","labelKey":"service7"},{"href":"/services/cargo-insurance","labelKey":"service8"},{"href":"/services/supply-chain-management","labelKey":"service9"},{"href":"/services/container-rental-management","labelKey":"service10"},{"href":"/services/consolidation-deconsolidation","labelKey":"service11"},{"href":"/services/packaging-labeling","labelKey":"service12"}],
     viewAll: {href: "/services", labelKey: "viewAllServices"},
   },
   {
@@ -92,7 +67,7 @@ export const desktopPrimaryGroups = [
     labelKey: "network",
     items: [
       {href: "/network/ethiopia-djibouti-corridor", labelKey: "corridor"},
-      {href: "/services/inland-dry-port", labelKey: "inlandTerminal"},
+      {href: "/services/dry-port-handling", labelKey: "service6"},
       {href: "/network/schedules-routes", labelKey: "schedulesRoutes"},
     ],
     viewAll: {href: "/network", labelKey: "networkOverview"},
@@ -129,34 +104,7 @@ export const footerSections = [
   {
     key: "services",
     labelKey: "services",
-    items: [
-      {
-        href: "/services/multimodal-transportation",
-        labelKey: "multimodalTransportation",
-      },
-      {
-        href: "/services/freight-forwarding",
-        labelKey: "freightForwarding",
-      },
-      {
-        href: "/services/rail-inland-transportation",
-        labelKey: "landRailTransportation",
-      },
-      {
-        href: "/services/ocean-freight",
-        labelKey: "oceanFreightNvocc",
-      },
-      {href: "/services/air-freight", labelKey: "airFreight"},
-      {
-        href: "/services/customs-clearance",
-        labelKey: "customsClearance",
-      },
-      {href: "/services/warehousing-distribution", labelKey: "warehousing"},
-      {href: "/services/consolidation-deconsolidation", labelKey: "consolidationDeconsolidation"},
-      {href: "/services/dry-port-terminal-services", labelKey: "dryPortTerminal"},
-      {href: "/services/value-added-logistics", labelKey: "valueAdded"},
-      {href: "/services/supply-chain-solutions", labelKey: "supplyChain"},
-    ],
+    items: [{"href":"/services/multi-modal-operation","labelKey":"service0"},{"href":"/services/ex-factory-transportation","labelKey":"service1"},{"href":"/services/pre-clearance","labelKey":"service2"},{"href":"/services/customs-clearance","labelKey":"service3"},{"href":"/services/freight","labelKey":"service4"},{"href":"/services/road-rail-transportation","labelKey":"service5"},{"href":"/services/dry-port-handling","labelKey":"service6"},{"href":"/services/last-mile-delivery","labelKey":"service7"},{"href":"/services/cargo-insurance","labelKey":"service8"},{"href":"/services/supply-chain-management","labelKey":"service9"},{"href":"/services/container-rental-management","labelKey":"service10"},{"href":"/services/consolidation-deconsolidation","labelKey":"service11"},{"href":"/services/packaging-labeling","labelKey":"service12"}],
   },
   {
     key: "network",
